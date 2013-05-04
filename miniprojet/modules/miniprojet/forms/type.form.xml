@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+<hidden ref="idType"/>
+
+<input ref="libelleType" required="true">
+<label>Libellé</label>
+<alert type="required">Le libellé est Obligatoire</alert>
+</input>
+
+<submit ref="submit">
+<label>Enregistrer</label>
+</submit>
+</form>

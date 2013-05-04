@@ -1,0 +1,129 @@
+/* 
+    Document   : mes_styles
+    Created on : 9 janv. 2013, 11:18:06
+    Author     : Alexis
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    
+}
+body{
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background-color: #87B2C3;
+
+
+}
+
+table
+{
+    border-collapse: collapse; 
+    border: solid 1px black;
+    margin :auto;
+     /*width:90%;*/
+}
+
+
+
+table td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.nombre{
+    text-align: right; /*Met à droite les nombres, plus lisible*/
+}
+
+.enAttente{
+    
+    
+    color: #666666; /*grise les opérations en attente*/
+}
+
+#titreh1{
+    width: 50%
+}
+
+nav{
+    
+    background: -moz-linear-gradient(center top , #87B2C3, #5595AF, #3C90AF) no-repeat scroll left center #3C90AF;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 3px 3px 8px 0 #999999;
+    color: white;
+    margin-bottom:  10px;
+    padding: 0px;
+    vertical-align: bottom;
+    z-index: 50;
+    text-align: center;
+    
+
+}
+
+nav li{
+    display: inline;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+    
+}
+nav a:hover{
+    text-decoration: underline; 
+}
+
+@media (min-width: 900px) {
+    /*si la taille de l'écran est plus grande que 900 pixels on applique ces styles, qui mettent le panneau dettes à coté de transactions*/
+    #transaction{
+        width:65%
+        
+    }
+
+    #dette{
+        bottom: 0;
+        position: absolute;
+        right: 1%;
+        top: 141px;
+        width: 33%;
+        
+    }
+}
+h2{
+    text-align: center;
+}
+
+
+thead,tfoot tr{
+    font-weight: bold;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+}
+
+#modif{
+    /*liens de modification*/
+    text-decoration: none;
+    color: #009900;
+}
+a[href*="delete"] {
+    /*liens de suppression ++contrainte*/
+    color : red; 
+    text-decoration: none; /*Pas de soulignement*/
+}
+
+
+

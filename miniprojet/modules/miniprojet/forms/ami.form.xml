@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+<hidden ref="idAmi"/>
+
+<input ref="nomAmi" required="true">
+<label>Nom</label>
+<alert type="required">Le nom est Obligatoire</alert>
+</input>
+
+
+
+<submit ref="submit">
+<label>Enregistrer</label>
+</submit>
+</form>

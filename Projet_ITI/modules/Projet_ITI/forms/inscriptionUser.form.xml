@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form xmlns="http://jelix.org/ns/forms/1.1">
+    <hidden ref="id_utilisateur"/>
+    
+    <input ref="nom" required="true">
+        <label>Nom de famille</label>
+        <alert > Le nom est obligatoire </alert>
+    </input>
+    
+    <input ref="prenom" required="true">
+        <label>Prénom </label>
+        <alert > Le prénom est obligatoire </alert>
+    </input>
+        
+         <input ref="login" type="email" required="true">
+         <label>email</label>
+         <alert type="text" > L'adresse email est obligatoire </alert>
+         </input>
+            
+    <secret ref="password" required="true">
+     <label>Mot de passe</label>
+     <alert > Le mot de passe est obligatoire </alert>
+     <confirm>Retapez le mot de passe</confirm>
+    </secret>
+  
+    <captcha ref="antispam">
+            <label>Vérification anti-spam </label>
+    </captcha>
+    
+    <submit  ref="submit" > 
+            <label>Inscription</label>
+    </submit>
+        
+    <reset ref="reinit">
+            <label>Réinitialiser</label>
+    </reset>
+    
+
+        
+</form>

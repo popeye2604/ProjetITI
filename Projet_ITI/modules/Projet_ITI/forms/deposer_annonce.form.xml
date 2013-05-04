@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+    
+    <input ref="nom">
+        <label>Nom de famille</label>
+        <alert type="required" > Le nom est obligatoire </alert>
+    </input>
+    
+    <input ref="prenom">
+        <label>Prénom </label>
+        <alert type="required" > Le prénom est obligatoire </alert>
+    </input>
+    
+    <input ref="login" type="email">
+         <label>email</label>
+    </input>
+    
+    <input ref="numtel">
+        <label>Numéro de téléphone</label>
+    </input>
+    
+    <textarea ref="titre">
+        <label>Saisissez ici le titre de l'annonce</label>
+    </textarea>
+    
+    <textarea ref="description">
+        <label>Saisissez ici la description de l'annonce</label>
+    </textarea>
+     
+    <upload ref="photo" mimetype="image/jpeg;image/pjpeg;image/png" maxsize="5000000">
+    <label>Photo liée à l'annonce</label>
+  </upload>
+    
+
+       <input ref="prix_vente">
+           <label>Prix en Euros</label>
+       </input>
+       
+       <menulist ref="type">
+      <label>Choisissez la catégorie</label>
+      <item value="Immobilier">Immobilier</item>
+      <item value="Informatique">Informatique</item>
+      <item value="Vehicules">Véhicules</item>
+      <item value="Livres">Livres</item>
+  </menulist>
+  
+  <radiobuttons ref="type_annonce">
+      <label>Type d'annonce</label>
+      <item value="Offre">Offre</item>
+      <item value="Demande">Demande</item>
+  </radiobuttons>
+  
+  <submit ref="valider">
+    <label>Valider</label>
+    <item value="svg">Sauvegarder</item>
+  </submit>
+       
+</form>

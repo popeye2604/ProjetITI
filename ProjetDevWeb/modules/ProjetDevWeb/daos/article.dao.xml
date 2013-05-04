@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="article" realname="article" primarykey="ART_ID" />
+    </datasources>
+    <record>
+        <property name="ART_ID" fieldname="ART_ID" datatype="int" required="true" default="0"/>
+        <property name="ART_LIBELLE" fieldname="ART_LIBELLE" datatype="varchar" default="" maxlength="20"/>
+        <property name="ART_FABRICANT" fieldname="ART_FABRICANT" datatype="varchar" default="" maxlength="32"/>
+        <property name="ART_PRIXBASEHT" fieldname="ART_PRIXBASEHT" datatype="decimal" default=""/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+<hidden ref="idDette"/>
+
+<input ref="idAmi" required="true">
+<label>idAmi</label>
+<alert type="required">L'id est obligatoire</alert>
+</input>
+
+<input ref="montantDette" required="true">
+<label>Montant</label>
+<alert type="required">Le montant est obligatoire</alert>
+</input>
+
+<submit ref="submit">
+<label>Enregistrer</label>
+</submit>
+</form>

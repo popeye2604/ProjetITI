@@ -1,0 +1,1260 @@
+2012-12-27 11:57:37	127.0.0.1	error	2012-12-27 11:57:37	127.0.0.1	[17]	The selector "miniprojet~student" doesn't correspond to a resource of type : "dao"	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\selector\jSelectorDao.class.php	63
+	/miniprojet/www/index.php
+array ( )
+
+	0	jSelectorDao->_createPath()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\selector\jSelectorModule.class.php : 44
+	1	jSelectorModule->__construct()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\selector\jSelectorDao.class.php : 42
+	2	jSelectorDao->__construct()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDao.class.php : 58
+	3	jDao::get()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 25
+	4	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 12:41:06	127.0.0.1	notice	2012-12-27 12:41:06	127.0.0.1	[8]	Undefined index: ALLTRANSACTION	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	12
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 12:41:06	127.0.0.1	warning	2012-12-27 12:41:06	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	12
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 13:12:47	127.0.0.1	error	2012-12-27 13:12:47	127.0.0.1	[403]	invalid query (Champ 'transaction.type' inconnu dans field list(SELECT `transaction`.`cle`, `transaction`.`libelle`, `transaction`.`montant`, `transaction`.`debit`, `transaction`.`type`, `transaction`.`enAttente` FROM `transaction` AS `transaction`))	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/miniprojet/www/index.php
+array ( )
+
+	0	mysqlDbConnection->_doQuery()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 113
+	1	jDbConnection->query()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 179
+	2	jDaoFactoryBase->findAll()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 27
+	3	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 13:13:42	127.0.0.1	error	2012-12-27 13:13:42	127.0.0.1	[403]	invalid query (Champ 'transaction.type' inconnu dans field list(SELECT `transaction`.`cle`, `transaction`.`libelle`, `transaction`.`montant`, `transaction`.`debit`, `transaction`.`type` as `typeTransaction`, `transaction`.`enAttente` FROM `transaction` AS `transaction`))	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/miniprojet/www/index.php
+array ( )
+
+	0	mysqlDbConnection->_doQuery()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 113
+	1	jDbConnection->query()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 179
+	2	jDaoFactoryBase->findAll()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 27
+	3	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 13:14:25	127.0.0.1	error	2012-12-27 13:14:25	127.0.0.1	[403]	invalid query (Champ 'transaction.type' inconnu dans field list(SELECT `transaction`.`cle`, `transaction`.`libelle`, `transaction`.`montant`, `transaction`.`debit`, `transaction`.`type` as `typeTransaction`, `transaction`.`enAttente` FROM `transaction` AS `transaction`))	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/miniprojet/www/index.php
+array ( )
+
+	0	mysqlDbConnection->_doQuery()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 113
+	1	jDbConnection->query()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 179
+	2	jDaoFactoryBase->findAll()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 27
+	3	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 13:15:25	127.0.0.1	error	2012-12-27 13:15:25	127.0.0.1	[17]	The selector "miniprojet~miniprojet" doesn't correspond to a resource of type : "form"	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\selector\jSelectorForm.class.php	55
+	/miniprojet/www/index.php
+array ( )
+
+	0	jSelectorForm->_createPath()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\selector\jSelectorModule.class.php : 44
+	1	jSelectorModule->__construct()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\selector\jSelectorForm.class.php : 32
+	2	jSelectorForm->__construct()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 53
+	3	jForms::create()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 47
+	4	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 14:36:44	127.0.0.1	error	2012-12-27 14:36:44	127.0.0.1	[810]	Impossible to get the dao  record miniprojet~transaction corresponding to the formid 1 of miniprojet~transaction form	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php	264
+	/miniprojet/www/index.php
+array ( )
+
+	0	jFormsBase->initFromDao()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 48
+	1	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:29:03	127.0.0.1	error	2012-12-27 15:29:03	127.0.0.1	[810]	Impossible to get the dao  record miniprojet~transaction corresponding to the formid 1 of miniprojet~transaction form	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php	264
+	/miniprojet/www/index.php
+array ( )
+
+	0	jFormsBase->initFromDao()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 48
+	1	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:32:46	127.0.0.1	notice	2012-12-27 15:32:46	127.0.0.1	[8]	Undefined index: FORMULAIRE	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	21
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:34:19	127.0.0.1	notice	2012-12-27 15:34:19	127.0.0.1	[8]	Undefined index: FORMULAIRE	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	21
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:36:46	127.0.0.1	notice	2012-12-27 15:36:46	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:36:46	127.0.0.1	notice	2012-12-27 15:36:46	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:36:46	127.0.0.1	notice	2012-12-27 15:36:46	127.0.0.1	[8]	Undefined index: FORMULAIRE	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	21
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:37:32	127.0.0.1	notice	2012-12-27 15:37:32	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:37:32	127.0.0.1	notice	2012-12-27 15:37:32	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:37:32	127.0.0.1	notice	2012-12-27 15:37:32	127.0.0.1	[8]	Undefined index: FORMULAIRE	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	21
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:39:41	127.0.0.1	notice	2012-12-27 15:39:41	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:39:41	127.0.0.1	notice	2012-12-27 15:39:41	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:39:41	127.0.0.1	notice	2012-12-27 15:39:41	127.0.0.1	[8]	Undefined index: FORMULAIRE	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	21
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:42:17	127.0.0.1	notice	2012-12-27 15:42:17	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:42:17	127.0.0.1	notice	2012-12-27 15:42:17	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:44:55	127.0.0.1	notice	2012-12-27 15:44:55	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:44:55	127.0.0.1	notice	2012-12-27 15:44:55	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:45:11	127.0.0.1	notice	2012-12-27 15:45:11	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:45:11	127.0.0.1	notice	2012-12-27 15:45:11	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:45:19	127.0.0.1	notice	2012-12-27 15:45:19	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php/miniprojet/default/saveTransaction
+array (   'module' => 'miniprojet',   'action' => 'default:saveTransaction',   'idTransaction' => '2',   '__JFORMS_TOKEN__' => 'c649970cc2beafb0fbe2f2f17db143b6',   'libelle' => 'lolilol',   'montant' => '543',   'debit' => '1',   'enAttente' => '1',   'typeTransaction' => '1',   'submit' => 'Enregistrer', )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 15:45:19	127.0.0.1	notice	2012-12-27 15:45:19	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$idtransaction	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	15
+	/miniprojet/www/index.php/miniprojet/default/saveTransaction
+array (   'module' => 'miniprojet',   'action' => 'default:saveTransaction',   'idTransaction' => '2',   '__JFORMS_TOKEN__' => 'c649970cc2beafb0fbe2f2f17db143b6',   'libelle' => 'lolilol',   'montant' => '543',   'debit' => '1',   'enAttente' => '1',   'typeTransaction' => '1',   'submit' => 'Enregistrer', )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 16:39:22	127.0.0.1	error	2012-12-27 16:39:22	127.0.0.1	[523]	DAO miniprojet~transaction, primary key name is missing (file C:\Users\Alexis\Documents\www\miniprojet/modules/miniprojet/daos/transaction.dao.xml)	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoParser.class.php	159
+	/miniprojet/www/index.php
+array ( )
+
+	0	jDaoParser->_parseTable()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoParser.class.php : 100
+	1	jDaoParser->parseDatasource()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoParser.class.php : 86
+	2	jDaoParser->parse()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoCompiler.class.php : 55
+	3	jDaoCompiler->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	4	jIncluder::inc()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDao.class.php : 39
+	5	jDao::create()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDao.class.php : 62
+	6	jDao::get()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 25
+	7	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	8	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 16:41:22	127.0.0.1	error	2012-12-27 16:41:22	127.0.0.1	[403]	invalid query (La table 'miniprojet.libelletype' n'existe pas(SELECT `transaction`.`idTransaction`, `transaction`.`libelle`, `transaction`.`montant`, `transaction`.`debit`, `transaction`.`enAttente`, `transaction`.`typeTransaction`, `myType`.`libelle` as `libelleType` FROM `transaction` AS `transaction`, `libelleType` AS `myType` WHERE  `transaction`.`type`=`myType`.`idType`))	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/miniprojet/www/index.php
+array ( )
+
+	0	mysqlDbConnection->_doQuery()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 113
+	1	jDbConnection->query()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 179
+	2	jDaoFactoryBase->findAll()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 27
+	3	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 16:42:39	127.0.0.1	error	2012-12-27 16:42:39	127.0.0.1	[403]	invalid query (Champ 'myType.libelle' inconnu dans field list(SELECT `transaction`.`idTransaction`, `transaction`.`libelle`, `transaction`.`montant`, `transaction`.`debit`, `transaction`.`enAttente`, `transaction`.`typeTransaction`, `myType`.`libelle` as `libelleType` FROM `transaction` AS `transaction`, `Type` AS `myType` WHERE  `transaction`.`type`=`myType`.`idType`))	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/miniprojet/www/index.php
+array ( )
+
+	0	mysqlDbConnection->_doQuery()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 113
+	1	jDbConnection->query()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 179
+	2	jDaoFactoryBase->findAll()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 27
+	3	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 16:43:07	127.0.0.1	error	2012-12-27 16:43:07	127.0.0.1	[403]	invalid query (Champ 'myType.libelle' inconnu dans field list(SELECT `transaction`.`idTransaction`, `transaction`.`libelle`, `transaction`.`montant`, `transaction`.`debit`, `transaction`.`enAttente`, `transaction`.`typeTransaction`, `myType`.`libelle` as `libelleType` FROM `transaction` AS `transaction`, `Type` AS `myType` WHERE  `transaction`.`type`=`myType`.`idType`))	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/miniprojet/www/index.php
+array ( )
+
+	0	mysqlDbConnection->_doQuery()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 113
+	1	jDbConnection->query()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 179
+	2	jDaoFactoryBase->findAll()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 27
+	3	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 16:43:09	127.0.0.1	error	2012-12-27 16:43:09	127.0.0.1	[403]	invalid query (Champ 'myType.libelle' inconnu dans field list(SELECT `transaction`.`idTransaction`, `transaction`.`libelle`, `transaction`.`montant`, `transaction`.`debit`, `transaction`.`enAttente`, `transaction`.`typeTransaction`, `myType`.`libelle` as `libelleType` FROM `transaction` AS `transaction`, `Type` AS `myType` WHERE  `transaction`.`type`=`myType`.`idType`))	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/miniprojet/www/index.php
+array ( )
+
+	0	mysqlDbConnection->_doQuery()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 113
+	1	jDbConnection->query()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 179
+	2	jDaoFactoryBase->findAll()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 27
+	3	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-27 16:43:59	127.0.0.1	error	2012-12-27 16:43:59	127.0.0.1	[403]	invalid query (Champ 'transaction.type' inconnu dans where clause(SELECT `transaction`.`idTransaction`, `transaction`.`libelle`, `transaction`.`montant`, `transaction`.`debit`, `transaction`.`enAttente`, `transaction`.`typeTransaction`, `myType`.`libelleType` FROM `transaction` AS `transaction`, `Type` AS `myType` WHERE  `transaction`.`type`=`myType`.`idType`))	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/miniprojet/www/index.php
+array ( )
+
+	0	mysqlDbConnection->_doQuery()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 113
+	1	jDbConnection->query()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 179
+	2	jDaoFactoryBase->findAll()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 27
+	3	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-28 00:19:03	127.0.0.1	error	2012-12-28 00:19:03	127.0.0.1	[810]	Impossible to get the dao  record miniprojet~transaction corresponding to the formid 3 of miniprojet~transaction form	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php	264
+	/miniprojet/www/index.php/miniprojet/?idTransaction=3
+array (   'idTransaction' => '3',   'module' => 'miniprojet',   'action' => 'default:index', )
+
+	0	jFormsBase->initFromDao()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 48
+	1	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-28 01:05:20	127.0.0.1	error	2012-12-28 01:05:20	127.0.0.1	[403]	invalid query (Duplicata du champ '2' pour la clef 'PRIMARY'(INSERT INTO `transaction` (	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/miniprojet/www/index.php/miniprojet/default/saveTransaction
+array (   'module' => 'miniprojet',   'action' => 'default:saveTransaction',   'idTransaction' => '2',   '__JFORMS_TOKEN__' => 'c649970cc2beafb0fbe2f2f17db143b6',   'libelle' => 'lolilol',   'montant' => '543',   'debit' => '1',   'enAttente' => '1',   'typeTransaction' => '0',   'submit' => 'Enregistrer', )
+
+	0	mysqlDbConnection->_doExec()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\daos\modules\miniprojet~transaction~mysql.php : 249
+	2	cDao_miniprojet_Jx_transaction_Jx_mysql->insert()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 72
+	3	defaultCtrl->saveTransaction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-28 01:08:11	127.0.0.1	error	2012-12-28 01:08:11	127.0.0.1	[403]	invalid query (Duplicata du champ '7' pour la clef 'PRIMARY'(INSERT INTO `transaction` (	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/miniprojet/www/index.php/miniprojet/default/saveTransaction
+array (   'module' => 'miniprojet',   'action' => 'default:saveTransaction',   'idTransaction' => '7',   '__JFORMS_TOKEN__' => 'a063adcff663ff20749fe61be5193c57',   'libelle' => 'utf8',   'montant' => '54',   'debit' => '34',   'enAttente' => '1',   'typeTransaction' => '2',   'submit' => 'Enregistrer', )
+
+	0	mysqlDbConnection->_doExec()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\daos\modules\miniprojet~transaction~mysql.php : 249
+	2	cDao_miniprojet_Jx_transaction_Jx_mysql->insert()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 72
+	3	defaultCtrl->saveTransaction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-28 01:08:55	127.0.0.1	notice	2012-12-28 01:08:55	127.0.0.1	[8]	Undefined variable: transactionForm	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	68
+	/miniprojet/www/index.php/miniprojet/default/saveTransaction
+array (   'module' => 'miniprojet',   'action' => 'default:saveTransaction',   'idTransaction' => '7',   '__JFORMS_TOKEN__' => 'a063adcff663ff20749fe61be5193c57',   'libelle' => 'utf8',   'montant' => '54',   'debit' => '34',   'enAttente' => '1',   'typeTransaction' => '2',   'submit' => 'Enregistrer', )
+
+	0	defaultCtrl->saveTransaction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-28 12:09:23	127.0.0.1	error	2012-12-28 12:09:23	127.0.0.1	[804]	 unknown datatype required  on input (file C:\Users\Alexis\Documents\www\miniprojet/modules/miniprojet/forms/transaction.form.xml)	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php	343
+	/miniprojet/www/index.php
+array ( )
+
+	0	jFormsCompiler_jf_1_0->attrType()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 94
+	1	jFormsCompiler_jf_1_0->generateInput()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_1.class.php : 43
+	2	jFormsCompiler_jf_1_1->generateInput()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 80
+	3	jFormsCompiler_jf_1_0->_generatePHPControl()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 51
+	4	jFormsCompiler_jf_1_0->generatePHPControl()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 39
+	5	jFormsCompiler_jf_1_0->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 58
+	6	jFormsCompiler->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	7	jIncluder::inc()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	8	jForms::create()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 47
+	9	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	10	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-28 12:10:41	127.0.0.1	warning	2012-12-28 12:10:41	127.0.0.1	[2]	DOMDocument::load(): AttValue: &quot; or ' expected in file:///C:/Users/Alexis/Documents/www/miniprojet/modules/miniprojet/forms/transaction.form.xml, line: 5	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/miniprojet/www/index.php
+array ( )
+
+	0	DOMDocument->load()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 47
+	4	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-28 12:10:41	127.0.0.1	warning	2012-12-28 12:10:41	127.0.0.1	[2]	DOMDocument::load(): attributes construct error in file:///C:/Users/Alexis/Documents/www/miniprojet/modules/miniprojet/forms/transaction.form.xml, line: 5	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/miniprojet/www/index.php
+array ( )
+
+	0	DOMDocument->load()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 47
+	4	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-28 12:10:41	127.0.0.1	warning	2012-12-28 12:10:41	127.0.0.1	[2]	DOMDocument::load(): Couldn't find end of Start Tag input line 5 in file:///C:/Users/Alexis/Documents/www/miniprojet/modules/miniprojet/forms/transaction.form.xml, line: 5	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/miniprojet/www/index.php
+array ( )
+
+	0	DOMDocument->load()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 47
+	4	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-28 12:10:41	127.0.0.1	warning	2012-12-28 12:10:41	127.0.0.1	[2]	DOMDocument::load(): Opening and ending tag mismatch: form line 2 and input in file:///C:/Users/Alexis/Documents/www/miniprojet/modules/miniprojet/forms/transaction.form.xml, line: 8	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/miniprojet/www/index.php
+array ( )
+
+	0	DOMDocument->load()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 47
+	4	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-28 12:10:41	127.0.0.1	warning	2012-12-28 12:10:41	127.0.0.1	[2]	DOMDocument::load(): Extra content at the end of the document in file:///C:/Users/Alexis/Documents/www/miniprojet/modules/miniprojet/forms/transaction.form.xml, line: 10	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/miniprojet/www/index.php
+array ( )
+
+	0	DOMDocument->load()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 47
+	4	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2012-12-28 12:10:41	127.0.0.1	error	2012-12-28 12:10:41	127.0.0.1	[805]	 invalid xml syntax in jforms file (file C:\Users\Alexis\Documents\www\miniprojet/modules/miniprojet/forms/transaction.form.xml)	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	35
+	/miniprojet/www/index.php
+array ( )
+
+	0	jFormsCompiler->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	1	jIncluder::inc()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	2	jForms::create()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 47
+	3	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-02 18:50:29	127.0.0.1	error	2013-01-02 18:50:29	127.0.0.1	[132]	response is missing (action miniprojet~default:updateData@classic)	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php	197
+	/miniprojet/www/index.php/miniprojet/default/updateData?idTransaction=2
+array (   'idTransaction' => '2',   'module' => 'miniprojet',   'action' => 'default:updateData', )
+
+	0	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-02 18:57:17	127.0.0.1	error	2013-01-02 18:57:17	127.0.0.1	[132]	response is missing (action miniprojet~default:updateData@classic)	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php	197
+	/miniprojet/www/index.php/miniprojet/default/updateData?idTransaction=2
+array (   'idTransaction' => '2',   'module' => 'miniprojet',   'action' => 'default:updateData', )
+
+	0	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-02 18:58:19	127.0.0.1	notice	2013-01-02 18:58:19	127.0.0.1	[8]	Undefined index: FORMULAIRE	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\data_html_t.php	9
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_e5f20818fb660135bae09048252311f3()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-02 18:58:35	127.0.0.1	error	2013-01-02 18:58:35	127.0.0.1	[132]	response is missing (action miniprojet~default:updateData@classic)	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php	197
+	/miniprojet/www/index.php/miniprojet/default/updateData?idTransaction=2
+array (   'idTransaction' => '2',   'module' => 'miniprojet',   'action' => 'default:updateData', )
+
+	0	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-02 19:00:00	127.0.0.1	notice	2013-01-02 19:00:00	127.0.0.1	[8]	Undefined index: FORMULAIRE	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\data_html_t.php	9
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_e5f20818fb660135bae09048252311f3()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-04 16:52:30	127.0.0.1	notice	2013-01-04 16:52:30	127.0.0.1	[8]	Undefined index: TEST	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	32
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-04 16:54:40	127.0.0.1	notice	2013-01-04 16:54:40	127.0.0.1	[8]	Undefined index: TEST	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	32
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-04 16:56:30	127.0.0.1	notice	2013-01-04 16:56:30	127.0.0.1	[8]	Undefined index: TEST	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	32
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-04 16:56:49	127.0.0.1	notice	2013-01-04 16:56:49	127.0.0.1	[8]	Undefined index: TEST	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	32
+	/miniprojet/www/index.php/miniprojet/default/deleteTransaction?idTransaction=28
+array (   'idTransaction' => '28',   'module' => 'miniprojet',   'action' => 'default:deleteTransaction', )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-04 16:56:53	127.0.0.1	notice	2013-01-04 16:56:53	127.0.0.1	[8]	Undefined index: TEST	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	32
+	/miniprojet/www/index.php/miniprojet/default/deleteTransaction?idTransaction=27
+array (   'idTransaction' => '27',   'module' => 'miniprojet',   'action' => 'default:deleteTransaction', )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-04 16:57:48	127.0.0.1	notice	2013-01-04 16:57:48	127.0.0.1	[8]	Undefined index: TEST	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	32
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-04 16:57:54	127.0.0.1	notice	2013-01-04 16:57:54	127.0.0.1	[8]	Undefined index: TEST	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	32
+	/miniprojet/www/index.php/miniprojet/default/deleteTransaction?idTransaction=23
+array (   'idTransaction' => '23',   'module' => 'miniprojet',   'action' => 'default:deleteTransaction', )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-04 16:57:57	127.0.0.1	notice	2013-01-04 16:57:57	127.0.0.1	[8]	Undefined index: TEST	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	32
+	/miniprojet/www/index.php/miniprojet/default/deleteTransaction?idTransaction=22
+array (   'idTransaction' => '22',   'module' => 'miniprojet',   'action' => 'default:deleteTransaction', )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-04 17:00:57	127.0.0.1	notice	2013-01-04 17:00:57	127.0.0.1	[8]	Undefined index: TEST	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	32
+	/miniprojet/www/index.php
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-04 18:36:55	127.0.0.1	error	2013-01-04 18:36:55	127.0.0.1	[310]	In the tag jurl 'miniprojet~updateTransaction@classic', array('idTransaction'=>'NULL'  in the template C:\Users\Alexis\Documents\www\miniprojet/modules/miniprojet/templates/main.tpl, bracket error	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php	703
+	/miniprojet/www/index.php
+array ( )
+
+	0	jTplCompiler->doError1()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 631
+	1	jTplCompiler->_parseFinal()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 496
+	2	jTplCompiler->_parseFunction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 291
+	3	jTplCompiler->_callback()	[php] : 
+	4	preg_replace_callback()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 237
+	5	jTplCompiler->compileContent()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 191
+	6	jTplCompiler->compileString()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 181
+	7	jTplCompiler->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	8	jIncluder::inc()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	9	jTpl->getTemplate()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	10	jTpl->meta()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	11	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	12	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-04 18:37:20	127.0.0.1	error	2013-01-04 18:37:20	127.0.0.1	[810]	Impossible to get the dao  record miniprojet~transaction corresponding to the formid NULL of miniprojet~transaction form	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php	264
+	/miniprojet/www/index.php/miniprojet/default/updateTransaction?idTransaction=NULL
+array (   'idTransaction' => 'NULL',   'module' => 'miniprojet',   'action' => 'default:updateTransaction', )
+
+	0	jFormsBase->initFromDao()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 86
+	1	defaultCtrl->updateTransaction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-09 13:35:09	127.0.0.1	notice	2013-01-09 13:35:09	127.0.0.1	[8]	Undefined variable: listOfAllDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	49
+	/miniprojet/www/index.php/miniprojet/default/deleteTransaction?idTransaction=50
+array (   'idTransaction' => '50',   'module' => 'miniprojet',   'action' => 'default:deleteTransaction', )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 132
+	1	defaultCtrl->deleteTransaction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-09 13:35:09	127.0.0.1	warning	2013-01-09 13:35:09	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	57
+	/miniprojet/www/index.php/miniprojet/default/deleteTransaction?idTransaction=50
+array (   'idTransaction' => '50',   'module' => 'miniprojet',   'action' => 'default:deleteTransaction', )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-09 22:23:04	127.0.0.1	error	2013-01-09 22:23:04	127.0.0.1	[307]	In the tag if ($COURANTTRANSACTION->enAttente==1){class="enAttente"  in the template C:\Users\Alexis\Documents\www\miniprojet/modules/miniprojet/templates/main.tpl, php code class is not allowed	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php	707
+	/miniprojet/www/index.php/miniprojet/default/deleteTransaction?idTransaction=50
+array (   'idTransaction' => '50',   'module' => 'miniprojet',   'action' => 'default:deleteTransaction', )
+
+	0	jTplCompiler->doError2()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 582
+	1	jTplCompiler->_parseFinal()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 346
+	2	jTplCompiler->_parseFunction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 291
+	3	jTplCompiler->_callback()	[php] : 
+	4	preg_replace_callback()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 237
+	5	jTplCompiler->compileContent()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 191
+	6	jTplCompiler->compileString()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 181
+	7	jTplCompiler->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	8	jIncluder::inc()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	9	jTpl->getTemplate()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	10	jTpl->meta()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	11	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	12	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-09 23:15:57	127.0.0.1	warning	2013-01-09 23:15:57	127.0.0.1	[2]	Missing argument 2 for jResponseHtml::addLink(), called in C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php on line 28 and defined	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php	229
+	/miniprojet/www/index.php/miniprojet/default/deleteTransaction?idTransaction=50
+array (   'idTransaction' => '50',   'module' => 'miniprojet',   'action' => 'default:deleteTransaction', )
+
+	0	jResponseHtml->addLink()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 28
+	1	defaultCtrl->index()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 141
+	2	defaultCtrl->deleteTransaction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-09 23:15:57	127.0.0.1	notice	2013-01-09 23:15:57	127.0.0.1	[8]	Undefined variable: rel	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php	230
+	/miniprojet/www/index.php/miniprojet/default/deleteTransaction?idTransaction=50
+array (   'idTransaction' => '50',   'module' => 'miniprojet',   'action' => 'default:deleteTransaction', )
+
+	0	jResponseHtml->addLink()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 28
+	1	defaultCtrl->index()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 141
+	2	defaultCtrl->deleteTransaction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-09 23:18:12	127.0.0.1	notice	2013-01-09 23:18:12	127.0.0.1	[8]	Use of undefined constant icon - assumed 'icon'	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	28
+	/miniprojet/www/index.php/miniprojet/default/deleteTransaction?idTransaction=50
+array (   'idTransaction' => '50',   'module' => 'miniprojet',   'action' => 'default:deleteTransaction', )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 141
+	1	defaultCtrl->deleteTransaction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-09 23:21:06	127.0.0.1	notice	2013-01-09 23:21:06	127.0.0.1	[8]	Use of undefined constant icon - assumed 'icon'	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	28
+	/miniprojet/www/index.php/miniprojet/default/saveTransaction
+array (   'module' => 'miniprojet',   'action' => 'default:saveTransaction',   'idTransaction' => '35',   '__JFORMS_TOKEN__' => '42ed26ffdc3bc00f7ad34ee96d261c68',   'libelle' => 'reponse',   'montant' => '54',   'debit' => '0',   'enAttente' => '0',   'typeTransaction' => '2',   'submit' => 'Enregistrer', )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 94
+	1	defaultCtrl->saveTransaction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-09 23:32:27	127.0.0.1	notice	2013-01-09 23:32:27	127.0.0.1	[8]	Array to string conversion	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php	484
+	/miniprojet/www/index.php/miniprojet/default/saveTransaction
+array (   'module' => 'miniprojet',   'action' => 'default:saveTransaction',   'idTransaction' => '35',   '__JFORMS_TOKEN__' => '42ed26ffdc3bc00f7ad34ee96d261c68',   'libelle' => 'reponse',   'montant' => '54',   'debit' => '0',   'enAttente' => '0',   'typeTransaction' => '2',   'submit' => 'Enregistrer', )
+
+	0	jResponseHtml->outputHtmlHeader()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 204
+	1	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	2	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-09 23:35:06	127.0.0.1	notice	2013-01-09 23:35:06	127.0.0.1	[8]	Array to string conversion	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php	484
+	/miniprojet/www/index.php/miniprojet/default/saveTransaction
+array (   'module' => 'miniprojet',   'action' => 'default:saveTransaction',   'idTransaction' => '35',   '__JFORMS_TOKEN__' => '42ed26ffdc3bc00f7ad34ee96d261c68',   'libelle' => 'reponse',   'montant' => '54',   'debit' => '0',   'enAttente' => '0',   'typeTransaction' => '2',   'submit' => 'Enregistrer', )
+
+	0	jResponseHtml->outputHtmlHeader()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 204
+	1	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	2	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 00:40:11	127.0.0.1	notice	2013-01-10 00:40:11	127.0.0.1	[8]	Undefined index: ALLTYPES	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\vue_html_t.php	28
+	/miniprojet/www/index.php/miniprojet/default/vueType
+array (   'module' => 'miniprojet',   'action' => 'default:vueType', )
+
+	0	template_ee5c1fd91013d57c3a0fdb619c5ec8cf()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 00:40:11	127.0.0.1	warning	2013-01-10 00:40:11	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\vue_html_t.php	28
+	/miniprojet/www/index.php/miniprojet/default/vueType
+array (   'module' => 'miniprojet',   'action' => 'default:vueType', )
+
+	0	template_ee5c1fd91013d57c3a0fdb619c5ec8cf()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_transaction_Jx_mysql::$montantDette	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php	56
+	/miniprojet/www/index.php/
+array ( )
+
+	0	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined index: ALLTYPE	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	58
+	/miniprojet/www/index.php/
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	warning	2013-01-10 01:01:26	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	58
+	/miniprojet/www/index.php/
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_dette_Jx_mysql::$nomAmi	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	84
+	/miniprojet/www/index.php/
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:01:26	127.0.0.1	notice	2013-01-10 01:01:26	127.0.0.1	[8]	Undefined index: TOTALDETTE	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	96
+	/miniprojet/www/index.php/
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:02:54	127.0.0.1	notice	2013-01-10 01:02:54	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_dette_Jx_mysql::$nomAmi	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	72
+	/miniprojet/www/index.php/
+array ( )
+
+	0	template_82b7398e69579200820b2a6ea888ff53()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:07:01	127.0.0.1	error	2013-01-10 01:07:01	127.0.0.1	[531]	DAO miniprojet~dette, unknown table name on the property nomAmi (file C:\Users\Alexis\Documents\www\miniprojet/modules/miniprojet/daos/dette.dao.xml)	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoProperty.class.php	126
+	/miniprojet/www/index.php/
+array ( )
+
+	0	jDaoProperty->__construct()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoParser.class.php : 115
+	1	jDaoParser->parseRecord()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoParser.class.php : 87
+	2	jDaoParser->parse()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoCompiler.class.php : 55
+	3	jDaoCompiler->compile()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	4	jIncluder::inc()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDao.class.php : 39
+	5	jDao::create()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDao.class.php : 62
+	6	jDao::get()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 48
+	7	defaultCtrl->index()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	8	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:10:22	127.0.0.1	notice	2013-01-10 01:10:22	127.0.0.1	[8]	Undefined index: ALLAMI	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\vue_html_t.php	53
+	/miniprojet/www/index.php/miniprojet/default/vueType
+array (   'module' => 'miniprojet',   'action' => 'default:vueType', )
+
+	0	template_ee5c1fd91013d57c3a0fdb619c5ec8cf()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:10:22	127.0.0.1	warning	2013-01-10 01:10:22	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\vue_html_t.php	53
+	/miniprojet/www/index.php/miniprojet/default/vueType
+array (   'module' => 'miniprojet',   'action' => 'default:vueType', )
+
+	0	template_ee5c1fd91013d57c3a0fdb619c5ec8cf()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:17:46	127.0.0.1	notice	2013-01-10 01:17:46	127.0.0.1	[8]	Undefined property: cDaoRecord_miniprojet_Jx_ami_Jx_mysql::$NomAmi	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\vueAmi_html_t.php	31
+	/miniprojet/www/index.php/miniprojet/default/vueAmi
+array (   'module' => 'miniprojet',   'action' => 'default:vueAmi', )
+
+	0	template_c047ff71342863cf585b206da723be68()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:40:07	127.0.0.1	error	2013-01-10 01:40:07	127.0.0.1	[17]	The selector "miniprojet~dette" doesn't correspond to a resource of type : "form"	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\selector\jSelectorForm.class.php	55
+	/miniprojet/www/index.php/miniprojet/default/createDette?idDette=NULL
+array (   'idDette' => 'NULL',   'module' => 'miniprojet',   'action' => 'default:createDette', )
+
+	0	jSelectorForm->_createPath()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\selector\jSelectorModule.class.php : 44
+	1	jSelectorModule->__construct()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\selector\jSelectorForm.class.php : 32
+	2	jSelectorForm->__construct()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 53
+	3	jForms::create()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 233
+	4	defaultCtrl->createDette()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:55:19	127.0.0.1	error	2013-01-10 01:55:19	127.0.0.1	[835]	 The token of the form is not valid, you should fill the form from the original web page	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php	151
+	/miniprojet/www/index.php/miniprojet/default/saveTransaction
+array (   'module' => 'miniprojet',   'action' => 'default:saveTransaction',   'idDette' => '',   '__JFORMS_TOKEN__' => '5ee064b0344f35b38c313736d3344ca0',   'idAmi' => '1',   'montantDette' => '43',   'submit' => 'Enregistrer', )
+
+	0	jFormsBase->initFromRequest()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 118
+	1	jForms::fill()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 104
+	2	defaultCtrl->saveTransaction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:55:49	127.0.0.1	error	2013-01-10 01:55:49	127.0.0.1	[835]	 The token of the form is not valid, you should fill the form from the original web page	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php	151
+	/miniprojet/www/index.php/miniprojet/default/saveTransaction
+array (   'module' => 'miniprojet',   'action' => 'default:saveTransaction',   'idDette' => '',   '__JFORMS_TOKEN__' => '5ee064b0344f35b38c313736d3344ca0',   'idAmi' => '1',   'montantDette' => '43',   'submit' => 'Enregistrer', )
+
+	0	jFormsBase->initFromRequest()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 118
+	1	jForms::fill()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 104
+	2	defaultCtrl->saveTransaction()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 01:58:20	127.0.0.1	error	2013-01-10 01:58:20	127.0.0.1	[403]	invalid query (Le champ 'debitDette' ne peut être vide (null)(INSERT INTO `dette` (	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/miniprojet/www/index.php/miniprojet/default/saveDette
+array (   'module' => 'miniprojet',   'action' => 'default:saveDette',   'idDette' => '',   '__JFORMS_TOKEN__' => '5ee064b0344f35b38c313736d3344ca0',   'idAmi' => '1',   'montantDette' => '43',   'submit' => 'Enregistrer', )
+
+	0	mysqlDbConnection->_doExec()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\daos\modules\miniprojet~dette~mysql.php : 201
+	2	cDao_miniprojet_Jx_dette_Jx_mysql->insert()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php : 317
+	3	jFormsBase->saveToDao()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 179
+	4	defaultCtrl->saveDette()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 02:18:47	127.0.0.1	error	2013-01-10 02:18:47	127.0.0.1	[403]	invalid query (Duplicata du champ '1' pour la clef 'idAmi'(INSERT INTO `dette` (	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/miniprojet/www/index.php/miniprojet/default/saveDette
+array (   'module' => 'miniprojet',   'action' => 'default:saveDette',   'idDette' => '',   '__JFORMS_TOKEN__' => '5ee064b0344f35b38c313736d3344ca0',   'idAmi' => '1',   'montantDette' => '54',   'submit' => 'Enregistrer', )
+
+	0	mysqlDbConnection->_doExec()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\daos\modules\miniprojet~dette~mysql.php : 177
+	2	cDao_miniprojet_Jx_dette_Jx_mysql->insert()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php : 317
+	3	jFormsBase->saveToDao()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 182
+	4	defaultCtrl->saveDette()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 02:39:54	127.0.0.1	error	2013-01-10 02:39:54	127.0.0.1	[835]	 The token of the form is not valid, you should fill the form from the original web page	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php	151
+	/miniprojet/www/index.php/miniprojet/default/saveDette
+array (   'module' => 'miniprojet',   'action' => 'default:saveDette',   'idAmi' => '',   '__JFORMS_TOKEN__' => '0f99c9dc652379820f20f97f1df82d95',   'nomAmi' => 'Tomas',   'submit' => 'Enregistrer', )
+
+	0	jFormsBase->initFromRequest()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 118
+	1	jForms::fill()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 333
+	2	defaultCtrl->saveDette()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 02:46:11	127.0.0.1	error	2013-01-10 02:46:11	127.0.0.1	[403]	invalid query (Le champ 'cheminImage' ne peut être vide (null)(INSERT INTO `type` (	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/miniprojet/www/index.php/miniprojet/default/saveType
+array (   'module' => 'miniprojet',   'action' => 'default:saveType',   'idType' => '',   '__JFORMS_TOKEN__' => '39dfecc49343bfce1cc08ce246ec9994',   'libelleType' => 'Nourriture',   'submit' => 'Enregistrer', )
+
+	0	mysqlDbConnection->_doExec()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\daos\modules\miniprojet~type~mysql.php : 137
+	2	cDao_miniprojet_Jx_type_Jx_mysql->insert()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php : 317
+	3	jFormsBase->saveToDao()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 86
+	4	defaultCtrl->saveType()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 02:46:42	127.0.0.1	error	2013-01-10 02:46:42	127.0.0.1	[835]	 The token of the form is not valid, you should fill the form from the original web page	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php	151
+	/miniprojet/www/index.php/miniprojet/default/saveType
+array (   'module' => 'miniprojet',   'action' => 'default:saveType', )
+
+	0	jFormsBase->initFromRequest()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jForms.class.php : 118
+	1	jForms::fill()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 85
+	2	defaultCtrl->saveType()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 02:46:50	127.0.0.1	error	2013-01-10 02:46:50	127.0.0.1	[403]	invalid query (Champ 'cheminImage' inconnu dans field list(INSERT INTO `type` (	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/miniprojet/www/index.php/miniprojet/default/saveType
+array (   'module' => 'miniprojet',   'action' => 'default:saveType',   'idType' => '',   '__JFORMS_TOKEN__' => '39dfecc49343bfce1cc08ce246ec9994',   'libelleType' => 'Nourriture',   'submit' => 'Enregistrer', )
+
+	0	mysqlDbConnection->_doExec()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Users\Alexis\Documents\www\temp\miniprojet\www\compiled\daos\modules\miniprojet~type~mysql.php : 137
+	2	cDao_miniprojet_Jx_type_Jx_mysql->insert()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\forms\jFormsBase.class.php : 317
+	3	jFormsBase->saveToDao()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 86
+	4	defaultCtrl->saveType()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 02:47:02	127.0.0.1	error	2013-01-10 02:47:02	127.0.0.1	[403]	invalid query (Champ 'type.cheminImage' inconnu dans field list(SELECT `type`.`idType`, `type`.`libelleType`, `type`.`cheminImage` FROM `type` AS `type`))	C:\Users\Alexis\Documents\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/miniprojet/www/index.php/miniprojet/default/vueType
+array (   'module' => 'miniprojet',   'action' => 'default:vueType', )
+
+	0	mysqlDbConnection->_doQuery()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\db\jDbConnection.class.php : 113
+	1	jDbConnection->query()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 179
+	2	jDaoFactoryBase->findAll()	C:\Users\Alexis\Documents\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 76
+	3	defaultCtrl->vueType()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-01-10 22:50:54	127.0.0.1	notice	2013-01-10 22:50:54	127.0.0.1	[8]	Array to string conversion	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php	441
+	/miniprojet/www/index.php/miniprojet/
+array (   'module' => 'miniprojet',   'action' => 'default:index', )
+
+	0	implode()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 441
+	1	jResponseHtml->outputHtmlHeader()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 204
+	2	jResponseHtml->output()	C:\Users\Alexis\Documents\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\Alexis\Documents\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 11:01:19	127.0.0.1	error	2013-02-24 11:01:19	127.0.0.1	[401]	jDb: unknown database miniprojet	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	109
+	/miniprojet/www/index.php
+array ( )
+
+	0	mysqlDbConnection->_doQuery()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 113
+	1	jDbConnection->query()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 179
+	2	jDaoFactoryBase->findAll()	C:\Program Files\EasyPHP-12.1\www\miniprojet\modules\miniprojet\controllers\default.classic.php : 32
+	3	defaultCtrl->index()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 11:02:50	127.0.0.1	warning	2013-02-24 11:02:50	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 11:03:14	127.0.0.1	warning	2013-02-24 11:03:14	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:27:50	127.0.0.1	warning	2013-02-24 15:27:50	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:28:28	127.0.0.1	warning	2013-02-24 15:28:28	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:28:29	127.0.0.1	warning	2013-02-24 15:28:29	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:28:30	127.0.0.1	warning	2013-02-24 15:28:30	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:28:30	127.0.0.1	warning	2013-02-24 15:28:30	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:28:30	127.0.0.1	warning	2013-02-24 15:28:30	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:29:10	127.0.0.1	warning	2013-02-24 15:29:10	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:29:15	127.0.0.1	warning	2013-02-24 15:29:15	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php/
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:29:19	127.0.0.1	warning	2013-02-24 15:29:19	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:36:10	127.0.0.1	warning	2013-02-24 15:36:10	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:40:40	127.0.0.1	warning	2013-02-24 15:40:40	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
+2013-02-24 15:41:21	127.0.0.1	warning	2013-02-24 15:41:21	127.0.0.1	[2]	require_once(C:\Users\Alexis\Documents\www\jelix\lib\jelix/plugins/tpl/html/function.jurl.php): failed to open stream: No such file or directory	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php	2
+	/miniprojet/www/index.php
+array ( )
+
+	0	require_once()	C:\Program Files\EasyPHP-12.1\www\temp\miniprojet\www\compiled\templates\modules\miniprojet\main_html_t.php : 2
+	1	require()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 111
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	3	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	4	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	5	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\miniprojet\www\index.php : 19
+
+
