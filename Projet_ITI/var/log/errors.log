@@ -11597,3 +11597,1098 @@ array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_util
 	11	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
 
 
+2013-05-04 19:23:55	127.0.0.1	error	2013-05-04 19:23:55	127.0.0.1	[800]	 label is missing (file menulist)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php	357
+	/Projet_ITI/www/index.php/Projet_ITI/default/connexion
+array (   'module' => 'Projet_ITI',   'action' => 'default:connexion',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'login' => 'jeremy.martos@gmail.com',   'password' => 'jeremym26',   'submit' => 'Connexion', )
+
+	0	jFormsCompiler_jf_1_0->readLabel()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 210
+	1	jFormsCompiler_jf_1_0->generateMenulist()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_1.class.php : 47
+	2	jFormsCompiler_jf_1_1->generateMenulist()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 80
+	3	jFormsCompiler_jf_1_0->_generatePHPControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 51
+	4	jFormsCompiler_jf_1_0->generatePHPControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 39
+	5	jFormsCompiler_jf_1_0->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 58
+	6	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	7	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	8	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 209
+	9	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 67
+	10	defaultCtrl->connexion()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	11	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:24:46	127.0.0.1	warning	2013-05-04 19:24:46	127.0.0.1	[2]	call_user_func_array() expects parameter 1 to be a valid callback, class 'cDao_Projet_ITI_Jx_annonce_Jx_mysql' does not have a method 'findByCat'	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	166
+	/Projet_ITI/www/index.php/Projet_ITI/default/connexion
+array (   'module' => 'Projet_ITI',   'action' => 'default:connexion',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'login' => 'jeremy.martos@gmail.com',   'password' => 'jeremym26',   'submit' => 'Connexion', )
+
+	0	call_user_func_array()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php : 166
+	1	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 665
+	2	jFormsBuilderHtml->fillSelect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 717
+	3	jFormsBuilderHtml->outputMenulist()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 248
+	4	jFormsBuilderHtml->outputControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 40
+	5	jFormsBuilderHtml->outputAllControls()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\accueilCompte_html_t.php : 66
+	6	template_5f282f0a80899b103957da33f3992b98()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	7	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	8	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	9	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:24:46	127.0.0.1	warning	2013-05-04 19:24:46	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	173
+	/Projet_ITI/www/index.php/Projet_ITI/default/connexion
+array (   'module' => 'Projet_ITI',   'action' => 'default:connexion',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'login' => 'jeremy.martos@gmail.com',   'password' => 'jeremym26',   'submit' => 'Connexion', )
+
+	0	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 665
+	1	jFormsBuilderHtml->fillSelect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 717
+	2	jFormsBuilderHtml->outputMenulist()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 248
+	3	jFormsBuilderHtml->outputControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 40
+	4	jFormsBuilderHtml->outputAllControls()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\accueilCompte_html_t.php : 66
+	5	template_5f282f0a80899b103957da33f3992b98()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	6	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	7	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	8	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:24:49	127.0.0.1	warning	2013-05-04 19:24:49	127.0.0.1	[2]	call_user_func_array() expects parameter 1 to be a valid callback, class 'cDao_Projet_ITI_Jx_annonce_Jx_mysql' does not have a method 'findByCat'	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	166
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => '6', )
+
+	0	call_user_func_array()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php : 166
+	1	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	2	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:24:49	127.0.0.1	warning	2013-05-04 19:24:49	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	173
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => '6', )
+
+	0	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	1	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:24:52	127.0.0.1	warning	2013-05-04 19:24:52	127.0.0.1	[2]	call_user_func_array() expects parameter 1 to be a valid callback, class 'cDao_Projet_ITI_Jx_annonce_Jx_mysql' does not have a method 'findByCat'	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	166
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => '7', )
+
+	0	call_user_func_array()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php : 166
+	1	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	2	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:24:52	127.0.0.1	warning	2013-05-04 19:24:52	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	173
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => '7', )
+
+	0	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	1	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:24:53	127.0.0.1	warning	2013-05-04 19:24:53	127.0.0.1	[2]	call_user_func_array() expects parameter 1 to be a valid callback, class 'cDao_Projet_ITI_Jx_annonce_Jx_mysql' does not have a method 'findByCat'	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	166
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => '1', )
+
+	0	call_user_func_array()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php : 166
+	1	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	2	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:24:53	127.0.0.1	warning	2013-05-04 19:24:53	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	173
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => '1', )
+
+	0	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	1	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:24:58	127.0.0.1	warning	2013-05-04 19:24:58	127.0.0.1	[2]	call_user_func_array() expects parameter 1 to be a valid callback, class 'cDao_Projet_ITI_Jx_annonce_Jx_mysql' does not have a method 'findByCat'	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	166
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   'catListe' => '1',   'annonceListe' => '',   'submit' => 'Go!', )
+
+	0	call_user_func_array()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php : 166
+	1	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 665
+	2	jFormsBuilderHtml->fillSelect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 717
+	3	jFormsBuilderHtml->outputMenulist()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 248
+	4	jFormsBuilderHtml->outputControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 40
+	5	jFormsBuilderHtml->outputAllControls()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\accueilCompte_html_t.php : 66
+	6	template_5f282f0a80899b103957da33f3992b98()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	7	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	8	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	9	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:24:58	127.0.0.1	warning	2013-05-04 19:24:58	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	173
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   'catListe' => '1',   'annonceListe' => '',   'submit' => 'Go!', )
+
+	0	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 665
+	1	jFormsBuilderHtml->fillSelect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 717
+	2	jFormsBuilderHtml->outputMenulist()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 248
+	3	jFormsBuilderHtml->outputControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBuilderHtml.class.php : 40
+	4	jFormsBuilderHtml->outputAllControls()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\accueilCompte_html_t.php : 66
+	5	template_5f282f0a80899b103957da33f3992b98()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	6	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	7	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	8	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:26:58	127.0.0.1	warning	2013-05-04 19:26:58	127.0.0.1	[2]	call_user_func_array() expects parameter 1 to be a valid callback, class 'cDao_Projet_ITI_Jx_annonce_Jx_mysql' does not have a method 'findByCat'	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	166
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => '1', )
+
+	0	call_user_func_array()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php : 166
+	1	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	2	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:26:58	127.0.0.1	warning	2013-05-04 19:26:58	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	173
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => '1', )
+
+	0	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	1	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:26:59	127.0.0.1	warning	2013-05-04 19:26:59	127.0.0.1	[2]	call_user_func_array() expects parameter 1 to be a valid callback, class 'cDao_Projet_ITI_Jx_annonce_Jx_mysql' does not have a method 'findByCat'	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	166
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => 'null', )
+
+	0	call_user_func_array()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php : 166
+	1	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	2	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:26:59	127.0.0.1	warning	2013-05-04 19:26:59	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	173
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => 'null', )
+
+	0	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	1	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:27:01	127.0.0.1	warning	2013-05-04 19:27:01	127.0.0.1	[2]	call_user_func_array() expects parameter 1 to be a valid callback, class 'cDao_Projet_ITI_Jx_annonce_Jx_mysql' does not have a method 'findByCat'	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	166
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => '6', )
+
+	0	call_user_func_array()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php : 166
+	1	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	2	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-04 19:27:01	127.0.0.1	warning	2013-05-04 19:27:01	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsDatasource.class.php	173
+	/Projet_ITI/www/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData',   '__form' => 'Projet_ITI~formChoixRecherche',   '__formid' => '0',   '__JFORMS_TOKEN__' => '570a82bc07537840ef64519ecdf06472',   '__ref' => 'annonceListe',   'catListe' => '6', )
+
+	0	jFormsDaoDatasource->getData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core-modules\jelix\controllers\jforms.classic.php : 56
+	1	jformsCtrl->getListData()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:23:17	127.0.0.1	warning	2013-05-05 13:23:17	127.0.0.1	[2]	DOMDocument::load(): xmlParseEntityRef: no name in file:///C:/Program%20Files/EasyPHP-12.1/www/Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml, line: 22	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	DOMDocument->load()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	4	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:23:17	127.0.0.1	error	2013-05-05 13:23:17	127.0.0.1	[805]	 invalid xml syntax in jforms file (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	35
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	1	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	2	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	3	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:24:14	127.0.0.1	warning	2013-05-05 13:24:14	127.0.0.1	[2]	DOMDocument::load(): xmlParseEntityRef: no name in file:///C:/Program%20Files/EasyPHP-12.1/www/Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml, line: 22	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	DOMDocument->load()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	4	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:24:14	127.0.0.1	error	2013-05-05 13:24:14	127.0.0.1	[805]	 invalid xml syntax in jforms file (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	35
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	1	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	2	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	3	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:24:44	127.0.0.1	warning	2013-05-05 13:24:44	127.0.0.1	[2]	DOMDocument::load(): xmlParseEntityRef: no name in file:///C:/Program%20Files/EasyPHP-12.1/www/Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml, line: 22	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	DOMDocument->load()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	4	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:24:44	127.0.0.1	error	2013-05-05 13:24:44	127.0.0.1	[805]	 invalid xml syntax in jforms file (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	35
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	1	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	2	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	3	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:27:18	127.0.0.1	warning	2013-05-05 13:27:18	127.0.0.1	[2]	DOMDocument::load(): xmlParseEntityRef: no name in file:///C:/Program%20Files/EasyPHP-12.1/www/Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml, line: 22	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	DOMDocument->load()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	4	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:27:18	127.0.0.1	error	2013-05-05 13:27:18	127.0.0.1	[805]	 invalid xml syntax in jforms file (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	35
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	1	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	2	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	3	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:27:20	127.0.0.1	warning	2013-05-05 13:27:20	127.0.0.1	[2]	DOMDocument::load(): xmlParseEntityRef: no name in file:///C:/Program%20Files/EasyPHP-12.1/www/Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml, line: 22	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	DOMDocument->load()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	4	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:27:20	127.0.0.1	error	2013-05-05 13:27:20	127.0.0.1	[805]	 invalid xml syntax in jforms file (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	35
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	1	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	2	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	3	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:33:28	127.0.0.1	warning	2013-05-05 13:33:28	127.0.0.1	[2]	DOMDocument::load(): xmlParseEntityRef: no name in file:///C:/Program%20Files/EasyPHP-12.1/www/Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml, line: 22	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	DOMDocument->load()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	4	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:33:28	127.0.0.1	error	2013-05-05 13:33:28	127.0.0.1	[805]	 invalid xml syntax in jforms file (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	35
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	1	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	2	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	3	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:34:57	127.0.0.1	warning	2013-05-05 13:34:57	127.0.0.1	[2]	DOMDocument::load(): xmlParseEntityRef: no name in file:///C:/Program%20Files/EasyPHP-12.1/www/Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml, line: 22	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	DOMDocument->load()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	4	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:34:57	127.0.0.1	error	2013-05-05 13:34:57	127.0.0.1	[805]	 invalid xml syntax in jforms file (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	35
+	/Projet_ITI/www/index.php/Projet_ITI/default/accueilCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:accueilCompte', )
+
+	0	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	1	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	2	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	3	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:35:04	127.0.0.1	warning	2013-05-05 13:35:04	127.0.0.1	[2]	DOMDocument::load(): xmlParseEntityRef: no name in file:///C:/Program%20Files/EasyPHP-12.1/www/Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml, line: 22	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/Projet_ITI/www/index.php/Projet_ITI/default/connexion
+array (   'module' => 'Projet_ITI',   'action' => 'default:connexion',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'login' => 'jeremy.martos@gmail.com',   'password' => 'jeremym26',   'submit' => 'Connexion', )
+
+	0	DOMDocument->load()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	4	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 67
+	5	defaultCtrl->connexion()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:35:04	127.0.0.1	error	2013-05-05 13:35:04	127.0.0.1	[805]	 invalid xml syntax in jforms file (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	35
+	/Projet_ITI/www/index.php/Projet_ITI/default/connexion
+array (   'module' => 'Projet_ITI',   'action' => 'default:connexion',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'login' => 'jeremy.martos@gmail.com',   'password' => 'jeremym26',   'submit' => 'Connexion', )
+
+	0	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	1	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	2	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	3	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 67
+	4	defaultCtrl->connexion()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:38:00	127.0.0.1	warning	2013-05-05 13:38:00	127.0.0.1	[2]	DOMDocument::load(): xmlParseEntityRef: no name in file:///C:/Program%20Files/EasyPHP-12.1/www/Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml, line: 22	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/Projet_ITI/www/index.php/Projet_ITI/default/connexion
+array (   'module' => 'Projet_ITI',   'action' => 'default:connexion',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'login' => 'jeremy.martos@gmail.com',   'password' => 'jeremym26',   'submit' => 'Connexion', )
+
+	0	DOMDocument->load()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	4	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 67
+	5	defaultCtrl->connexion()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:38:00	127.0.0.1	error	2013-05-05 13:38:00	127.0.0.1	[805]	 invalid xml syntax in jforms file (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	35
+	/Projet_ITI/www/index.php/Projet_ITI/default/connexion
+array (   'module' => 'Projet_ITI',   'action' => 'default:connexion',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'login' => 'jeremy.martos@gmail.com',   'password' => 'jeremym26',   'submit' => 'Connexion', )
+
+	0	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	1	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	2	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	3	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 67
+	4	defaultCtrl->connexion()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:38:07	127.0.0.1	warning	2013-05-05 13:38:07	127.0.0.1	[2]	DOMDocument::load(): xmlParseEntityRef: no name in file:///C:/Program%20Files/EasyPHP-12.1/www/Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml, line: 22	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	34
+	/Projet_ITI/www/index.php/Projet_ITI/default/connexion
+array (   'module' => 'Projet_ITI',   'action' => 'default:connexion',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'login' => 'jeremy.martos@gmail.com',   'password' => 'jeremym26',   'submit' => 'Connexion', )
+
+	0	DOMDocument->load()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	2	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	3	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	4	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 67
+	5	defaultCtrl->connexion()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:38:07	127.0.0.1	error	2013-05-05 13:38:07	127.0.0.1	[805]	 invalid xml syntax in jforms file (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/rechercherAnnonces.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php	35
+	/Projet_ITI/www/index.php/Projet_ITI/default/connexion
+array (   'module' => 'Projet_ITI',   'action' => 'default:connexion',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'login' => 'jeremy.martos@gmail.com',   'password' => 'jeremym26',   'submit' => 'Connexion', )
+
+	0	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	1	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	2	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 233
+	3	defaultCtrl->accueilCompte()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 67
+	4	defaultCtrl->connexion()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:39:49	127.0.0.1	error	2013-05-05 13:39:49	127.0.0.1	[132]	response is missing (action Projet_ITI~default:rechercherDesAnnonces@classic)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php	197
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '1',   'submit' => 'Rechercher', )
+
+	0	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:48:23	127.0.0.1	error	2013-05-05 13:48:23	127.0.0.1	[132]	response is missing (action Projet_ITI~default:rechercherDesAnnonces@classic)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php	197
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '0',   'submit' => 'Rechercher', )
+
+	0	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:48:43	127.0.0.1	error	2013-05-05 13:48:43	127.0.0.1	[132]	response is missing (action Projet_ITI~default:rechercherDesAnnonces@classic)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php	197
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:50:16	127.0.0.1	notice	2013-05-05 13:50:16	127.0.0.1	[8]	Undefined variable: user	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	515
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 376
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:50:16	127.0.0.1	notice	2013-05-05 13:50:16	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	515
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 376
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:50:16	127.0.0.1	notice	2013-05-05 13:50:16	127.0.0.1	[8]	Undefined variable: user	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	515
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 376
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 13:50:16	127.0.0.1	notice	2013-05-05 13:50:16	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	515
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 376
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:04:50	127.0.0.1	notice	2013-05-05 14:04:50	127.0.0.1	[8]	Undefined variable: 6	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	522
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 378
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:04:50	127.0.0.1	error	2013-05-05 14:04:50	127.0.0.1	[504]	 unknown property (%s) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 523
+	3	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 378
+	4	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:05:17	127.0.0.1	notice	2013-05-05 14:05:17	127.0.0.1	[8]	Undefined variable: 7	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	522
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '7',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 378
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:05:17	127.0.0.1	error	2013-05-05 14:05:17	127.0.0.1	[504]	 unknown property (%s) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '7',   'submit' => 'Rechercher', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 523
+	3	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 378
+	4	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:07:28	127.0.0.1	notice	2013-05-05 14:07:28	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_categorie_Jx_mysql::$id_categorie	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	513
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 378
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:07:28	127.0.0.1	error	2013-05-05 14:07:28	127.0.0.1	[504]	 unknown property (6) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 524
+	3	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 378
+	4	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:08:19	127.0.0.1	error	2013-05-05 14:08:19	127.0.0.1	[504]	 unknown property (6) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 524
+	3	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 378
+	4	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:15:35	127.0.0.1	error	2013-05-05 14:15:35	127.0.0.1	[504]	 unknown property (6) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 524
+	3	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 378
+	4	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:16:20	127.0.0.1	error	2013-05-05 14:16:20	127.0.0.1	[504]	 unknown property (6) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 524
+	3	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 378
+	4	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:21:55	127.0.0.1	error	2013-05-05 14:21:55	127.0.0.1	[504]	 unknown property (6) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 524
+	3	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 378
+	4	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:22:40	127.0.0.1	error	2013-05-05 14:22:40	127.0.0.1	[504]	 unknown property (id_categorie) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 526
+	3	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 380
+	4	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:30:39	127.0.0.1	error	2013-05-05 14:30:39	127.0.0.1	[504]	 unknown property (id_categorie) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 526
+	3	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 380
+	4	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:31:20	127.0.0.1	error	2013-05-05 14:31:20	127.0.0.1	[504]	 unknown property (id_categorie) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 526
+	3	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 380
+	4	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:32:01	127.0.0.1	notice	2013-05-05 14:32:01	127.0.0.1	[8]	Undefined index: ALLVENTES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\AfficherAnnonces_html_t.php	45
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	template_49dcb02207c226ea7c0a9641618442f7()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:32:01	127.0.0.1	warning	2013-05-05 14:32:01	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\AfficherAnnonces_html_t.php	45
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	template_49dcb02207c226ea7c0a9641618442f7()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:32:09	127.0.0.1	notice	2013-05-05 14:32:09	127.0.0.1	[8]	Undefined index: ALLVENTES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\AfficherAnnonces_html_t.php	45
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	template_49dcb02207c226ea7c0a9641618442f7()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:32:09	127.0.0.1	warning	2013-05-05 14:32:09	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\AfficherAnnonces_html_t.php	45
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	template_49dcb02207c226ea7c0a9641618442f7()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:34:11	127.0.0.1	notice	2013-05-05 14:34:11	127.0.0.1	[8]	Undefined index: ALLVENTES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\AfficherAnnonces_html_t.php	45
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '3',   'submit' => 'Rechercher', )
+
+	0	template_49dcb02207c226ea7c0a9641618442f7()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 14:34:11	127.0.0.1	warning	2013-05-05 14:34:11	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\AfficherAnnonces_html_t.php	45
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '3',   'submit' => 'Rechercher', )
+
+	0	template_49dcb02207c226ea7c0a9641618442f7()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 18:47:36	127.0.0.1	notice	2013-05-05 18:47:36	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_annonce_Jx_mysql::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	386
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	defaultCtrl->modifAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 18:47:36	127.0.0.1	error	2013-05-05 18:47:36	127.0.0.1	[810]	Impossible to get the dao  record Projet_ITI~annonce corresponding to the formid 0 of Projet_ITI~modificationAnnonce form	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php	264
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	jFormsBase->initFromDao()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 393
+	1	defaultCtrl->modifAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 18:56:31	127.0.0.1	error	2013-05-05 18:56:31	127.0.0.1	[810]	Impossible to get the dao  record Projet_ITI~vente corresponding to the formid 1 of Projet_ITI~modificationAnnonce form	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php	264
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	jFormsBase->initFromDao()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 389
+	1	defaultCtrl->modifAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 18:58:17	127.0.0.1	error	2013-05-05 18:58:17	127.0.0.1	[810]	Impossible to get the dao  record Projet_ITI~vente corresponding to the formid 1 of Projet_ITI~modificationAnnonce form	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php	264
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	jFormsBase->initFromDao()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 388
+	1	defaultCtrl->modifAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 18:58:25	127.0.0.1	error	2013-05-05 18:58:25	127.0.0.1	[810]	Impossible to get the dao  record Projet_ITI~vente corresponding to the formid 1 of Projet_ITI~modificationAnnonce form	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php	264
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=3
+array (   'id_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	jFormsBase->initFromDao()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 388
+	1	defaultCtrl->modifAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 18:59:24	127.0.0.1	error	2013-05-05 18:59:24	127.0.0.1	[810]	Impossible to get the dao  record Projet_ITI~vente corresponding to the formid 1 of Projet_ITI~modificationAnnonce form	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php	264
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=3
+array (   'id_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	jFormsBase->initFromDao()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 388
+	1	defaultCtrl->modifAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:00:40	127.0.0.1	error	2013-05-05 19:00:40	127.0.0.1	[810]	Impossible to get the dao  record Projet_ITI~vente corresponding to the formid 1 of Projet_ITI~modificationAnnonce form	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php	264
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	jFormsBase->initFromDao()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 388
+	1	defaultCtrl->modifAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:17	127.0.0.1	notice	2013-05-05 19:10:17	127.0.0.1	[8]	Undefined index: COURANTANNONCES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:17	127.0.0.1	notice	2013-05-05 19:10:17	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:17	127.0.0.1	notice	2013-05-05 19:10:17	127.0.0.1	[8]	Undefined index: COURANTVENTES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	53
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:17	127.0.0.1	notice	2013-05-05 19:10:17	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	53
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:26	127.0.0.1	notice	2013-05-05 19:10:26	127.0.0.1	[8]	Undefined index: COURANTANNONCES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:26	127.0.0.1	notice	2013-05-05 19:10:26	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:26	127.0.0.1	notice	2013-05-05 19:10:26	127.0.0.1	[8]	Undefined index: COURANTVENTES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	53
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:26	127.0.0.1	notice	2013-05-05 19:10:26	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	53
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:28	127.0.0.1	notice	2013-05-05 19:10:28	127.0.0.1	[8]	Undefined index: COURANTANNONCES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:28	127.0.0.1	notice	2013-05-05 19:10:28	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:28	127.0.0.1	notice	2013-05-05 19:10:28	127.0.0.1	[8]	Undefined index: COURANTVENTES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	53
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:28	127.0.0.1	notice	2013-05-05 19:10:28	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	53
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:57	127.0.0.1	notice	2013-05-05 19:10:57	127.0.0.1	[8]	Undefined index: COURANTANNONCES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:57	127.0.0.1	notice	2013-05-05 19:10:57	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:57	127.0.0.1	notice	2013-05-05 19:10:57	127.0.0.1	[8]	Undefined index: COURANTVENTES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	54
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:10:57	127.0.0.1	notice	2013-05-05 19:10:57	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	54
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:17:31	127.0.0.1	notice	2013-05-05 19:17:31	127.0.0.1	[8]	Undefined index: COURANTANNONCES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:17:31	127.0.0.1	notice	2013-05-05 19:17:31	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:17:31	127.0.0.1	notice	2013-05-05 19:17:31	127.0.0.1	[8]	Undefined index: COURANTVENTES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	54
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:17:31	127.0.0.1	notice	2013-05-05 19:17:31	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	54
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:00	127.0.0.1	notice	2013-05-05 19:18:00	127.0.0.1	[8]	Undefined index: COURANTANNONCES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:00	127.0.0.1	notice	2013-05-05 19:18:00	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:00	127.0.0.1	notice	2013-05-05 19:18:00	127.0.0.1	[8]	Undefined index: COURANTVENTES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	54
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:00	127.0.0.1	notice	2013-05-05 19:18:00	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	54
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:04	127.0.0.1	notice	2013-05-05 19:18:04	127.0.0.1	[8]	Undefined index: COURANTANNONCES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:04	127.0.0.1	notice	2013-05-05 19:18:04	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:04	127.0.0.1	notice	2013-05-05 19:18:04	127.0.0.1	[8]	Undefined index: COURANTVENTES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	54
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:04	127.0.0.1	notice	2013-05-05 19:18:04	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	54
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:06	127.0.0.1	error	2013-05-05 19:18:06	127.0.0.1	[810]	Impossible to get the dao  record Projet_ITI~vente corresponding to the formid 1 of Projet_ITI~modificationAnnoncePrix form	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php	264
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnoncePrix
+array (   'module' => 'Projet_ITI',   'action' => 'default:modifAnnoncePrix', )
+
+	0	jFormsBase->initFromDao()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 422
+	1	defaultCtrl->modifAnnoncePrix()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:12	127.0.0.1	notice	2013-05-05 19:18:12	127.0.0.1	[8]	Undefined index: COURANTANNONCES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:12	127.0.0.1	notice	2013-05-05 19:18:12	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	52
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:12	127.0.0.1	notice	2013-05-05 19:18:12	127.0.0.1	[8]	Undefined index: COURANTVENTES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	54
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:18:12	127.0.0.1	notice	2013-05-05 19:18:12	127.0.0.1	[8]	Trying to get property of non-object	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	54
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-05 19:20:33	127.0.0.1	notice	2013-05-05 19:20:33	127.0.0.1	[8]	Undefined property: cDaoRecord_Projet_ITI_Jx_annonce_Jx_mysql::$id_vente	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	54
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+

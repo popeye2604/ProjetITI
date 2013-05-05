@@ -4,7 +4,7 @@
         <primarytable name="vente" realname="vente" primarykey="id_vente" />
         <!--Ajout de la table annonce pour aller y chercher le titre des annonces -->
         <foreigntable name="myAnnonce" realname="annonce" primarykey="id_annonce" onforeignkey="id_annonce"/>
-        
+        <foreigntable name="myCategorie" realname="categorie" primarykey="id_categorie" onforeignkey="id_categorie"/>
     </datasources>
     <record>
         <property name="id_vente" fieldname="id_vente" datatype="bigint" autoincrement="true"/>
@@ -17,6 +17,10 @@
         <property name="titreAnnonce" fieldname="titre" datatype="varchar" table="myAnnonce"/>
         <property name="descriptionAnnonce" fieldname="description" datatype="varchar" table="myAnnonce"/>
         <property name="photoAnnonce" fieldname="photo" datatype="varchar" table="myAnnonce"/>
+        <!--Ajout d'une propriété à l'objet categorie qui pointera vers le type de categorie -->
+        <property name="typeCategorie" fieldname="type" datatype="varchar" table="myCategorie"/>
+
+        
     </record>
     <factory>
         <!--<method name="findByStage" type="select/selectfirst/delete/update/php">

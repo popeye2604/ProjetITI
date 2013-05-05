@@ -21,43 +21,8 @@
     
     <div id="blockRecherche">
         
-        <input id="jUrlAjaxAutocomplete" type="hidden" value="{jUrl 'Projet_ITI~rechercheMot@classic'}">
-        <label for="motCles"> Mots clés:</label>
-        <input type="text" id="rechercheMotCles">
-        <br>
-        
-        
-        <select>
-        <option value="0" selected="True">Toutes catégories</option>
-        <option class="titreRechercheCategorie" value="1">-- VEHICULES --</option>
-        <option value="6">Voitures</option>
-        <option value="7">Motos</option>
-        <option value="8">Equipements auto</option>
-        <option value="9">Equipements moto</option>
-        
-        <option class="titreRechercheCategorie" value="2">-- IMMOBILIERS --</option>
-        <option value="10">Ventes</option>
-        <option value="11">Locations</option>
-        <option value="12">Colocations</option>
-        
-        <option class="titreRechercheCategorie" value="3">-- MULTIMEDIA --</option>
-        <option value="13">Informatique</option>
-        <option value="14">Jeux Videos</option>
-        <option value="15">Image & son</option>
-        <option value="16">Téléphonie</option>
-        
-        <option class="titreRechercheCategorie" value="4">-- MAISON --</option>
-        <option value="17">Ameublement</option>
-        <option value="18">Electroménager</option>
-        
-        <option class="titreRechercheCategorie" value="5">-- SERVICES --</option>
-        <option value="19">Stages</option>
-        <option value="20">Services</option>
-        <option value="21">Billeterie</option>
-        
-        </select>
-        
-        <input type="submit" value="Go !">
+   
+        {formfull $RECHERCHERANNONCES, 'Projet_ITI~rechercherDesAnnonces@classic'}
         
     </div>
     
@@ -112,7 +77,8 @@
                 
             <li>
                 <a href="{jurl 'Projet_ITI~afficherAnnonce@classic',array('id_annonce'=>$COURANTVENTES->id_annonce)}">
-                               {$COURANTVENTES->titreAnnonce} </a>
+                               {$COURANTVENTES->titreAnnonce} </a>   
+                               
                 
             </li>
             

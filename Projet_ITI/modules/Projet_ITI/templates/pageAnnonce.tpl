@@ -43,8 +43,9 @@
                       {/foreach}
             </li>
                 
-            
-            
+            <a href="{jurl 'Projet_ITI~modifAnnonce@classic',array('id_annonce'=>$COURANTANNONCE->id_annonce) }">  >> Modifier les informations << </a>
+        <br>
+            <a href="{jurl 'Projet_ITI~modifAnnoncePrix@classic',array('id_vente'=>$COURANTPRIXANNONCE->id_vente) }">  >> Modifier le prix << </a>
             {/foreach}
 
             

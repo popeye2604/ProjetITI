@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form xmlns="http://jelix.org/ns/forms/1.1">
+    <hidden ref="id_annonce"/>
+    
+    <textarea ref="titre">
+        <label>Saisissez ici le titre de l'annonce</label>
+    </textarea>
+    
+    <textarea ref="description">
+        <label>Saisissez ici la description de l'annonce</label>
+    </textarea>
+     
+  <upload ref="photo" mimetype="image/jpeg;image/pjpeg;image/png" maxsize="5000000">
+    <label>Photo liée à l'annonce</label>
+  </upload>
+      
+  <radiobuttons ref="type_annonce">
+      <label>Type d'annonce</label>
+      <item value="Offre">Offre</item>
+      <item value="Demande">Demande</item>
+  </radiobuttons>
+  
+  <submit ref="valider">
+    <label>Valider</label>
+  </submit>
+
+    <reset ref="reinit">
+            <label>Réinitialiser</label>
+    </reset>
+        
+</form>

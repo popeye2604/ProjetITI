@@ -228,6 +228,15 @@ $rep = $this->getResponse('html');
         $rep->body->assign('ALLVENTES2', $listAllVentes);
         $rep->body->assign('USERCONNECTED', $idUserConnected);
         
+        //bloc de recherches
+        //
+        //
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
+        
+        
+
         return $rep;
     }
     
@@ -355,7 +364,97 @@ $rep = $this->getResponse('html');
         return $this->accueilCompte();
         
     }
+    
+    function modifAnnonce() {
+
+        $rep = $this->getResponse('html');
+        $rep->bodyTpl="modificationAnnonce";
+        
+        /*je reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+        
+         /* Ajout du css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles.css');
+        
+        /*Je récupère l'id_annonce passée en paramètre*/
+        $paramIdAnnonce=  $this->param('id_annonce',1);
+        
+        /*Je créé un formulaire à partir de la structure modificationAnnonce.form.xml*/
+        $form= jForms::create("Projet_ITI~modificationAnnonce",$paramIdAnnonce);
+        
+        /*J'initialise le formulaire à partir de la DAO annonce
+        (ce qui remplit automatiquement tous les champs du formulaire */
+        $form->initFromDao("Projet_ITI~annonce");
+        
+        /*J'envoie le formulaire à la vue*/
+        $rep->body->assign('FORMULAIREMODIFANNONCE',$form);
+        
+       return $rep;
+        
+    }
    
+    function saveModifAnnonce() {
+        
+
+    }
+    
+    function modifAnnoncePrix() {
+
+        $rep = $this->getResponse('html');
+        $rep->bodyTpl="modificationAnnoncePrix";
+        
+        /*je reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+        
+         /* Ajout du css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles.css');
+        
+        /*Je récupère l'id_annonce passée en paramètre*/
+        $paramIdVente=  $this->param('id_vente',1);
+        
+        /*Je créé un formulaire à partir de la structure modificationAnnonce.form.xml*/
+        $form= jForms::create("Projet_ITI~modificationAnnoncePrix",$paramIdVente);
+        
+        /*J'initialise le formulaire à partir de la DAO annonce
+        (ce qui remplit automatiquement tous les champs du formulaire */
+        $form->initFromDao("Projet_ITI~vente");
+        
+        /*J'envoie le formulaire à la vue*/
+        $rep->body->assign('FORMULAIREMODIFANNONCEPRIX',$form);
+        
+       return $rep;
+        
+    }
+    
+    function saveModifAnnoncePrix() {
+        
+
+    }
+    
+    
+    function rechercherDesAnnonces(){
+        $rep = $this->getResponse('html');
+        $rep->bodyTpl="accueilCompte";
+        
+        /*je reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+         /* Ajout du css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+
+        $valeurRecherche = $this->param('type');
+        echo "$valeurRecherche";
+        
+        
+        return $this->afficherAnnonceRecherchees();
+        
+        
+    }
+    
+    
+    
     function afficherAnnonce() {
         
         $rep = $this->getResponse('html');
@@ -449,9 +548,7 @@ $rep = $this->getResponse('html');
         $nbAnnonces=$annonceFactory->countAll();
         $rep->body->assign('NBANNONCES',$nbAnnonces);
         
-        
-        
-        
+
         /*J'envoie tous les ventes et annonces sur la vue*/
         $rep->body->assign('ALLVENTES',$listVentes);
         $rep->body->assign('ALLANNONCES',$listAnnonces);
@@ -460,6 +557,48 @@ $rep = $this->getResponse('html');
         return $rep;
         
     }
+    
+    function afficherAnnonceRecherchees() {
+        $rep = $this->getResponse('html'); 
+        $rep->bodyTpl="AfficherAnnonces";
+        $user = jAuth::getUserSession();    
+        
+         /*On reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        /*Ajout du script */    
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+        //Importation CSS jQuery
+        $rep->addCssLink('http://code.jquery.com/ui/1.8.24/themes/base/jquery-ui.css');
+        //Appel de jQuery depuis serveur Google
+        $rep->addJSLink('https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js');
+        //Appel de jQuery UI depuis serveur Google
+        $rep->addJSLink('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/jquery-ui.min.js');
+
+        $rep->body->assign('WELCOMEUSERCONNECTED', 'Bonjour '. $user->prenom . ' ' . $user->nom);
+        
+        /*Je charge la factory des ventes et annonces*/
+        $venteFactory =  jDao::get("vente"); 
+
+      
+        $valeurRecherche = $this->param('type');
+        echo "$valeurRecherche";
+        
+        //Je créé une condition pour ne garder que les annonces de l'utilisateur en session
+        $conditions = jDao::createConditions();
+        $conditions->addCondition('id_categorie','=',$valeurRecherche);
+        $listVentes = $venteFactory->findBy($conditions);
+
+        $rep->body->assign('ALLVENTES', $listVentes);
+ 
+        
+        
+        return $rep;
+        
+    }
+    
     function deposer() {
         $rep = $this->getResponse('html');
         

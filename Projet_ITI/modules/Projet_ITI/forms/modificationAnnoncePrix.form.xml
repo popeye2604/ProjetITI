@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form xmlns="http://jelix.org/ns/forms/1.1">
+    <hidden ref="id_vente"/>
+    
+<input ref="prix_vente">
+           <label>Prix en Euros</label>
+       </input>
+  
+  <submit ref="valider">
+    <label>Valider</label>
+  </submit>
+
+    <reset ref="reinit">
+            <label>Réinitialiser</label>
+    </reset>
+        
+</form>
+
+
+
+
+
+
+
