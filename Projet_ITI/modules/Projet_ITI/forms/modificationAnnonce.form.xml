@@ -10,10 +10,6 @@
     <textarea ref="description">
         <label>Saisissez ici la description de l'annonce</label>
     </textarea>
-     
-  <upload ref="photo" mimetype="image/jpeg;image/pjpeg;image/png" maxsize="5000000">
-    <label>Photo liée à l'annonce</label>
-  </upload>
       
   <radiobuttons ref="type_annonce">
       <label>Type d'annonce</label>

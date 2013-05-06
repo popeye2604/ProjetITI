@@ -12692,3 +12692,157 @@ array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'defaul
 	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
 
 
+2013-05-06 15:06:41	127.0.0.1	notice	2013-05-06 15:06:41	127.0.0.1	[8]	Undefined variable: 	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	502
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?Lid_annonce=1
+array (   'Lid_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:11:47	127.0.0.1	error	2013-05-06 15:11:47	127.0.0.1	[403]	invalid query (Cannot delete or update a parent row: a foreign key constraint fails (`projetiti`.`vente`, CONSTRAINT `vente_ibfk_3` FOREIGN KEY (`id_annonce`) REFERENCES `annonce` (`id_annonce`))(DELETE FROM `annonce`  where  `id_annonce` = 3))	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=3
+array (   'id_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 240
+	2	jDaoFactoryBase->delete()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 503
+	3	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:12:21	127.0.0.1	error	2013-05-06 15:12:21	127.0.0.1	[403]	invalid query (Cannot delete or update a parent row: a foreign key constraint fails (`projetiti`.`vente`, CONSTRAINT `vente_ibfk_3` FOREIGN KEY (`id_annonce`) REFERENCES `annonce` (`id_annonce`))(DELETE FROM `annonce`  where  `id_annonce` = 3))	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=3
+array (   'id_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 240
+	2	jDaoFactoryBase->delete()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 503
+	3	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:20:02	127.0.0.1	error	2013-05-06 15:20:02	127.0.0.1	[403]	invalid query (Cannot delete or update a parent row: a foreign key constraint fails (`projetiti`.`vente`, CONSTRAINT `vente_ibfk_3` FOREIGN KEY (`id_annonce`) REFERENCES `annonce` (`id_annonce`))(DELETE FROM `annonce`  where  `id_annonce` = 1))	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 240
+	2	jDaoFactoryBase->delete()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 513
+	3	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:33:32	127.0.0.1	notice	2013-05-06 15:33:32	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 297
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->_getPkWhereClauseForNonSelect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 235
+	3	jDaoFactoryBase->delete()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 506
+	4	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:33:33	127.0.0.1	error	2013-05-06 15:33:33	127.0.0.1	[403]	invalid query (Cannot delete or update a parent row: a foreign key constraint fails (`projetiti`.`vente`, CONSTRAINT `vente_ibfk_3` FOREIGN KEY (`id_annonce`) REFERENCES `annonce` (`id_annonce`))(DELETE FROM `annonce`  where  `id_annonce` = 1))	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 240
+	2	jDaoFactoryBase->delete()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 510
+	3	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:35:22	127.0.0.1	notice	2013-05-06 15:35:22	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_annonce_Jx_mysql::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	497
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:35:22	127.0.0.1	error	2013-05-06 15:35:22	127.0.0.1	[504]	 unknown property (1) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 506
+	3	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:35:33	127.0.0.1	notice	2013-05-06 15:35:33	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_annonce_Jx_mysql::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	497
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?Lid_annonce=3
+array (   'Lid_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:35:33	127.0.0.1	error	2013-05-06 15:35:33	127.0.0.1	[504]	 unknown property (%s) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?Lid_annonce=3
+array (   'Lid_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 506
+	3	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:35:40	127.0.0.1	notice	2013-05-06 15:35:40	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_annonce_Jx_mysql::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	497
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=3
+array (   'id_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:35:40	127.0.0.1	error	2013-05-06 15:35:40	127.0.0.1	[504]	 unknown property (3) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=3
+array (   'id_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 506
+	3	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:42:49	127.0.0.1	error	2013-05-06 15:42:49	127.0.0.1	[403]	invalid query (Cannot delete or update a parent row: a foreign key constraint fails (`projetiti`.`vente`, CONSTRAINT `vente_ibfk_3` FOREIGN KEY (`id_annonce`) REFERENCES `annonce` (`id_annonce`))(DELETE FROM `annonce`  where  `id_annonce` = 3))	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=3
+array (   'id_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 240
+	2	jDaoFactoryBase->delete()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 502
+	3	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 15:56:03	127.0.0.1	error	2013-05-06 15:56:03	127.0.0.1	[403]	invalid query (Cannot delete or update a parent row: a foreign key constraint fails (`projetiti`.`vente`, CONSTRAINT `vente_ibfk_3` FOREIGN KEY (`id_annonce`) REFERENCES `annonce` (`id_annonce`))(DELETE FROM `annonce`  where  `id_annonce` = 3))	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=3
+array (   'id_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 240
+	2	jDaoFactoryBase->delete()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 500
+	3	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 16:12:09	127.0.0.1	error	2013-05-06 16:12:09	127.0.0.1	[403]	invalid query (Cannot delete or update a parent row: a foreign key constraint fails (`projetiti`.`vente`, CONSTRAINT `vente_ibfk_3` FOREIGN KEY (`id_annonce`) REFERENCES `annonce` (`id_annonce`))(DELETE FROM `annonce`  where  `id_annonce` = 3))	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/deleteAnnonce?id_annonce=3
+array (   'id_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'default:deleteAnnonce', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 240
+	2	jDaoFactoryBase->delete()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 501
+	3	defaultCtrl->deleteAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+

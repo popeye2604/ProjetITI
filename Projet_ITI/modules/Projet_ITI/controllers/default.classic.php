@@ -395,7 +395,33 @@ $rep = $this->getResponse('html');
     }
    
     function saveModifAnnonce() {
+        $rep = $this->getResponse('html');
+        $rep->bodyTpl="accueilCompte";
         
+        /*Je créé un formulaire sur la base de ce qu'a renvoyé l'internaute*/
+        $form =  jForms::fill("Projet_ITI~modificationAnnonce", $this->param('id_annonce'));
+        
+        /*Je remplit l'objet formulaire avec les informations saisies par l'internaute*/
+        $form->initFromRequest();
+        
+        /*On control si le formulaire respecte les contraintes*/
+        
+        if ($form->check())
+        {
+            /*On indique qu'on va vouloir créer une dao à partir du formulaire*/
+            $result=$form->prepareDaoFromControls('Projet_ITI~annonce');
+            
+            /*On récupère la factory de la ligne modifiée*/
+            $annonceFactory=$result['dao'];
+            
+            /*On récupère la ligne issue du formulaire*/
+            $courantAnnonce=$result['daorec'];
+            
+            /*On met à jour la ligne récupérée dans le formulaire*/
+            $annonceFactory->update($courantAnnonce);
+        }
+        
+        return $this->accueilCompte();
 
     }
     
@@ -430,9 +456,58 @@ $rep = $this->getResponse('html');
     
     function saveModifAnnoncePrix() {
         
-
+$rep = $this->getResponse('html');
+        $rep->bodyTpl="accueilCompte";
+        
+        /*Je créé un formulaire sur la base de ce qu'a renvoyé l'internaute*/
+        $form =  jForms::fill("Projet_ITI~modificationAnnoncePrix", $this->param('id_vente'));
+        
+        /*Je remplit l'objet formulaire avec les informations saisies par l'internaute*/
+        $form->initFromRequest();
+        
+        /*On control si le formulaire respecte les contraintes*/
+        
+        if ($form->check())
+        {
+            /*On indique qu'on va vouloir créer une dao à partir du formulaire*/
+            $result=$form->prepareDaoFromControls('Projet_ITI~vente');
+            
+            /*On récupère la factory de la ligne modifiée*/
+            $venteFactory=$result['dao'];
+            
+            /*On récupère la ligne issue du formulaire*/
+            $courantVente=$result['daorec'];
+            
+            /*On met à jour la ligne récupérée dans le formulaire*/
+            $venteFactory->update($courantVente);
+        }
+        
+        return $this->accueilCompte();
     }
     
+    
+    function deleteAnnonce() {
+        $rep = $this->getResponse('html');
+        $rep->bodyTpl="afficherAnnonce";
+
+        
+        //je passe l'ID de ligne  en paramètres
+        $paramIdAnnonce=$this->param('id_annonce');
+        /*Je charge la factory des annonces et ventes*/
+        $annonceFactory =  jDao::get("annonce");
+
+        // Je supprime la ligne correspondant à l'ID séléctionné
+        $annonceFactory->delete($paramIdAnnonce);
+        
+
+         /*Ajout du script */
+        
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+        
+         return $this->accueilCompte();  
+        
+        
+    }
     
     function rechercherDesAnnonces(){
         $rep = $this->getResponse('html');

@@ -42,11 +42,16 @@
                                {$COURANTPRIXANNONCE->prix_vente} €
                       {/foreach}
             </li>
-                
+                <br><br>
             <a href="{jurl 'Projet_ITI~modifAnnonce@classic',array('id_annonce'=>$COURANTANNONCE->id_annonce) }">  >> Modifier les informations << </a>
-        <br>
+        <br><br>
             <a href="{jurl 'Projet_ITI~modifAnnoncePrix@classic',array('id_vente'=>$COURANTPRIXANNONCE->id_vente) }">  >> Modifier le prix << </a>
             {/foreach}
+                
+                <br><br>
+                <a class="suppr" id="liensuppr" href="{jurl 'Projet_ITI~deleteAnnonce@classic', array('id_annonce'=>$COURANTANNONCE->id_annonce) }" onclick="return confirmerDeleteAnnonce()">
+                      >> Supprimer <<
+                       </a>
 
             
             
