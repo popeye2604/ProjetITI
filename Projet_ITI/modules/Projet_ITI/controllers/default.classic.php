@@ -695,10 +695,115 @@ $rep = $this->getResponse('html');
         //Création du formulaire à partir du .xml
         $DeposerAnnonceForm = jForms::create("Projet_ITI~deposer_annonce");
         
+        
         $rep->body->assign('DEPOSER_ANNONCEFORM', $DeposerAnnonceForm);
         
         
         return $rep;
         
     }
+    
+    function saveAnnonce(){
+   
+    $rep = $this->getResponse('html');
+    $rep->bodyTpl="deposer_annonce";
+    /*On reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+         
+
+   
+   
+    $annonceForm = jForms::get("Projet_ITI~deposer_annonce");
+    $annonceForm ->initFromRequest();
+    
+    
+    if($annonceForm->check()){
+        
+        $result = $annonceForm->prepareDaoFromControls('Projet_ITI~annonce');
+        $annonceFactory = $result['dao'];
+        $courantAnnonce = $result['daorec'];
+
+        
+//on a créer la nouvelle annonce dans annonce
+        $annonceFactory->insert($courantAnnonce);
+        
+        
+        //on récupère l'id annonce créée
+
+    
+   
+        
+        
+        
+        
+     return $this->saveVente();   
+    }
+    else{
+        
+        return $this->deposer();
+        echo "error";
+    
+    }
+}
+
+function saveVente(){
+    $rep = $this->getResponse('html');
+    $rep->bodyTpl="deposer_annonce";
+    /*On reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+        
+    $user = jAuth::getUserSession();
+    
+    //on récupère l'id annonce créée
+       
+        $annonceFactory =  jDao::get("annonce"); 
+        $conditions = jDao::createConditions();
+        
+        $conditions->addItemOrder('id_annonce','desc');
+        $annonce_recup = $annonceFactory->findBy($conditions, 1, 1);
+        
+         foreach ($annonce_recup as $row) {
+
+            echo $row->id_annonce;
+}   
+        
+        
+       //on récupère l'id utilisateur créateur de l'annonce
+         $idUserQuiDepose=$user->id_utilisateur;
+         echo "$idUserQuiDepose;";
+         //on récupère l'id catégorie choisit par l'utilisateur
+        $idCategorieRecup = $this->param('choixCategorie');
+        echo $idCategorieRecup;
+        
+        $venteForm = jForms::get("Projet_ITI~deposer_annonce");
+        $venteForm ->initFromRequest();
+        
+        $result = $venteForm->prepareDaoFromControls('Projet_ITI~vente');
+        $venteFactory = $result['dao'];
+        $courantVente = $result['daorec'];
+
+        
+//on a créer la nouvelle annonce dans annonce
+        $venteFactory->insert($courantVente);       
+               
+        
+        $conditions2 = jDao::createConditions();
+        $conditions2->addCondition('id_utilisateur','=',$idUserQuiDepose);
+        $conditions2->addCondition('id_categorie','=',$idCategorieRecup);
+        $conditions2->addCondition('id_annonce','=',$annonce_recup);
+
+
+    if ($conditions2){
+       
+    
+    if($venteForm->check()){
+        
+        
+        
+        return $this->accueilCompte(); 
+    }
+    }
+}
 }

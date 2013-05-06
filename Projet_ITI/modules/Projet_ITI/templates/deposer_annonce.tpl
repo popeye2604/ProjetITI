@@ -31,12 +31,14 @@
         <nav id="navContacts">
         Contacts
         </nav>
-  
+  <form action="{formurl 'Projet_ITI~saveAnnonce@classic'}" method="POST">
         <div id="blockPrincipal">
         Déposer Annonce
         {formfull $DEPOSER_ANNONCEFORM, 'Projet_ITI~deposer@classic'}  
-        </div>
+       
         
+        
+        </div>
         <nav id="navMarge">
         (Marge)
         </nav>

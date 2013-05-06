@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://jelix.org/ns/forms/1.1">
     
-    <input ref="nom">
-        <label>Nom de famille</label>
-        <alert type="required" > Le nom est obligatoire </alert>
-    </input>
+    <hidden ref="id_utilisateur"/>
+    <hidden ref="id_annonce"/>
     
-    <input ref="prenom">
-        <label>Prénom </label>
-        <alert type="required" > Le prénom est obligatoire </alert>
-    </input>
     
-    <input ref="login" type="email">
+    <input ref="login" type="email" required="true">
          <label>email</label>
     </input>
     
-    <input ref="numtel">
-        <label>Numéro de téléphone</label>
-    </input>
     
     <textarea ref="titre">
         <label>Saisissez ici le titre de l'annonce</label>
@@ -36,22 +27,49 @@
            <label>Prix en Euros</label>
        </input>
        
-       <menulist ref="type">
+
+<menulist ref="type">
       <label>Choisissez la catégorie</label>
-      <item value="Immobilier">Immobilier</item>
-      <item value="Informatique">Informatique</item>
-      <item value="Vehicules">Véhicules</item>
-      <item value="Livres">Livres</item>
+
+        <item value="0" selected="true">Toutes catégories</item>
+        <item class="titreRechercheCategorie" value="1" >-- VEHICULES --</item>
+        <item value="6">Voitures</item>
+        <item value="7">Motos</item>
+        <item value="8">Equipements auto</item>
+        <item value="9">Equipements moto</item>
+        
+        <item class="titreRechercheCategorie" value="2">-- IMMOBILIERS --</item>
+        <item value="10">Ventes</item>
+        <item value="11">Locations</item>
+        <item value="12">Colocations</item>
+        
+        <item class="titreRechercheCategorie" value="3">-- MULTIMEDIA --</item>
+        <item value="13">Informatique</item>
+        <item value="14">Jeux videos</item>
+        <item value="15">Image et son</item>
+        <item value="16">Téléphonie</item>
+        
+        <item class="titreRechercheCategorie" value="4">-- MAISON --</item>
+        <item value="17">Ameublement</item>
+        <item value="18">Electroménager</item>
+        
+        <item class="titreRechercheCategorie" value="5">-- SERVICES --</item>
+        <item value="19">Stages</item>
+        <item value="20">Services</item>
+        <item value="21">Billeterie</item>
+        
+       
   </menulist>
+       
   
-  <radiobuttons ref="type_annonce">
+  <radiobuttons ref="type_annonce" required="true">
       <label>Type d'annonce</label>
       <item value="Offre">Offre</item>
       <item value="Demande">Demande</item>
   </radiobuttons>
   
   <submit ref="valider">
-    <label>Valider</label>
+    <label>Veuillez valider</label>
     <item value="svg">Sauvegarder</item>
   </submit>
        
