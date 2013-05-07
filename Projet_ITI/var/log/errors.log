@@ -13865,3 +13865,23 @@ array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_u
 	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
 
 
+2013-05-07 20:48:01	127.0.0.1	notice	2013-05-07 20:48:01	127.0.0.1	[8]	Undefined index: RECHERCHERANNONCES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\deposer_annonce_html_t.php	33
+	/Projet_ITI/www/index.php/Projet_ITI/default/deposer
+array (   'module' => 'Projet_ITI',   'action' => 'default:deposer', )
+
+	0	template_f743343f6be4e4f4c6fa96564ee3989f()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 20:48:11	127.0.0.1	notice	2013-05-07 20:48:11	127.0.0.1	[8]	Undefined index: RECHERCHERANNONCES	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\AfficherAnnonces_html_t.php	31
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherToutesLesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:afficherToutesLesAnnonces', )
+
+	0	template_49dcb02207c226ea7c0a9641618442f7()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+

@@ -229,8 +229,6 @@ $rep = $this->getResponse('html');
         $rep->body->assign('USERCONNECTED', $idUserConnected);
         
         //bloc de recherches
-        //
-        //
         //Création du formulaire à partir du .xml
         $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
         $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
@@ -256,8 +254,6 @@ $rep = $this->getResponse('html');
         /*On ajoute le script */
         $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
         
-        
-       
         $user = jAuth::getUserSession();
        /*Je récupère l'utilisateur passé en paramètre*/
         $paramUserId= $user->id_utilisateur;
@@ -271,6 +267,11 @@ $rep = $this->getResponse('html');
         
         /*J'envoie le formulaire à la vue*/
         $rep->body->assign('FORMULAIREMODIFUTILISATEUR',$form);
+        
+        //bloc de recherches
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
         
        return $rep;
            
@@ -336,6 +337,11 @@ $rep = $this->getResponse('html');
         /*J'envoie le formulaire à la vue*/
         $rep->body->assign('FORMULAIREMODIFPASSWORD',$form);
         
+        //bloc de recherches
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
+        
         return $rep;
            
        
@@ -389,6 +395,11 @@ $rep = $this->getResponse('html');
         
         /*J'envoie le formulaire à la vue*/
         $rep->body->assign('FORMULAIREMODIFANNONCE',$form);
+        
+        //bloc de recherches
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
         
        return $rep;
         
@@ -450,6 +461,11 @@ $rep = $this->getResponse('html');
         /*J'envoie le formulaire à la vue*/
         $rep->body->assign('FORMULAIREMODIFANNONCEPRIX',$form);
         
+        //bloc de recherches
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
+        
        return $rep;
         
     }
@@ -504,6 +520,11 @@ $rep = $this->getResponse('html');
         
         $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
         
+        //bloc de recherches
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
+        
          return $this->accueilCompte();  
         
         
@@ -522,6 +543,10 @@ $rep = $this->getResponse('html');
         $valeurRecherche = $this->param('type');
         echo "$valeurRecherche";
         
+        //bloc de recherches
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
         
         return $this->afficherAnnonceRecherchees();
         
@@ -576,7 +601,10 @@ $rep = $this->getResponse('html');
         $rep->body->assign('ALLVENTES', $listVentes);        
         $rep->body->assign('USERCONNECTED', $idUserConnected);
 
-        
+        //bloc de recherches
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
         
         
        return $rep;
@@ -628,6 +656,10 @@ $rep = $this->getResponse('html');
         $rep->body->assign('ALLVENTES',$listVentes);
         $rep->body->assign('ALLANNONCES',$listAnnonces);
         
+        //bloc de recherches
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
         
         return $rep;
         
@@ -668,7 +700,10 @@ $rep = $this->getResponse('html');
 
         $rep->body->assign('ALLVENTES', $listVentes);
  
-        
+        //bloc de recherches
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
         
         return $rep;
         
@@ -694,9 +729,12 @@ $rep = $this->getResponse('html');
         
         //Création du formulaire à partir du .xml
         $DeposerAnnonceForm = jForms::create("Projet_ITI~deposer_annonce");
-        
-        
         $rep->body->assign('DEPOSER_ANNONCEFORM', $DeposerAnnonceForm);
+        
+        //bloc de recherches
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
         
         
         return $rep;

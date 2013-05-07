@@ -20,7 +20,8 @@
         </div>
         
     </div>
-        <div id="blockRecherche">Block avec critères de recherches
+        <div id="blockRecherche">
+            {formfull $RECHERCHERANNONCES, 'Projet_ITI~rechercherDesAnnonces@classic'}
     </div>
     
     <div class="blockcontent">
