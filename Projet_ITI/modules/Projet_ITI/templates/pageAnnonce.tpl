@@ -1,5 +1,6 @@
 <body>
     <header >
+        {$WELCOMEUSERCONNECTED}
         <a id ="lienLogout" href="{jurl 'Projet_ITI~deconnexion@classic'}"> Me déconnecter</a>
     </header>
     

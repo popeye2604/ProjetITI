@@ -32,9 +32,9 @@
         </nav>
   
         <div id="content">
-            
-            <div id="Pagination" class="pagination">
-            </div>
+            <h1 id="titreListeAnnonce" class="apptitle">
+            Annonces recherchées
+            </h1>
             
             
             {foreach $ALLVENTES as $COURANTVENTES} 

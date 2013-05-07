@@ -13885,3 +13885,231 @@ array (   'module' => 'Projet_ITI',   'action' => 'default:afficherToutesLesAnno
 	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
 
 
+2013-05-07 21:12:32	127.0.0.1	notice	2013-05-07 21:12:32	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnonce_html_t.php	11
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	template_b340c415bb2079bf3cd7d205dccf4ebb()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:13:33	127.0.0.1	notice	2013-05-07 21:13:33	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnonce_html_t.php	11
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	template_b340c415bb2079bf3cd7d205dccf4ebb()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:16:09	127.0.0.1	notice	2013-05-07 21:16:09	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnonce_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	template_b340c415bb2079bf3cd7d205dccf4ebb()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:16:58	127.0.0.1	notice	2013-05-07 21:16:58	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnonce_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	template_b340c415bb2079bf3cd7d205dccf4ebb()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:17:02	127.0.0.1	notice	2013-05-07 21:17:02	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnonce_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	template_b340c415bb2079bf3cd7d205dccf4ebb()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:19:23	127.0.0.1	error	2013-05-07 21:19:23	127.0.0.1	[801]	 unknown tag fieldset  (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/modificationAnnonce.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php	69
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	jFormsCompiler_jf_1_0->_generatePHPControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 51
+	1	jFormsCompiler_jf_1_0->generatePHPControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 39
+	2	jFormsCompiler_jf_1_0->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 58
+	3	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	4	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	5	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 397
+	6	defaultCtrl->modifAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	7	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:21:06	127.0.0.1	error	2013-05-07 21:21:06	127.0.0.1	[801]	 unknown tag fieldset  (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/modificationAnnonce.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php	69
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	jFormsCompiler_jf_1_0->_generatePHPControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 51
+	1	jFormsCompiler_jf_1_0->generatePHPControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 39
+	2	jFormsCompiler_jf_1_0->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 58
+	3	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	4	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	5	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 397
+	6	defaultCtrl->modifAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	7	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:28:45	127.0.0.1	notice	2013-05-07 21:28:45	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnonce_html_t.php	13
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	template_b340c415bb2079bf3cd7d205dccf4ebb()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:38:02	127.0.0.1	notice	2013-05-07 21:38:02	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnonce_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	template_b340c415bb2079bf3cd7d205dccf4ebb()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:39:08	127.0.0.1	notice	2013-05-07 21:39:08	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnoncePrix_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnoncePrix?id_vente=5
+array (   'id_vente' => '5',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnoncePrix', )
+
+	0	template_b163fdb41db383939fb1e59b22d74303()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:42:16	127.0.0.1	notice	2013-05-07 21:42:16	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnoncePrix_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnoncePrix?id_vente=5
+array (   'id_vente' => '5',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnoncePrix', )
+
+	0	template_b163fdb41db383939fb1e59b22d74303()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:44:02	127.0.0.1	notice	2013-05-07 21:44:02	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationCompte_html_t.php	15
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:modifCompte', )
+
+	0	template_a5d8bc705c5877c94fb6ce168d7ce5c8()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:44:25	127.0.0.1	notice	2013-05-07 21:44:25	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationCompte_html_t.php	15
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:modifCompte', )
+
+	0	template_a5d8bc705c5877c94fb6ce168d7ce5c8()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:44:33	127.0.0.1	notice	2013-05-07 21:44:33	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnonce_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	template_b340c415bb2079bf3cd7d205dccf4ebb()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:44:39	127.0.0.1	notice	2013-05-07 21:44:39	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnoncePrix_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnoncePrix?id_vente=5
+array (   'id_vente' => '5',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnoncePrix', )
+
+	0	template_b163fdb41db383939fb1e59b22d74303()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:45:08	127.0.0.1	notice	2013-05-07 21:45:08	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnonce_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnonce', )
+
+	0	template_b340c415bb2079bf3cd7d205dccf4ebb()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:45:10	127.0.0.1	notice	2013-05-07 21:45:10	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationAnnoncePrix_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifAnnoncePrix?id_vente=5
+array (   'id_vente' => '5',   'module' => 'Projet_ITI',   'action' => 'default:modifAnnoncePrix', )
+
+	0	template_b163fdb41db383939fb1e59b22d74303()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:46:18	127.0.0.1	notice	2013-05-07 21:46:18	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationPassword_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifMdp
+array (   'module' => 'Projet_ITI',   'action' => 'default:modifMdp', )
+
+	0	template_865a42e39131ff73cefc61cfbd2f8860()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:48:43	127.0.0.1	notice	2013-05-07 21:48:43	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationCompte_html_t.php	15
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:modifCompte', )
+
+	0	template_a5d8bc705c5877c94fb6ce168d7ce5c8()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 21:50:44	127.0.0.1	notice	2013-05-07 21:50:44	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationCompte_html_t.php	15
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:modifCompte', )
+
+	0	template_a5d8bc705c5877c94fb6ce168d7ce5c8()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 22:06:03	127.0.0.1	notice	2013-05-07 22:06:03	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationCompte_html_t.php	15
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifCompte
+array (   'module' => 'Projet_ITI',   'action' => 'default:modifCompte', )
+
+	0	template_a5d8bc705c5877c94fb6ce168d7ce5c8()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 22:06:07	127.0.0.1	notice	2013-05-07 22:06:07	127.0.0.1	[8]	Undefined index: WELCOMEUSERCONNECTED	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\modificationPassword_html_t.php	12
+	/Projet_ITI/www/index.php/Projet_ITI/default/modifMdp
+array (   'module' => 'Projet_ITI',   'action' => 'default:modifMdp', )
+
+	0	template_865a42e39131ff73cefc61cfbd2f8860()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+

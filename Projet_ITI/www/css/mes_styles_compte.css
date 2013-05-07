@@ -85,17 +85,6 @@ header{
 
         }
         
-        
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
 
 #blockPage{  
         border-width: 3px;
@@ -129,37 +118,43 @@ header{
         left:20%;}
         
                 #content{    
-        border-width: 3px;
-        border-style: solid;
+                border-width: 3px;
+                border-style: solid;
 
-        position: absolute;
-        width: 65%;
-        height:80%;
-        left:20%;}
+                position: absolute;
+                width: 65%;
+                height:80%;
+                left:20%;}
         
-        #blockAllAnnonces{
-        border-width: 3px;
-        border-style: solid;
+                #blockAllAnnonces{
+                border-width: 3px;
+                border-style: solid;
 
-        position: relative;
-        width: 90%;
-        height:30%;
-        left:5%;
+                position: relative;
+                width: 90%;
+                height:30%;
+                left:5%;
             
         }
         
-        #annonceDescPrix{
+                #annonceDescPrix{
             
-        border-width: 1px;
-        border-style: solid;
+                border-width: 1px;
+                border-style: solid;
 
-        position: relative;
-        width: 70%;
-        height:60%;
-        left:25%;
-        bottom: 30%;
+                position: relative;
+                width: 70%;
+                height:60%;
+                left:25%;
+                bottom: 30%;
         }
-
+#titreAccueilMonCompte, #titreListeAnnonce, #titreDeposerAnnonce,
+#titreFormModifAnnonce, #titreFormModifUtilisateur, #titreFormModifPassword{
+    
+    text-align: center;
+    
+}
+        
         #navMarge{   
         border-width: 3px;
         border-style: solid;

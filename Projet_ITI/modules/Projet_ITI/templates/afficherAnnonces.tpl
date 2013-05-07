@@ -33,8 +33,9 @@
   
         <div id="content">
             
-            <div id="Pagination" class="pagination">
-            </div>
+            <h1 id="titreListeAnnonce" class="apptitle">
+            Liste des annonces 
+            </h1>
             
             
             {foreach $ALLVENTES as $COURANTVENTES} 

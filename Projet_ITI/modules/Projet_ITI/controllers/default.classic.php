@@ -63,7 +63,7 @@ class defaultCtrl extends jController {
 
             
             if (jAuth::isConnected()) {
-            echo "Connexion réussie";
+            
             return $this->accueilCompte();
             }
             
@@ -206,7 +206,7 @@ $rep = $this->getResponse('html');
         /*On ajoute le script */
         $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
         
-        $rep->body->assign('WELCOMEUSERCONNECTED', 'Bonjour '. $user->prenom . ' ' . $user->nom);
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
         $rep->body->assign('NOMUSERCONNECTED',$user->nom);
         $rep->body->assign('PRENOMUSERCONNECTED',$user->prenom);
         $rep->body->assign('DATEUSERCONNECTED',$user->date_naissance);
@@ -249,12 +249,15 @@ $rep = $this->getResponse('html');
         $rep->addCssLink($chemin. 'jelix.css');
         
         /* On ajoute le css */
-        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_accueil.css');
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
         
         /*On ajoute le script */
         $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
         
+        
         $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
+        
        /*Je récupère l'utilisateur passé en paramètre*/
         $paramUserId= $user->id_utilisateur;
         
@@ -282,6 +285,19 @@ $rep = $this->getResponse('html');
         
         $rep = $this->getResponse('html'); 
         $rep->bodyTpl="accueilCompte";
+        
+        /*On reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+        
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+        
+        $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
         
         /*Je créé un formulaire sur la base de ce qu'a renvoyé l'internaute*/
         $form =  jForms::fill("Projet_ITI~modificationCompte", $this->param('id_utilisateur'));
@@ -316,14 +332,14 @@ $rep = $this->getResponse('html');
         $rep->addCssLink($chemin. 'jelix.css');
         
         /* On ajoute le css */
-        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_accueil.css');
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
         
         /*On ajoute le script */
         $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
-        
-        
+               
         
         $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
        /*Je récupère l'utilisateur passé en paramètre*/
         $paramUserId= $user->id_utilisateur;
         
@@ -351,8 +367,20 @@ $rep = $this->getResponse('html');
         $rep = $this->getResponse('html'); 
         $rep->bodyTpl="accueilCompte";
         
+        /*On reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+        
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+        
         /*Je récupère l'utilisateur passé en paramètre*/
+        
         $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
         $paramUserId= $user->id_utilisateur;
         
         /*Je créé un formulaire sur la base de ce qu'a renvoyé l'internaute*/
@@ -376,12 +404,18 @@ $rep = $this->getResponse('html');
         $rep = $this->getResponse('html');
         $rep->bodyTpl="modificationAnnonce";
         
-        /*je reprend le thème CSS de jelix */
+        /*On reprend le thème CSS de jelix */
         $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
         $rep->addCssLink($chemin. 'jelix.css');
         
-         /* Ajout du css */
-        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles.css');
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+        
+        $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
         
         /*Je récupère l'id_annonce passée en paramètre*/
         $paramIdAnnonce=  $this->param('id_annonce',1);
@@ -408,6 +442,19 @@ $rep = $this->getResponse('html');
     function saveModifAnnonce() {
         $rep = $this->getResponse('html');
         $rep->bodyTpl="accueilCompte";
+        
+        /*On reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+        
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+       
+        $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED',$user->prenom . ' ' . $user->nom);
         
         /*Je créé un formulaire sur la base de ce qu'a renvoyé l'internaute*/
         $form =  jForms::fill("Projet_ITI~modificationAnnonce", $this->param('id_annonce'));
@@ -441,12 +488,18 @@ $rep = $this->getResponse('html');
         $rep = $this->getResponse('html');
         $rep->bodyTpl="modificationAnnoncePrix";
         
-        /*je reprend le thème CSS de jelix */
+        /*On reprend le thème CSS de jelix */
         $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
         $rep->addCssLink($chemin. 'jelix.css');
         
-         /* Ajout du css */
-        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles.css');
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+        
+        $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED',$user->prenom . ' ' . $user->nom);
         
         /*Je récupère l'id_annonce passée en paramètre*/
         $paramIdVente=  $this->param('id_vente',1);
@@ -472,8 +525,21 @@ $rep = $this->getResponse('html');
     
     function saveModifAnnoncePrix() {
         
-$rep = $this->getResponse('html');
+        $rep = $this->getResponse('html');
         $rep->bodyTpl="accueilCompte";
+        
+        /*On reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+        
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+        
+        $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
         
         /*Je créé un formulaire sur la base de ce qu'a renvoyé l'internaute*/
         $form =  jForms::fill("Projet_ITI~modificationAnnoncePrix", $this->param('id_vente'));
@@ -506,6 +572,19 @@ $rep = $this->getResponse('html');
         $rep = $this->getResponse('html');
         $rep->bodyTpl="afficherAnnonce";
 
+        /*On reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+        
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+        
+        $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
+        
         
         //je passe l'ID de ligne  en paramètres
         $paramIdAnnonce=$this->param('id_annonce');
@@ -534,14 +613,21 @@ $rep = $this->getResponse('html');
         $rep = $this->getResponse('html');
         $rep->bodyTpl="accueilCompte";
         
-        /*je reprend le thème CSS de jelix */
+        /*On reprend le thème CSS de jelix */
         $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
         $rep->addCssLink($chemin. 'jelix.css');
-         /* Ajout du css */
+        
+        /* On ajoute le css */
         $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
 
+        $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
+        
         $valeurRecherche = $this->param('type');
-        echo "$valeurRecherche";
+        
         
         //bloc de recherches
         //Création du formulaire à partir du .xml
@@ -560,11 +646,15 @@ $rep = $this->getResponse('html');
         $rep = $this->getResponse('html');
         $rep->bodyTpl="pageAnnonce";
         
-        /*je reprend le thème CSS de jelix */
+        /*On reprend le thème CSS de jelix */
         $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
         $rep->addCssLink($chemin. 'jelix.css');
-         /* Ajout du css */
+        
+        /* On ajoute le css */
         $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
         
         
         /*Je charge la factory des ventes*/
@@ -607,6 +697,8 @@ $rep = $this->getResponse('html');
         $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
         
         
+        $rep->body->assign('WELCOMEUSERCONNECTED',$user->prenom . ' ' . $user->nom);
+        
        return $rep;
     }
     function afficherToutesLesAnnonces() {
@@ -620,11 +712,16 @@ $rep = $this->getResponse('html');
         
         /* On ajoute le css */
         $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
-
         
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');/*On reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
         
-        /*Ajout du script */
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
         
+        /*On ajoute le script */
         $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
         
         
@@ -638,7 +735,7 @@ $rep = $this->getResponse('html');
         $rep->addJSLink('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/jquery-ui.min.js');
         
         
-        $rep->body->assign('WELCOMEUSERCONNECTED', 'Bonjour '. $user->prenom . ' ' . $user->nom);
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
         
         /*Je charge la factory des ventes et annonces*/
         $venteFactory =  jDao::get("vente"); 
@@ -684,14 +781,14 @@ $rep = $this->getResponse('html');
         //Appel de jQuery UI depuis serveur Google
         $rep->addJSLink('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/jquery-ui.min.js');
 
-        $rep->body->assign('WELCOMEUSERCONNECTED', 'Bonjour '. $user->prenom . ' ' . $user->nom);
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
         
         /*Je charge la factory des ventes et annonces*/
         $venteFactory =  jDao::get("vente"); 
 
       
         $valeurRecherche = $this->param('type');
-        echo "$valeurRecherche";
+        
         
         //Je créé une condition pour ne garder que les annonces de l'utilisateur en session
         $conditions = jDao::createConditions();
@@ -714,7 +811,7 @@ $rep = $this->getResponse('html');
         
         $rep->bodyTpl="deposer_annonce";
         $user = jAuth::getUserSession();
-        $rep->body->assign('WELCOMEUSERCONNECTED', 'Bonjour '. $user->prenom . ' ' . $user->nom);
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
         
         /*On reprend le thème CSS de jelix */
         $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
@@ -726,6 +823,8 @@ $rep = $this->getResponse('html');
         /*On ajoute le script */
         $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
         
+        
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
         
         //Création du formulaire à partir du .xml
         $DeposerAnnonceForm = jForms::create("Projet_ITI~deposer_annonce");
@@ -748,12 +847,18 @@ $rep = $this->getResponse('html');
     /*On reprend le thème CSS de jelix */
         $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
         $rep->addCssLink($chemin. 'jelix.css');
-         
+        
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
 
-   
-   
-    $annonceForm = jForms::get("Projet_ITI~deposer_annonce");
-    $annonceForm ->initFromRequest();
+        $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
+        
+        $annonceForm = jForms::get("Projet_ITI~deposer_annonce");
+        $annonceForm ->initFromRequest();
     
     
     if($annonceForm->check()){
@@ -766,16 +871,16 @@ $rep = $this->getResponse('html');
         $annonceForm->saveFile('photo', jApp::wwwPath('images/photos/'));
         $annonceForm->saveAllFiles();
         
-        
-//on a créer la nouvelle annonce dans annonce
+        //on a créer la nouvelle annonce dans annonce
         $annonceFactory->insert($courantAnnonce);
 
-     return $this->saveVente();   
+        return $this->saveVente();   
     }
+    
     else{
         
         return $this->deposer();
-        echo "error";
+        
     
     }
 }
@@ -787,7 +892,14 @@ function saveVente(){
         $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
         $rep->addCssLink($chemin. 'jelix.css');
         
-    $user = jAuth::getUserSession();
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+        
+        $user = jAuth::getUserSession();
+        $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
     
     //on récupère l'id annonce créée
         
@@ -803,11 +915,11 @@ function saveVente(){
         
         //on récupère l'id utilisateur créateur de l'annonce
          $idUserQuiDepose=$user->id_utilisateur;
-         echo "$idUserQuiDepose;";
+         
          
          //on récupère l'id catégorie choisit par l'utilisateur
         $idCategorieRecup = $this->param('type');
-        echo "$idCategorieRecup;";
+        
         
         //on récupère l'id annonce créée en dernier
         $annonceFactory =  jDao::get("annonce");

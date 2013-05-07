@@ -1,5 +1,5 @@
 
-         <body>
+<body>
     <header >
         {$WELCOMEUSERCONNECTED}
         <a id ="lienLogout" href="{jurl 'Projet_ITI~deconnexion@classic'}"> Me déconnecter</a>
@@ -32,14 +32,18 @@
         <nav id="navContacts">
         Contacts
         </nav>
+        
   <form action="{formurl 'Projet_ITI~saveAnnonce@classic'}" method="POST">
+      
         <div id="blockPrincipal">
-        Déposer Annonce
+            
+       <h1 id="titreDeposerAnnonce" class="apptitle">
+            Déposer une annonce
+            </h1>
         {formfull $DEPOSER_ANNONCEFORM, 'Projet_ITI~deposer@classic'}  
-       
-        
-        
         </div>
+        
+        
         <nav id="navMarge">
         (Marge)
         </nav>

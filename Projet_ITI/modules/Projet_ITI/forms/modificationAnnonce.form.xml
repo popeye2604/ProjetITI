@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <form xmlns="http://jelix.org/ns/forms/1.1">
+    
     <hidden ref="id_annonce"/>
     
     <textarea ref="titre">

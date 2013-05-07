@@ -34,7 +34,9 @@
         </nav>
   
         <div id="blockPrincipal">
-            Block Principal
+            <h1 id="titreAccueilMonCompte" class="apptitle">
+            Mon compte
+            </h1>
             <div id="infosPersos">
                 <h3>Informations personnelles</h3>
             <ul>
