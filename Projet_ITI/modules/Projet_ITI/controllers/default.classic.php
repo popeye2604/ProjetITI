@@ -725,18 +725,13 @@ $rep = $this->getResponse('html');
         $courantAnnonce = $result['daorec'];
 
         
+        $annonceForm->saveFile('photo', jApp::wwwPath('images/photos/'));
+        $annonceForm->saveAllFiles();
+        
+        
 //on a créer la nouvelle annonce dans annonce
         $annonceFactory->insert($courantAnnonce);
-        
-        
-        //on récupère l'id annonce créée
 
-    
-   
-        
-        
-        
-        
      return $this->saveVente();   
     }
     else{
@@ -757,53 +752,48 @@ function saveVente(){
     $user = jAuth::getUserSession();
     
     //on récupère l'id annonce créée
-       
-        $annonceFactory =  jDao::get("annonce"); 
-        $conditions = jDao::createConditions();
-        
-        $conditions->addItemOrder('id_annonce','desc');
-        $annonce_recup = $annonceFactory->findBy($conditions, 1, 1);
-        
-         foreach ($annonce_recup as $row) {
-
-            echo $row->id_annonce;
-}   
         
         
-       //on récupère l'id utilisateur créateur de l'annonce
+        $annonceForm = jForms::get("Projet_ITI~deposer_annonce");
+        $annonceForm ->initFromRequest();
+        $result = $annonceForm->prepareDaoFromControls('Projet_ITI~vente');
+        $venteFactory = $result['dao'];
+        $courantVente= $result['daorec'];
+        
+        //on a créer la nouvelle annonce dans annonce
+        $venteFactory->insert($courantVente);
+        
+        //on récupère l'id utilisateur créateur de l'annonce
          $idUserQuiDepose=$user->id_utilisateur;
          echo "$idUserQuiDepose;";
+         
          //on récupère l'id catégorie choisit par l'utilisateur
-        $idCategorieRecup = $this->param('choixCategorie');
-        echo $idCategorieRecup;
+        $idCategorieRecup = $this->param('type');
+        echo "$idCategorieRecup;";
         
-        $venteForm = jForms::get("Projet_ITI~deposer_annonce");
-        $venteForm ->initFromRequest();
+        //on récupère l'id annonce créée en dernier
+        $annonceFactory =  jDao::get("annonce");
         
-        $result = $venteForm->prepareDaoFromControls('Projet_ITI~vente');
-        $venteFactory = $result['dao'];
-        $courantVente = $result['daorec'];
+// Appel de la méthode XML avec ses arguments et récupération des données
+//$record = $annonceFactory->getFewRecord(1, 1); // me renvoie bien la dernière ligne !!!!
+// Appel de la méthode XML avec ses arguments et récupération des données
+        
+$record = $annonceFactory->getFewRecord();;
 
+//$idAnnonceRecup=  jDbConnection::lastIdInTable('id_annonce',$annonceFactory);
         
-//on a créer la nouvelle annonce dans annonce
-        $venteFactory->insert($courantVente);       
-               
-        
-        $conditions2 = jDao::createConditions();
-        $conditions2->addCondition('id_utilisateur','=',$idUserQuiDepose);
-        $conditions2->addCondition('id_categorie','=',$idCategorieRecup);
-        $conditions2->addCondition('id_annonce','=',$annonce_recup);
+        // on modifie le record courantVente
+$courantVente->id_utilisateur= $idUserQuiDepose;
+$courantVente->id_categorie= $idCategorieRecup;
+$courantVente->id_annonce=$record->id_annonce;
 
-
-    if ($conditions2){
-       
+// on le sauvegarde dans la base
+$venteFactory->update($courantVente);
+ 
+        return $this->deposer();
     
-    if($venteForm->check()){
-        
-        
-        
-        return $this->accueilCompte(); 
-    }
-    }
 }
+
+
 }
+

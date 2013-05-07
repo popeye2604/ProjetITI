@@ -18,10 +18,12 @@
         <label>Saisissez ici la description de l'annonce</label>
     </textarea>
      
-    <upload ref="photo" mimetype="image/jpeg;image/pjpeg;image/png" maxsize="5000000">
-    <label>Photo liée à l'annonce</label>
-  </upload>
     
+    <upload ref="photo">
+     <label>Photo liée à l'annonce</label>   
+</upload>
+    
+
 
        <input ref="prix_vente">
            <label>Prix en Euros</label>

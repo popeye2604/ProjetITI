@@ -7,13 +7,21 @@
         <property name="id_annonce" fieldname="id_annonce" datatype="bigint" autoincrement="true"/>
         <property name="titre" fieldname="titre" datatype="varchar" required="true" maxlength="50"/>
         <property name="description" fieldname="description" datatype="varchar" required="true" maxlength="500"/>
-        <property name="type_annonce" fieldname="type_annonce" datatype="varchar" required="true" maxlength="7"/>
+        <property name="type_annonce" fieldname="type_annonce" datatype="varchar" required="true" maxlength="10"/>
         <property name="photo" fieldname="photo" datatype="blob" default=""/>
         <!--<property name="" fieldname="" datatype="string/int/float/date"
         required="yes" maxlength="" minlength="" regexp="" sequence=""
         updatepattern="" insertpattern="" selectpattern=""/>-->
     </record>
     <factory>
+        <method type="selectfirst" name="getFewRecord" groupby="id_annonce">
+            
+            <order>
+                <orderitem property="id_annonce" way="desc" />
+            </order>
+            
+            
+        </method>   
         <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
             <parameter name="" />
             <values>

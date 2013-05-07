@@ -12846,3 +12846,1022 @@ array (   'id_annonce' => '3',   'module' => 'Projet_ITI',   'action' => 'defaul
 	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
 
 
+2013-05-06 22:38:51	127.0.0.1	error	2013-05-06 22:38:51	127.0.0.1	[403]	invalid query (Le champ 'id_categorie' ne peut être vide (null)(INSERT INTO `vente` (	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couco@hei.fr',   'titre' => '',   'description' => '',   'photo' => 'Capture.PNG',   'prix_vente' => '',   'type' => '0',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 313
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->insert()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 740
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 22:40:54	127.0.0.1	error	2013-05-06 22:40:54	127.0.0.1	[132]	response is missing (action Projet_ITI~default:saveAnnonce@classic)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php	197
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couco@hei.fr',   'titre' => '',   'description' => '',   'photo' => 'Capture.PNG',   'prix_vente' => '',   'type' => '0',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 23:00:34	127.0.0.1	error	2013-05-06 23:00:34	127.0.0.1	[815]	 The given control name "" is invalid or the corresponding control is not an upload (form=Projet_ITI~deposer_annonce)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php	721
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'cc@hei.fr',   'titre' => '',   'description' => '',   'photo' => 'Capture.PNG',   'prix_vente' => '',   'type' => '0',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	jFormsBase->saveFile()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 730
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 23:09:23	127.0.0.1	error	2013-05-06 23:09:23	127.0.0.1	[815]	 The given control name "" is invalid or the corresponding control is not an upload (form=Projet_ITI~deposer_annonce)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php	721
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'cc@hei.fr',   'titre' => '',   'description' => '',   'photo' => 'Capture.PNG',   'prix_vente' => '',   'type' => '0',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	jFormsBase->saveFile()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 730
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 23:17:06	127.0.0.1	error	2013-05-06 23:17:06	127.0.0.1	[815]	 The given control name "" is invalid or the corresponding control is not an upload (form=Projet_ITI~deposer_annonce)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php	721
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'cc@hei.fr',   'titre' => '',   'description' => '',   'photo' => 'Capture.PNG',   'prix_vente' => '',   'type' => '0',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	jFormsBase->saveFile()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 728
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 23:17:50	127.0.0.1	notice	2013-05-06 23:17:50	127.0.0.1	[8]	Undefined property: cForm_Projet_ITI_Jx_deposer_annonce::$photo	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	727
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'cc@hei.fr',   'titre' => '',   'description' => '',   'photo' => 'Capture.PNG',   'prix_vente' => '',   'type' => '0',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 23:17:50	127.0.0.1	error	2013-05-06 23:17:50	127.0.0.1	[815]	 The given control name "" is invalid or the corresponding control is not an upload (form=Projet_ITI~deposer_annonce)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php	721
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'cc@hei.fr',   'titre' => '',   'description' => '',   'photo' => 'Capture.PNG',   'prix_vente' => '',   'type' => '0',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	jFormsBase->saveFile()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 728
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 23:32:57	127.0.0.1	error	2013-05-06 23:32:57	127.0.0.1	[4096]	Object of class mysqlDbResultSet could not be converted to string	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	759
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'suco@hei.fr',   'titre' => 'titre',   'description' => 'description',   'photo' => 'Capture.PNG',   'prix_vente' => '1000',   'type' => '10',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 23:36:39	127.0.0.1	error	2013-05-06 23:36:39	127.0.0.1	[4096]	Object of class mysqlDbResultSet could not be converted to string	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	762
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'suco@hei.fr',   'titre' => 'titre',   'description' => 'description',   'photo' => 'Capture.PNG',   'prix_vente' => '1000',   'type' => '10',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 23:37:23	127.0.0.1	error	2013-05-06 23:37:23	127.0.0.1	[4096]	Object of class mysqlDbResultSet could not be converted to string	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	762
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'suco@hei.fr',   'titre' => 'titre',   'description' => 'description',   'photo' => 'Capture.PNG',   'prix_vente' => '1000',   'type' => '10',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 23:37:27	127.0.0.1	error	2013-05-06 23:37:27	127.0.0.1	[4096]	Object of class mysqlDbResultSet could not be converted to string	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	762
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'suco@hei.fr',   'titre' => 'titre',   'description' => 'description',   'photo' => 'Capture.PNG',   'prix_vente' => '1000',   'type' => '10',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-06 23:41:25	127.0.0.1	error	2013-05-06 23:41:25	127.0.0.1	[403]	invalid query (Le champ 'id_categorie' ne peut être vide (null)(INSERT INTO `vente` (	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'suco@hei.fr',   'titre' => 'titre',   'description' => 'description',   'photo' => 'Capture.PNG',   'prix_vente' => '1000',   'type' => '10',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 313
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->insert()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 764
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:05:20	127.0.0.1	notice	2013-05-07 00:05:20	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 521
+	2	jDaoFactoryBase->_prepareValue()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 457
+	3	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	4	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	5	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 788
+	6	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	7	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	8	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:05:20	127.0.0.1	notice	2013-05-07 00:05:20	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$prix_vente	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:05:20	127.0.0.1	notice	2013-05-07 00:05:20	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_utilisateur	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:05:20	127.0.0.1	notice	2013-05-07 00:05:20	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:05:20	127.0.0.1	notice	2013-05-07 00:05:20	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_categorie	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:05:20	127.0.0.1	notice	2013-05-07 00:05:20	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_vente	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	323
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:07:54	127.0.0.1	notice	2013-05-07 00:07:54	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 521
+	2	jDaoFactoryBase->_prepareValue()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 457
+	3	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	4	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	5	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 788
+	6	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	7	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	8	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:07:54	127.0.0.1	notice	2013-05-07 00:07:54	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$prix_vente	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:07:54	127.0.0.1	notice	2013-05-07 00:07:54	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_utilisateur	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:07:54	127.0.0.1	notice	2013-05-07 00:07:54	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:07:54	127.0.0.1	notice	2013-05-07 00:07:54	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_categorie	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:07:54	127.0.0.1	notice	2013-05-07 00:07:54	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_vente	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	323
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'coucou@hei.fr',   'titre' => 'titre2',   'description' => 'description2',   'prix_vente' => '500000',   'type' => '12',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:18:10	127.0.0.1	notice	2013-05-07 00:18:10	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 521
+	2	jDaoFactoryBase->_prepareValue()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 457
+	3	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	4	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	5	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 808
+	6	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	7	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	8	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	9	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:18:10	127.0.0.1	notice	2013-05-07 00:18:10	127.0.0.1	[8]	Object of class cDaoRecord_Projet_ITI_Jx_vente_Jx_mysql could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 521
+	2	jDaoFactoryBase->_prepareValue()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 457
+	3	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	4	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	5	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 808
+	6	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	7	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	8	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	9	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:18:10	127.0.0.1	notice	2013-05-07 00:18:10	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$prix_vente	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:18:10	127.0.0.1	notice	2013-05-07 00:18:10	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_utilisateur	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:18:10	127.0.0.1	notice	2013-05-07 00:18:10	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:18:10	127.0.0.1	notice	2013-05-07 00:18:10	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_categorie	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:18:10	127.0.0.1	notice	2013-05-07 00:18:10	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_vente	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	323
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:19:39	127.0.0.1	notice	2013-05-07 00:19:39	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 521
+	2	jDaoFactoryBase->_prepareValue()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 457
+	3	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	4	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	5	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 808
+	6	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	7	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	8	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	9	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:19:39	127.0.0.1	notice	2013-05-07 00:19:39	127.0.0.1	[8]	Object of class cDaoRecord_Projet_ITI_Jx_vente_Jx_mysql could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 521
+	2	jDaoFactoryBase->_prepareValue()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 457
+	3	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	4	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	5	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 808
+	6	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	7	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	8	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	9	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:19:39	127.0.0.1	notice	2013-05-07 00:19:39	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$prix_vente	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:19:39	127.0.0.1	notice	2013-05-07 00:19:39	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_utilisateur	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:19:39	127.0.0.1	notice	2013-05-07 00:19:39	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:19:39	127.0.0.1	notice	2013-05-07 00:19:39	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_categorie	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:19:39	127.0.0.1	notice	2013-05-07 00:19:39	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_vente	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	323
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:21:41	127.0.0.1	notice	2013-05-07 00:21:41	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 521
+	2	jDaoFactoryBase->_prepareValue()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 457
+	3	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	4	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	5	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 803
+	6	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	7	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	8	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	9	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:21:41	127.0.0.1	notice	2013-05-07 00:21:41	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$prix_vente	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 804
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:21:41	127.0.0.1	notice	2013-05-07 00:21:41	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_utilisateur	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 804
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:21:41	127.0.0.1	notice	2013-05-07 00:21:41	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 804
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:21:41	127.0.0.1	notice	2013-05-07 00:21:41	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_categorie	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	322
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 804
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:21:41	127.0.0.1	notice	2013-05-07 00:21:41	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_vente	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php	323
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '40000',   'type' => '18',   'type_annonce' => 'Demande',   'valider' => 'Sauvegarder', )
+
+	0	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 804
+	1	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	2	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	3	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:39:06	127.0.0.1	notice	2013-05-07 00:39:06	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	3	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	4	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	5	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:41:12	127.0.0.1	notice	2013-05-07 00:41:12	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 809
+	3	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	4	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	5	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:44:56	127.0.0.1	notice	2013-05-07 00:44:56	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 811
+	3	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	4	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	5	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:50:05	127.0.0.1	notice	2013-05-07 00:50:05	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_vente_Jx_mysql::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	798
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:50:05	127.0.0.1	error	2013-05-07 00:50:05	127.0.0.1	[504]	 unknown property (%s) in a jDaoConditions object	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php	423
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	jDaoFactoryBase->_generateCondition()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 371
+	1	jDaoFactoryBase->_createConditionsClause()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 275
+	2	jDaoFactoryBase->findBy()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 801
+	3	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	4	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	5	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:51:41	127.0.0.1	notice	2013-05-07 00:51:41	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 811
+	3	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	4	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	5	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 00:53:21	127.0.0.1	notice	2013-05-07 00:53:21	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 811
+	3	defaultCtrl->updateVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 768
+	4	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	5	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:02:55	127.0.0.1	error	2013-05-07 01:02:55	127.0.0.1	[403]	invalid query (Cannot add or update a child row: a foreign key constraint fails (`projetiti`.`vente`, CONSTRAINT `vente_ibfk_5` FOREIGN KEY (`id_annonce`) REFERENCES `annonce` (`id_annonce`) ON DELETE CASCADE ON UPDATE CASCADE)(UPDATE `vente` SET 	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 325
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 784
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:04:42	127.0.0.1	notice	2013-05-07 01:04:42	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:06:48	127.0.0.1	notice	2013-05-07 01:06:48	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:07:46	127.0.0.1	notice	2013-05-07 01:07:46	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:09:22	127.0.0.1	notice	2013-05-07 01:09:22	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:10:55	127.0.0.1	notice	2013-05-07 01:10:55	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_annonce_Jx_mysql::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	778
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:10:55	127.0.0.1	notice	2013-05-07 01:10:55	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:14:34	127.0.0.1	notice	2013-05-07 01:14:34	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:20:07	127.0.0.1	notice	2013-05-07 01:20:07	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '2',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 788
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:20:43	127.0.0.1	notice	2013-05-07 01:20:43	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'titre@hei.fr',   'titre' => 'test',   'description' => 'test',   'prix_vente' => '',   'type' => '20',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 788
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:23:41	127.0.0.1	notice	2013-05-07 01:23:41	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_annonce_Jx_mysql::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	778
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'titre@hei.fr',   'titre' => 'test',   'description' => 'test',   'prix_vente' => '',   'type' => '20',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:23:41	127.0.0.1	notice	2013-05-07 01:23:41	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'titre@hei.fr',   'titre' => 'test',   'description' => 'test',   'prix_vente' => '',   'type' => '20',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 788
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:24:13	127.0.0.1	notice	2013-05-07 01:24:13	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'titre@hei.fr',   'titre' => 'test',   'description' => 'test',   'prix_vente' => '',   'type' => '20',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 788
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:26:26	127.0.0.1	notice	2013-05-07 01:26:26	127.0.0.1	[8]	Object of class cDaoRecord_Projet_ITI_Jx_annonce_Jx_mysql could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'titre@hei.fr',   'titre' => 'test',   'description' => 'test',   'prix_vente' => '',   'type' => '20',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 788
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:28:20	127.0.0.1	notice	2013-05-07 01:28:20	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'titre@hei.fr',   'titre' => 'test',   'description' => 'test',   'prix_vente' => '',   'type' => '20',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~annonce~mysql.php : 164
+	2	cDao_Projet_ITI_Jx_annonce_Jx_mysql->_getPkWhereClauseForSelect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 212
+	3	jDaoFactoryBase->get()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 781
+	4	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	5	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 01:28:20	127.0.0.1	notice	2013-05-07 01:28:20	127.0.0.1	[8]	Object of class cDaoRecord_Projet_ITI_Jx_annonce_Jx_mysql could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'titre@hei.fr',   'titre' => 'test',   'description' => 'test',   'prix_vente' => '',   'type' => '20',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 322
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:27:17	127.0.0.1	notice	2013-05-07 11:27:17	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '1000000',   'type' => '15',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 282
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 785
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:34:14	127.0.0.1	notice	2013-05-07 11:34:14	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 282
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 785
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:37:14	127.0.0.1	notice	2013-05-07 11:37:14	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 282
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 785
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:40:28	127.0.0.1	notice	2013-05-07 11:40:28	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 282
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 785
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:43:17	127.0.0.1	notice	2013-05-07 11:43:17	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	778
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:45:52	127.0.0.1	error	2013-05-07 11:45:52	127.0.0.1	[553]	DAO Projet_ITI~annonce, method getFewRecord, orderitem tag is missing (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/daos/annonce.dao.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoMethod.class.php	304
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	jDaoMethod->_addOrder()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoMethod.class.php : 134
+	1	jDaoMethod->__construct()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoParser.class.php : 136
+	2	jDaoParser->parseFactory()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoParser.class.php : 88
+	3	jDaoParser->parse()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoCompiler.class.php : 55
+	4	jDaoCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	5	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDao.class.php : 39
+	6	jDao::create()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDao.class.php : 62
+	7	jDao::get()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php : 286
+	8	jFormsBase->prepareDaoFromControls()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 723
+	9	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	10	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:46:25	127.0.0.1	error	2013-05-07 11:46:25	127.0.0.1	[553]	DAO Projet_ITI~annonce, method getFewRecord, orderitem tag is missing (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/daos/annonce.dao.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoMethod.class.php	304
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	jDaoMethod->_addOrder()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoMethod.class.php : 134
+	1	jDaoMethod->__construct()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoParser.class.php : 136
+	2	jDaoParser->parseFactory()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoParser.class.php : 88
+	3	jDaoParser->parse()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDaoCompiler.class.php : 55
+	4	jDaoCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	5	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDao.class.php : 39
+	6	jDao::create()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\dao\jDao.class.php : 62
+	7	jDao::get()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsBase.class.php : 286
+	8	jFormsBase->prepareDaoFromControls()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 723
+	9	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	10	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:46:39	127.0.0.1	notice	2013-05-07 11:46:39	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	778
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:46:46	127.0.0.1	notice	2013-05-07 11:46:46	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	778
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:47:58	127.0.0.1	notice	2013-05-07 11:47:58	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	778
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:48:34	127.0.0.1	notice	2013-05-07 11:48:34	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$idAnnonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	778
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:50:51	127.0.0.1	notice	2013-05-07 11:50:51	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	779
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:56:27	127.0.0.1	notice	2013-05-07 11:56:27	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	779
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:57:54	127.0.0.1	notice	2013-05-07 11:57:54	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to double	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php	241
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	floatval()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDb.class.php : 241
+	1	jDb::floatToStr()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~vente~mysql.php : 306
+	2	cDao_Projet_ITI_Jx_vente_Jx_mysql->update()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 787
+	3	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	4	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 11:59:41	127.0.0.1	notice	2013-05-07 11:59:41	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	784
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 12:35:49	127.0.0.1	notice	2013-05-07 12:35:49	127.0.0.1	[8]	Undefined property: jAuthDummyUser::$id_utilisateur	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	767
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 12:35:49	127.0.0.1	notice	2013-05-07 12:35:49	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	784
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 12:35:49	127.0.0.1	notice	2013-05-07 12:35:49	127.0.0.1	[8]	Undefined property: jAuthDummyUser::$prenom	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	682
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->deposer()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 12:35:49	127.0.0.1	notice	2013-05-07 12:35:49	127.0.0.1	[8]	Undefined property: jAuthDummyUser::$nom	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	682
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'couc@hei.fr',   'titre' => 'TITRE',   'description' => 'DESC',   'prix_vente' => '200',   'type' => '6',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->deposer()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 789
+	1	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	2	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 13:02:49	127.0.0.1	notice	2013-05-07 13:02:49	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	784
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'cc@hei.fr',   'titre' => 'testetete',   'description' => 'testete',   'prix_vente' => '121212',   'type' => '9',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 17:42:20	127.0.0.1	notice	2013-05-07 17:42:20	127.0.0.1	[8]	Undefined property: mysqlDbResultSet::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	784
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'aa@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '99999',   'type' => '4',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 17:52:43	127.0.0.1	notice	2013-05-07 17:52:43	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_annonce_Jx_mysql::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	780
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'aa@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '99999',   'type' => '4',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 17:54:05	127.0.0.1	notice	2013-05-07 17:54:05	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_annonce_Jx_mysql::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	780
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'aa@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '99999',   'type' => '4',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 17:56:49	127.0.0.1	notice	2013-05-07 17:56:49	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_annonce_Jx_mysql::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	780
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'aa@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '99999',   'type' => '4',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-07 17:57:19	127.0.0.1	notice	2013-05-07 17:57:19	127.0.0.1	[8]	Undefined property: cDao_Projet_ITI_Jx_annonce_Jx_mysql::$id_annonce	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	780
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveAnnonce
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveAnnonce',   'id_utilisateur' => '',   'id_annonce' => '',   '__JFORMS_TOKEN__' => '01b39b022e3963ef3100ffe76acd986b',   'login' => 'aa@hei.fr',   'titre' => 'titre',   'description' => 'desc',   'prix_vente' => '99999',   'type' => '4',   'type_annonce' => 'Offre',   'valider' => 'Sauvegarder', )
+
+	0	defaultCtrl->saveVente()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 735
+	1	defaultCtrl->saveAnnonce()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
