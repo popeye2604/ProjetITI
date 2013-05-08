@@ -10,11 +10,11 @@
     </input>
     
     
-    <textarea ref="titre">
+    <textarea ref="titre" required="true">
         <label>Saisissez ici le titre de l'annonce</label>
     </textarea>
     
-    <textarea ref="description">
+    <textarea ref="description" required="true">
         <label>Saisissez ici la description de l'annonce</label>
     </textarea>
      
@@ -25,12 +25,12 @@
     
 
 
-       <input ref="prix_vente">
+       <input ref="prix_vente" >
            <label>Prix en Euros</label>
        </input>
        
 
-<menulist ref="type">
+<menulist ref="type" required="true">
       <label>Choisissez la catégorie</label>
 
         <item value="0" selected="true">Toutes catégories</item>

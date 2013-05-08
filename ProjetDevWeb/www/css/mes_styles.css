@@ -11,7 +11,7 @@ h1.apptitle {
 body{
     background-image: url("../images/jaune.jpg");
     background-color: palegoldenrod;
-background-repeat: repeat;
+background-repeat: round;
 
 
     
@@ -103,10 +103,10 @@ a[href]{color:black;}
      border-color: #002830;
      border-radius: 30px 30px; 
      border-style: solid;
-padding: 10px 10px ;
--webkit-transition-duration: 2s;
--moz-transition-duration: 2s;
--o-transition-duration: 2s;
+     padding: 10px 10px ;
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
 }
 
 audio {

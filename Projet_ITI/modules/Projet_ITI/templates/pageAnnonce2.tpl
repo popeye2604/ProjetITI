@@ -1,9 +1,9 @@
-
 <body>
     <header >
+        
     </header>
     
-    <div id="blockOptions">
+<div id="blockOptions">
         <div id="ongletMonCompte">
             <a id ="lienMonCompte" href="{jurl 'Projet_ITI~accueilCompte@classic'}"> Mon Compte</a>
         </div>
@@ -18,7 +18,7 @@
         
     </div>
     
-    <div id="blockRecherche">
+   <div id="blockRecherche">
         
         <div id="divLogoIntegral">
             <img id="logoIntegral" src="../../../images/logo.png" alt="Integrale HEI">
@@ -59,45 +59,29 @@
    
         </nav>
   
-        <div id="content">
-            <h1 id="titreListeAnnonce" class="apptitle">
-            Annonces recherchées
-            </h1>
+        <div id="blockPrincipal">
+                        
+            {foreach $AFFICHAGEANNONCE as $COURANTANNONCE}
+                
+                <h1 id="titreTitreAnnonce" class="apptitle">{$COURANTANNONCE->titre}</h1> 
+            <li>Description: {$COURANTANNONCE->description}</li>
+            <li>Type d'annonce: {$COURANTANNONCE->type_annonce}</li>
             
-            
-            {foreach $ALLVENTES as $COURANTVENTES} 
-            
-               
-   
-            <div id="blockAllAnnonces">
-                    <a href="{jurl 'Projet_ITI~afficherAnnonceRecherchees@classic',array('id_annonce'=>$COURANTVENTES->id_annonce)}">
-                               {$COURANTVENTES->titreAnnonce} </a><br/>
-                    
-                    
-                <div id="annonceDescPrix">
-                    <ul>
-                    
-                        <li>
-                            
-                                Description: {$COURANTVENTES->descriptionAnnonce}
-                                
-                        </li>
-                        <li>Prix: {$COURANTVENTES->prix_vente} €
-                        </li>
-                    </ul>
-                </div>        
-
-           </div>
-                             
-             
+            <li>Prix: {foreach $AFFICHAGEPRIXANNONCE as $COURANTPRIXANNONCE}
+            {$COURANTPRIXANNONCE->prix_vente} €</li>
+            <li>Contacter le déposeur d'annonce : <a href="mailto:{$COURANTPRIXANNONCE->mailUser}">{$COURANTPRIXANNONCE->mailUser}</a>
+                               
+                      {/foreach}
+            </li>
+                
             {/foreach}
-   
-           
-        </div>
-        
+             
+
+            
+            
+        </div>    
         
         <nav id="navMarge">
-            
         (Marge)
         </nav>
         

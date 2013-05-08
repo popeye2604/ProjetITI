@@ -14113,3 +14113,588 @@ array (   'module' => 'Projet_ITI',   'action' => 'default:modifMdp', )
 	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
 
 
+2013-05-08 13:49:53	127.0.0.1	error	2013-05-08 13:49:53	127.0.0.1	[2]	Could not instantiate mail function.	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php	684
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'Gros',   'prenom' => 'Alexandre',   'login' => 'alexandre.gros@hei.fr',   'password' => 'agros',   'password_confirm' => 'agros',   'antispam' => '5',   'submit' => 'Inscription', )
+
+	0	PHPMailer->MailSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 247
+	1	jMailer->MailSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	2	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	3	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 149
+	4	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 14:07:20	127.0.0.1	error	2013-05-08 14:07:20	127.0.0.1	[403]	invalid query (Duplicata du champ 'alexandre.gros@hei.fr' pour la clef 'login'(INSERT INTO `utilisateur` (	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'Gros',   'prenom' => 'Alexandre',   'login' => 'alexandre.gros@hei.fr',   'password' => 'agros',   'password_confirm' => 'agros',   'antispam' => '53',   'submit' => 'Inscription', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~utilisateur~mysql.php : 353
+	2	cDao_Projet_ITI_Jx_utilisateur_Jx_mysql->insert()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 143
+	3	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 14:13:30	127.0.0.1	error	2013-05-08 14:13:30	127.0.0.1	[2]	Could not instantiate mail function.	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php	684
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'Gros',   'prenom' => 'Alexandre',   'login' => 'alexandre.gros@hei.fr',   'password' => 'agros',   'password_confirm' => 'agros',   'antispam' => '6',   'submit' => 'Inscription', )
+
+	0	PHPMailer->MailSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 247
+	1	jMailer->MailSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	2	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	3	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 149
+	4	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 14:16:38	127.0.0.1	error	2013-05-08 14:16:38	127.0.0.1	[403]	invalid query (Duplicata du champ 'alexandre.gros@hei.fr' pour la clef 'login'(INSERT INTO `utilisateur` (	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'Gros',   'prenom' => 'Alexandre',   'login' => 'alexandre.gros@hei.fr',   'password' => 'agros',   'password_confirm' => 'agros',   'antispam' => '6',   'submit' => 'Inscription', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~utilisateur~mysql.php : 353
+	2	cDao_Projet_ITI_Jx_utilisateur_Jx_mysql->insert()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 144
+	3	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 14:17:12	127.0.0.1	error	2013-05-08 14:17:12	127.0.0.1	[2]	Could not instantiate mail function.	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php	684
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'DEHAENE',   'prenom' => 'Francois',   'login' => 'francois.dehaene@hei.fr',   'password' => 'f2n',   'password_confirm' => 'f2n',   'antispam' => '53',   'submit' => 'Inscription', )
+
+	0	PHPMailer->MailSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 247
+	1	jMailer->MailSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	2	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	3	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 150
+	4	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:05:33	127.0.0.1	notice	2013-05-08 15:05:33	127.0.0.1	[8]	Undefined property: cDaoRecord_Projet_ITI_Jx_vente_Jx_mysql::$login	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\templates\modules\Projet_ITI\pageAnnonce_html_t.php	56
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce', )
+
+	0	template_09b00a27e872fecf1518a85b10a1efe6()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:19:53	127.0.0.1	warning	2013-05-08 15:19:53	127.0.0.1	[2]	stream_socket_enable_crypto(): this stream does not support SSL/crypto	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.smtp.php	197
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'gros',   'prenom' => 'alex',   'login' => 'jeremy.martos@free.fr',   'password' => 'jer',   'password_confirm' => 'jer',   'antispam' => '8',   'submit' => 'Inscription', )
+
+	0	stream_socket_enable_crypto()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.smtp.php : 197
+	1	SMTP->StartTLS()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 800
+	2	PHPMailer->SmtpConnect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 702
+	3	PHPMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 253
+	4	jMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	5	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	6	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 150
+	7	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	8	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:21:47	127.0.0.1	error	2013-05-08 15:21:47	127.0.0.1	[403]	invalid query (Duplicata du champ 'jeremy.martos@free.fr' pour la clef 'login'(INSERT INTO `utilisateur` (	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'gros',   'prenom' => 'alex',   'login' => 'jeremy.martos@free.fr',   'password' => 'jer',   'password_confirm' => 'jer',   'antispam' => '8',   'submit' => 'Inscription', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~utilisateur~mysql.php : 353
+	2	cDao_Projet_ITI_Jx_utilisateur_Jx_mysql->insert()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 142
+	3	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:23:09	127.0.0.1	warning	2013-05-08 15:23:09	127.0.0.1	[2]	stream_socket_enable_crypto(): this stream does not support SSL/crypto	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.smtp.php	197
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'francois',   'prenom' => 'francois',   'login' => 'francois.dehaene@hei.fr',   'password' => 'dehaene',   'password_confirm' => 'dehaene',   'antispam' => 'ten',   'submit' => 'Inscription', )
+
+	0	stream_socket_enable_crypto()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.smtp.php : 197
+	1	SMTP->StartTLS()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 800
+	2	PHPMailer->SmtpConnect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 702
+	3	PHPMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 253
+	4	jMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	5	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	6	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 150
+	7	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	8	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:27:16	127.0.0.1	warning	2013-05-08 15:27:16	127.0.0.1	[2]	stream_socket_enable_crypto(): this stream does not support SSL/crypto	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.smtp.php	197
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'Dehaene',   'prenom' => 'Francois',   'login' => 'francois.deh@gmail.com',   'password' => 'francois',   'password_confirm' => 'francois',   'antispam' => '2',   'submit' => 'Inscription', )
+
+	0	stream_socket_enable_crypto()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.smtp.php : 197
+	1	SMTP->StartTLS()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 800
+	2	PHPMailer->SmtpConnect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 702
+	3	PHPMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 253
+	4	jMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	5	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	6	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 150
+	7	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	8	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:30:12	127.0.0.1	warning	2013-05-08 15:30:12	127.0.0.1	[2]	stream_socket_enable_crypto(): this stream does not support SSL/crypto	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.smtp.php	197
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'dehaene',   'prenom' => 'francois',   'login' => 'francois.deh@gmail.com',   'password' => 'francois',   'password_confirm' => 'francois',   'antispam' => '6',   'submit' => 'Inscription', )
+
+	0	stream_socket_enable_crypto()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.smtp.php : 197
+	1	SMTP->StartTLS()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 800
+	2	PHPMailer->SmtpConnect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 702
+	3	PHPMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 253
+	4	jMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	5	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	6	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 150
+	7	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	8	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:32:48	127.0.0.1	error	2013-05-08 15:32:48	127.0.0.1	[403]	invalid query (Duplicata du champ 'francois.deh@gmail.com' pour la clef 'login'(INSERT INTO `utilisateur` (	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'dehaene',   'prenom' => 'francois',   'login' => 'francois.deh@gmail.com',   'password' => 'mdp',   'password_confirm' => 'mdp',   'antispam' => 'ten',   'submit' => 'Inscription', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~utilisateur~mysql.php : 353
+	2	cDao_Projet_ITI_Jx_utilisateur_Jx_mysql->insert()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 142
+	3	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:34:32	127.0.0.1	error	2013-05-08 15:34:32	127.0.0.1	[0]	SMTP Error: Could not connect to SMTP host.	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php	817
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'fr',   'prenom' => 'fr',   'login' => 'francois.deh@gmail.com',   'password' => 'mdp',   'password_confirm' => 'mdp',   'antispam' => '3',   'submit' => 'Inscription', )
+
+	0	PHPMailer->SmtpConnect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 702
+	1	PHPMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 253
+	2	jMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	3	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	4	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 150
+	5	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:36:56	127.0.0.1	error	2013-05-08 15:36:56	127.0.0.1	[0]	SMTP Error: Could not connect to SMTP host.	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php	817
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'fr',   'prenom' => 'fr',   'login' => 'francois.deh@gmail.com',   'password' => 'mdp',   'password_confirm' => 'mdp',   'antispam' => 'ten',   'submit' => 'Inscription', )
+
+	0	PHPMailer->SmtpConnect()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 702
+	1	PHPMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 253
+	2	jMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	3	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	4	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 150
+	5	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	6	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:40:38	127.0.0.1	error	2013-05-08 15:40:38	127.0.0.1	[2]	The following From address failed: jeremy.martos@hei.fr	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php	707
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'fr',   'prenom' => 'fr',   'login' => 'francois.deh@gmail.com',   'password' => 'mdp',   'password_confirm' => 'mdp',   'antispam' => 'twenty',   'submit' => 'Inscription', )
+
+	0	PHPMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 253
+	1	jMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	2	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	3	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 150
+	4	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:42:13	127.0.0.1	error	2013-05-08 15:42:13	127.0.0.1	[403]	invalid query (Duplicata du champ 'francois.deh@gmail.com' pour la clef 'login'(INSERT INTO `utilisateur` (	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'fr',   'prenom' => 'fr',   'login' => 'francois.deh@gmail.com',   'password' => 'mdp',   'password_confirm' => 'mdp',   'antispam' => 'twenty',   'submit' => 'Inscription', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~utilisateur~mysql.php : 353
+	2	cDao_Projet_ITI_Jx_utilisateur_Jx_mysql->insert()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 142
+	3	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:42:19	127.0.0.1	error	2013-05-08 15:42:19	127.0.0.1	[403]	invalid query (Duplicata du champ 'francois.deh@gmail.com' pour la clef 'login'(INSERT INTO `utilisateur` (	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'fr',   'prenom' => 'fr',   'login' => 'francois.deh@gmail.com',   'password' => 'mdp',   'password_confirm' => 'mdp',   'antispam' => 'twenty',   'submit' => 'Inscription', )
+
+	0	mysqlDbConnection->_doExec()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Program Files\EasyPHP-12.1\www\temp\Projet_ITI\www\compiled\daos\modules\Projet_ITI~utilisateur~mysql.php : 353
+	2	cDao_Projet_ITI_Jx_utilisateur_Jx_mysql->insert()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 142
+	3	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:42:55	127.0.0.1	error	2013-05-08 15:42:55	127.0.0.1	[2]	The following From address failed: jeremy.martos@hei.fr	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php	707
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'fr',   'prenom' => 'fr',   'login' => 'francois.deh@gmail.com',   'password' => 'mdp',   'password_confirm' => 'mdp',   'antispam' => 'twenty',   'submit' => 'Inscription', )
+
+	0	PHPMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 253
+	1	jMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	2	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	3	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 150
+	4	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:44:09	127.0.0.1	error	2013-05-08 15:44:09	127.0.0.1	[2]	The following From address failed: francois.dehaene@hei.fr	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php	707
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'fr',   'prenom' => 'fr',   'login' => 'francois.deh@gmail.com',   'password' => 'mdp',   'password_confirm' => 'mdp',   'antispam' => 'twenty',   'submit' => 'Inscription', )
+
+	0	PHPMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 253
+	1	jMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	2	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	3	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 150
+	4	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:47:11	127.0.0.1	error	2013-05-08 15:47:11	127.0.0.1	[2]	The following From address failed: francois.deh@gmail.com	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php	707
+	/Projet_ITI/www/index.php/Projet_ITI/default/saveUser
+array (   'module' => 'Projet_ITI',   'action' => 'default:saveUser',   'id_utilisateur' => '',   '__JFORMS_TOKEN__' => 'e4a8ff1ca386de46377581803ae2f4dc',   'nom' => 'fr',   'prenom' => 'fr',   'login' => 'francois.deh@gmail.com',   'password' => 'mdp',   'password_confirm' => 'mdp',   'antispam' => 'twenty',   'submit' => 'Inscription', )
+
+	0	PHPMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 253
+	1	jMailer->SmtpSend()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\phpMailer\class.phpmailer.php : 574
+	2	PHPMailer->Send()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\utils\jMailer.class.php : 194
+	3	jMailer->Send()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 150
+	4	defaultCtrl->saveUser()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	5	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 15:56:27	127.0.0.1	error	2013-05-08 15:56:27	127.0.0.1	[305]	In the template C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/templates/pageAnnonce2.tpl, end of  bloc foreach is missing	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTplCompiler.class.php	703
+	/Projet_ITI/www/index.php/Projet_ITI/default/afficherAnnonce2?id_annonce=1
+array (   'id_annonce' => '1',   'module' => 'Projet_ITI',   'action' => 'default:afficherAnnonce2', )
+
+	0	jTplCompiler->doError1()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 243
+	1	jTplCompiler->compileContent()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 191
+	2	jTplCompiler->compileString()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTplCompiler.class.php : 181
+	3	jTplCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	4	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 250
+	5	jTpl->getTemplate()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\tpl\jTpl.class.php : 202
+	6	jTpl->meta()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 190
+	7	jResponseHtml->output()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	8	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:17	127.0.0.1	notice	2013-05-08 21:51:17	127.0.0.1	[8]	Undefined variable: var1	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	886
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:17	127.0.0.1	notice	2013-05-08 21:51:17	127.0.0.1	[8]	Undefined variable: var2	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	887
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:17	127.0.0.1	notice	2013-05-08 21:51:17	127.0.0.1	[8]	Undefined variable: var3	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	888
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:17	127.0.0.1	notice	2013-05-08 21:51:17	127.0.0.1	[8]	Undefined variable: var4	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	889
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:20	127.0.0.1	notice	2013-05-08 21:51:20	127.0.0.1	[8]	Undefined variable: var1	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	886
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '7',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:20	127.0.0.1	notice	2013-05-08 21:51:20	127.0.0.1	[8]	Undefined variable: var2	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	887
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '7',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:20	127.0.0.1	notice	2013-05-08 21:51:20	127.0.0.1	[8]	Undefined variable: var3	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	888
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '7',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:20	127.0.0.1	notice	2013-05-08 21:51:20	127.0.0.1	[8]	Undefined variable: var4	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	889
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '7',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:29	127.0.0.1	notice	2013-05-08 21:51:29	127.0.0.1	[8]	Undefined variable: var1	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	886
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:29	127.0.0.1	notice	2013-05-08 21:51:29	127.0.0.1	[8]	Undefined variable: var2	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	887
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:29	127.0.0.1	notice	2013-05-08 21:51:29	127.0.0.1	[8]	Undefined variable: var3	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	888
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:29	127.0.0.1	notice	2013-05-08 21:51:29	127.0.0.1	[8]	Undefined variable: var4	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	889
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:55	127.0.0.1	notice	2013-05-08 21:51:55	127.0.0.1	[8]	Undefined variable: var1	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	886
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '10',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:55	127.0.0.1	notice	2013-05-08 21:51:55	127.0.0.1	[8]	Undefined variable: var2	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	887
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '10',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:55	127.0.0.1	notice	2013-05-08 21:51:55	127.0.0.1	[8]	Undefined variable: var3	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	888
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '10',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:55	127.0.0.1	notice	2013-05-08 21:51:55	127.0.0.1	[8]	Undefined variable: var4	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	889
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '10',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:56	127.0.0.1	notice	2013-05-08 21:51:56	127.0.0.1	[8]	Undefined variable: var1	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	886
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:56	127.0.0.1	notice	2013-05-08 21:51:56	127.0.0.1	[8]	Undefined variable: var2	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	887
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:56	127.0.0.1	notice	2013-05-08 21:51:56	127.0.0.1	[8]	Undefined variable: var3	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	888
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:51:56	127.0.0.1	notice	2013-05-08 21:51:56	127.0.0.1	[8]	Undefined variable: var4	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	889
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:52:01	127.0.0.1	notice	2013-05-08 21:52:01	127.0.0.1	[8]	Undefined variable: var1	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	886
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '9',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:52:01	127.0.0.1	notice	2013-05-08 21:52:01	127.0.0.1	[8]	Undefined variable: var2	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	887
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '9',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:52:01	127.0.0.1	notice	2013-05-08 21:52:01	127.0.0.1	[8]	Undefined variable: var3	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	888
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '9',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:52:01	127.0.0.1	notice	2013-05-08 21:52:01	127.0.0.1	[8]	Undefined variable: var4	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	889
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '9',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:53:26	127.0.0.1	notice	2013-05-08 21:53:26	127.0.0.1	[8]	Undefined variable: var1	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	886
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '9',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:53:26	127.0.0.1	notice	2013-05-08 21:53:26	127.0.0.1	[8]	Undefined variable: var2	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	887
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '9',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:53:26	127.0.0.1	notice	2013-05-08 21:53:26	127.0.0.1	[8]	Undefined variable: var3	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	888
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '9',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:53:26	127.0.0.1	notice	2013-05-08 21:53:26	127.0.0.1	[8]	Undefined variable: var4	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	889
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '9',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:53:28	127.0.0.1	notice	2013-05-08 21:53:28	127.0.0.1	[8]	Undefined variable: var1	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	886
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:53:28	127.0.0.1	notice	2013-05-08 21:53:28	127.0.0.1	[8]	Undefined variable: var2	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	887
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:53:28	127.0.0.1	notice	2013-05-08 21:53:28	127.0.0.1	[8]	Undefined variable: var3	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	888
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:53:28	127.0.0.1	notice	2013-05-08 21:53:28	127.0.0.1	[8]	Undefined variable: var4	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	889
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:58:49	127.0.0.1	notice	2013-05-08 21:58:49	127.0.0.1	[8]	Undefined variable: var1	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	886
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:58:49	127.0.0.1	notice	2013-05-08 21:58:49	127.0.0.1	[8]	Undefined variable: var2	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	887
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:58:49	127.0.0.1	notice	2013-05-08 21:58:49	127.0.0.1	[8]	Undefined variable: var3	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	888
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+
+2013-05-08 21:58:49	127.0.0.1	notice	2013-05-08 21:58:49	127.0.0.1	[8]	Undefined variable: var4	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php	889
+	/Projet_ITI/www/index.php/Projet_ITI/default/rechercherDesAnnonces
+array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces',   'id_categorie' => '',   '__JFORMS_TOKEN__' => '3f217ba06bb02bb87a88803b772cbd8d',   'type' => '6',   'submit' => 'Rechercher', )
+
+	0	defaultCtrl->afficherAnnonceRecherchees()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 652
+	1	defaultCtrl->rechercherDesAnnonces()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+

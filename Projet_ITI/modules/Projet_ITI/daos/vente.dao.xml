@@ -4,6 +4,7 @@
         <primarytable name="vente" realname="vente" primarykey="id_vente" />
         <!--Ajout de la table annonce pour aller y chercher le titre des annonces -->
         <foreigntable name="myAnnonce" realname="annonce" primarykey="id_annonce" onforeignkey="id_annonce"/>
+        <foreigntable name="myUtilisateur" realname="utilisateur" primarykey="id_utilisateur" onforeignkey="id_utilisateur"/>
     </datasources>
     <record>
         <property name="id_vente" fieldname="id_vente" datatype="bigint" autoincrement="true"/>
@@ -18,6 +19,10 @@
         <property name="descriptionAnnonce" fieldname="description" datatype="varchar" table="myAnnonce"/>
         <property name="photoAnnonce" fieldname="photo" datatype="varchar" table="myAnnonce"/>
         <property name="idAnnonce" fieldname="id_annonce" datatype="bigint" table="myAnnonce"/>
+        
+        <!--Ajout d'une propriété à l'objet vente qui pointera vers le mail de l'utilisateur -->
+        <property name="mailUser" fieldname="login" datatype="varchar" table="myUtilisateur"/>
+        
     </record>
     <factory>
         <!--<method name="findByStage" type="select/selectfirst/delete/update/php">

@@ -151,15 +151,15 @@ default=messages.log
 
 [mailLogger]
 ;email = root@localhost
-;emailHeaders = "Content-Type: text/plain; charset=UTF-8\nFrom: webmaster@yoursite.com\nX-Mailer: Jelix\nX-Priority: 1 (Highest)\n"
+;emailHeaders = "Content-Type: text/plain; charset=UTF-8\nFrom: Vos identifiants sur le site d'annonces d'HEI\nX-Mailer: Jelix\nX-Priority: 1 (Highest)\n"
 
 [mailer]
-webmasterEmail="root@localhost"
-webmasterName=
+webmasterEmail="francois.dehaene@hei.fr"
+webmasterName="jeremy.martos"
 
 ; How to send mail : "mail" (mail()), "sendmail" (call sendmail), "smtp" (send directly to a smtp)
 ;                   or "file" (store the mail into a file, in filesDir directory)
-mailerType=mail
+mailerType=smtp
 ; Sets the hostname to use in Message-Id and Received headers
 ; and as default HELO string. If empty, the value returned
 ; by SERVER_NAME is used or 'localhost.localdomain'.
@@ -173,19 +173,19 @@ filesDir="mails/"
 ; if mailer = smtp , fill the following parameters
 
 ; SMTP hosts.  All hosts must be separated by a semicolon : "smtp1.example.com:25;smtp2.example.com"
-smtpHost=localhost
+smtpHost="pod51002.outlook.com"
 ; default SMTP server port
-smtpPort=25
+smtpPort=587
 ; secured connection or not. possible values: "", "ssl", "tls"
-smtpSecure=
+smtpSecure=""
 ; SMTP HELO of the message (Default is hostname)
 smtpHelo=
 ; SMTP authentication
 smtpAuth=off
-smtpUsername=
-smtpPassword=
+smtpUsername="jeremy.martos@hei.fr"
+smtpPassword="2uny1ijx"
 ; SMTP server timeout in seconds
-smtpTimeout=10
+smtpTimeout=30
 
 
 

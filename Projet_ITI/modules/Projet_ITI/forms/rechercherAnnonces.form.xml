@@ -2,10 +2,8 @@
 <form xmlns="http://jelix.org/ns/forms/1.1">
 <hidden ref="id_categorie"/>
 <menulist ref="type">
-      <label>Choisissez la catégorie</label>
-
-        <item value="0" selected="true">Toutes catégories</item>
-        <item class="titreRechercheCategorie" value="1" >-- VEHICULES --</item>
+      <label>Rechercher une annonce dans la catégorie: </label>
+        <item id="catVehicules" class="titreRechercheCategorie" value="1" >-- VEHICULES --</item>
         <item value="6">Voitures</item>
         <item value="7">Motos</item>
         <item value="8">Equipements auto</item>
@@ -35,7 +33,7 @@
   </menulist>
   
     <submit  ref="submit" > 
-            <label>Rechercher</label>
+            <label>  Go !  </label>
     </submit>
        
 </form>

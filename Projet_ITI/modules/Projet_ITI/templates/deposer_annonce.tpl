@@ -1,8 +1,6 @@
 
 <body>
     <header >
-        {$WELCOMEUSERCONNECTED}
-        <a id ="lienLogout" href="{jurl 'Projet_ITI~deconnexion@classic'}"> Me déconnecter</a>
     </header>
     
     
@@ -20,8 +18,17 @@
         </div>
         
     </div>
-        <div id="blockRecherche">
-            {formfull $RECHERCHERANNONCES, 'Projet_ITI~rechercherDesAnnonces@classic'}
+        
+    <div id="blockRecherche">
+        
+        <div id="divLogoIntegral">
+            <img id="logoIntegral" src="../../../images/logo.png" alt="Integrale HEI">
+        </div>
+        <div id="divChoixCat">{formfull $RECHERCHERANNONCES, 'Projet_ITI~rechercherDesAnnonces@classic'}
+        </div>
+        <div id="infoHeader" >{$WELCOMEUSERCONNECTED}<br>
+        <a id ="lienLogout" href="{jurl 'Projet_ITI~index@classic'}" onclick="return confirmerDeconnexion()"> Me déconnecter</a>
+        </div>
     </div>
     
     <div class="blockcontent">
@@ -30,17 +37,39 @@
         bloc page
         
         <nav id="navContacts">
-        Contacts
+            <img id="imgLiens" src="../../../images/liens.png" alt="Photo de liens " />
+            
+            <div id="divNav">
+                <p> <h3>Contacter le BDE</h3>
+                <a class="img" href="mailto:integrale@hei.fr">
+                <img id="img1" src="../../../images/email.png" alt="Photo de email " />
+        
+                </a>
+            </p>
+   
+            <p><a class="img" href="http://facebook.com/boulkiyheis2012">
+                <img id="img2" src="../../../images/facebook.png" alt="Photo de facebook" />
+                </a>
+            </p>
+            
+            <p><h3>Service HEI</h3>
+                <a class="img" href="https://services.hei.fr/SitePages/Accueil.aspx">
+                <img id="img3" src="../../../images/hei.png" alt="Photo de hei" />
+                </a>
+            </p>
+            </div>
+            
+   
         </nav>
         
-  <form action="{formurl 'Projet_ITI~saveAnnonce@classic'}" method="POST">
+
       
         <div id="blockPrincipal">
             
        <h1 id="titreDeposerAnnonce" class="apptitle">
             Déposer une annonce
             </h1>
-        {formfull $DEPOSER_ANNONCEFORM, 'Projet_ITI~deposer@classic'}  
+        {formfull $DEPOSER_ANNONCEFORM, 'Projet_ITI~saveAnnonce@classic'}  
         </div>
         
         

@@ -4,8 +4,8 @@ h1.apptitle {
 }
 
 #imgHEI{
-    width:80px;
-    height:80px;}
+    width:auto;
+    height:auto;}
 
 div.blockcontent{
     text-align: center;}
@@ -69,3 +69,22 @@ form li
        border-radius: 15px 15px; 
 }
 
+#img1,#img2,#img3{
+    width:42px;
+    height:42px;
+    border:0;
+    -webkit-transition-property: width, height,ease;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: width, height,ease;
+    -moz-transition-duration: 1s;
+    -o-transition-property: width, height,ease;
+    -o-transition-duration: 1s;
+}
+#img1:hover,#img3:hover,#img2:hover{
+
+    width:55px;
+    height:55px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}

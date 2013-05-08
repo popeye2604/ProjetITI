@@ -56,13 +56,14 @@ class defaultCtrl extends jController {
     }
  
     function connexion() {
-            
+            //récupération des login/password en paramètres
             $mail = $this->param('login');
             $mdp = $this->param('password');                  
             jAuth::login($mail,$mdp);
 
-            
+            //condition avec le jAuth pour vérifier la validité de la combinaison login/password
             if (jAuth::isConnected()) {
+                
             
             return $this->accueilCompte();
             }
@@ -133,8 +134,23 @@ $rep = $this->getResponse('html');
             /*On récupère la ligne issue du formulaire*/
             $courantUtilisateur=$result['daorec'];
             
+            //récupération des login/password en paramètres
+            
+            
+            
             /*On met à jour la ligne récupérée dans le formulaire*/
             $utilisateurFactory->insert($courantUtilisateur);
+            
+            //$mail = $this->param('login');
+            //$mdp = $this->param('password');
+            //$nom = $this->param('nom');
+            //$mailEnvoie = new jMailer();
+            //$mailEnvoie->Subject = 'Identifiants du site Annonce HEI ';
+            //$mailEnvoie->Body ='vos identifiants';
+            //$mailEnvoie->AddAddress($mail, $nom);
+            //$mailEnvoie->Send();
+            
+            
         }
         
         return $this->index();    
@@ -180,6 +196,7 @@ $rep = $this->getResponse('html');
         $rep = $this->getResponse('html'); 
         $rep->bodyTpl="accueilCompte";
         
+        //On passe l'id de l'utilisateur en session dans une variable
         $user = jAuth::getUserSession();
         $idUserConnected=$user->id_utilisateur;
         
@@ -200,7 +217,7 @@ $rep = $this->getResponse('html');
         //Appel de jQuery UI depuis serveur Google
         $rep->addJSLink('https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js');
         
-                /* On ajoute le css */
+        /* On ajoute le css */
         $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
         
         /*On ajoute le script */
@@ -469,13 +486,13 @@ $rep = $this->getResponse('html');
             /*On indique qu'on va vouloir créer une dao à partir du formulaire*/
             $result=$form->prepareDaoFromControls('Projet_ITI~annonce');
             
-            /*On récupère la factory de la ligne modifiée*/
+            /*On récupère la factory de l'annonce modifiée*/
             $annonceFactory=$result['dao'];
             
-            /*On récupère la ligne issue du formulaire*/
+            /*On récupère l'annonce issue du formulaire*/
             $courantAnnonce=$result['daorec'];
             
-            /*On met à jour la ligne récupérée dans le formulaire*/
+            /*On met à jour l'annonce récupérée dans le formulaire*/
             $annonceFactory->update($courantAnnonce);
         }
         
@@ -554,13 +571,13 @@ $rep = $this->getResponse('html');
             /*On indique qu'on va vouloir créer une dao à partir du formulaire*/
             $result=$form->prepareDaoFromControls('Projet_ITI~vente');
             
-            /*On récupère la factory de la ligne modifiée*/
+            /*On récupère la factory de la vente modifiée*/
             $venteFactory=$result['dao'];
             
-            /*On récupère la ligne issue du formulaire*/
+            /*On récupère la vente issue du formulaire*/
             $courantVente=$result['daorec'];
             
-            /*On met à jour la ligne récupérée dans le formulaire*/
+            /*On met à jour la vente récupérée dans le formulaire*/
             $venteFactory->update($courantVente);
         }
         
@@ -626,9 +643,7 @@ $rep = $this->getResponse('html');
         $user = jAuth::getUserSession();
         $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
         
-        $valeurRecherche = $this->param('type');
-        
-        
+
         //bloc de recherches
         //Création du formulaire à partir du .xml
         $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
@@ -662,14 +677,17 @@ $rep = $this->getResponse('html');
         /*Je charge la factory des annonces*/
         $annonceFactory =  jDao::get("annonce");
         
- 
+        
         // OK !
         //Je créé une condition pour ne garder que les annonces de l'utilisateur en session
         $user = jAuth::getUserSession();
         $idUserConnected=$user->id_utilisateur;
+        $rep->body->assign('USERCONNECTED', $idUserConnected);
+        
         $conditions1 = jDao::createConditions();
         $conditions1->addCondition('id_utilisateur','=',$idUserConnected);
         $listVentes = $venteFactory->findBy($conditions1);    
+        $rep->body->assign('ALLVENTES', $listVentes);  
         
         /*Je récupère l'id_annonce passé en paramètre*/
         $paramIdAnnonce=  $this->param('id_annonce',1);
@@ -682,14 +700,13 @@ $rep = $this->getResponse('html');
         $rep->body->assign('AFFICHAGEANNONCE', $affichageAnnonce);
         
         // OK !
-        //je créé une condition pour n'avoir que le prix de l'annonce sélectionnée
+        //je créé une condition pour n'avoir que le prix de l'annonce sélectionnée, et le mail du déposeur
         $conditions3 = jDao::createConditions();
         $conditions3->addCondition('id_annonce','=',$paramIdAnnonce);
         $affichagePrixAnnonce = $venteFactory->findBy($conditions3); 
         $rep->body->assign('AFFICHAGEPRIXANNONCE', $affichagePrixAnnonce);
-
-        $rep->body->assign('ALLVENTES', $listVentes);        
-        $rep->body->assign('USERCONNECTED', $idUserConnected);
+ 
+        
 
         //bloc de recherches
         //Création du formulaire à partir du .xml
@@ -701,6 +718,69 @@ $rep = $this->getResponse('html');
         
        return $rep;
     }
+    function afficherAnnonce2() {
+        
+        $rep = $this->getResponse('html');
+        $rep->bodyTpl="pageAnnonce2";
+        
+        /*On reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+        
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_compte.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+        
+        
+        /*Je charge la factory des ventes*/
+        $venteFactory =  jDao::get("vente");
+        /*Je charge la factory des annonces*/
+        $annonceFactory =  jDao::get("annonce");
+        
+        
+        // OK !
+        //Je créé une condition pour ne garder que les annonces de l'utilisateur en session
+        $user = jAuth::getUserSession();
+        $idUserConnected=$user->id_utilisateur;
+        $rep->body->assign('USERCONNECTED', $idUserConnected);
+        
+        $conditions1 = jDao::createConditions();
+        $conditions1->addCondition('id_utilisateur','=',$idUserConnected);
+        $listVentes = $venteFactory->findBy($conditions1);    
+        $rep->body->assign('ALLVENTES', $listVentes);  
+        
+        /*Je récupère l'id_annonce passé en paramètre*/
+        $paramIdAnnonce=  $this->param('id_annonce',1);
+        
+        // OK !
+        //Je créé une condition pour n'afficher que l'annonce sélectionnée 
+        $conditions2 = jDao::createConditions();
+        $conditions2->addCondition('id_annonce','=',$paramIdAnnonce);
+        $affichageAnnonce = $annonceFactory->findBy($conditions2); 
+        $rep->body->assign('AFFICHAGEANNONCE', $affichageAnnonce);
+        
+        // OK !
+        //je créé une condition pour n'avoir que le prix de l'annonce sélectionnée, et le mail du déposeur
+        $conditions3 = jDao::createConditions();
+        $conditions3->addCondition('id_annonce','=',$paramIdAnnonce);
+        $affichagePrixAnnonce = $venteFactory->findBy($conditions3); 
+        $rep->body->assign('AFFICHAGEPRIXANNONCE', $affichagePrixAnnonce);
+ 
+        
+
+        //bloc de recherches
+        //Création du formulaire à partir du .xml
+        $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
+        $rep->body->assign('RECHERCHERANNONCES', $rechercheAnnoncesForm);
+        
+        
+        $rep->body->assign('WELCOMEUSERCONNECTED',$user->prenom . ' ' . $user->nom);
+        
+       return $rep;
+    }
+    
     function afficherToutesLesAnnonces() {
         $rep = $this->getResponse('html'); 
         $rep->bodyTpl="AfficherAnnonces";
@@ -747,7 +827,6 @@ $rep = $this->getResponse('html');
         //on compte le nbre d'annonces dans la bdd
         $nbAnnonces=$annonceFactory->countAll();
         $rep->body->assign('NBANNONCES',$nbAnnonces);
-        
 
         /*J'envoie tous les ventes et annonces sur la vue*/
         $rep->body->assign('ALLVENTES',$listVentes);
@@ -789,10 +868,34 @@ $rep = $this->getResponse('html');
       
         $valeurRecherche = $this->param('type');
         
+        if($valeurRecherche==1) { $var1=6; $var2=7; $var3=8; $var4=9;
+            
+        }
+        else {
+            if($valeurRecherche==2) { $var1=10; $var2=11; $var3=12; $var4=$var3;}
+            else {
+                if($valeurRecherche==3) {$var1=13; $var2=14; $var3=15; $var4=16;}
+                else {
+                    if($valeurRecherche==4) {$var1=17; $var2=18; $var3=$var2; $var4=$var2;}
+                    else {
+                        if($valeurRecherche==5) {$var1=19; $var2=20; $var3=21; $var4=$var3;}
+                        else {$var1=$valeurRecherche; $var2=$valeurRecherche; $var3=$valeurRecherche; $var4=$valeurRecherche;}
+                    }
+                    
+                    ;}
+                
+                 }   
+ 
+        }
         
         //Je créé une condition pour ne garder que les annonces de l'utilisateur en session
         $conditions = jDao::createConditions();
-        $conditions->addCondition('id_categorie','=',$valeurRecherche);
+        $conditions->startGroup('OR');
+        $conditions->addCondition('id_categorie','=',$var1);
+        $conditions->addCondition('id_categorie','=',$var2);
+        $conditions->addCondition('id_categorie','=',$var3);
+        $conditions->addCondition('id_categorie','=',$var4);
+        $conditions->endGroup();
         $listVentes = $venteFactory->findBy($conditions);
 
         $rep->body->assign('ALLVENTES', $listVentes);
@@ -857,12 +960,13 @@ $rep = $this->getResponse('html');
         $user = jAuth::getUserSession();
         $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
         
+        
         $annonceForm = jForms::get("Projet_ITI~deposer_annonce");
         $annonceForm ->initFromRequest();
     
     
     if($annonceForm->check()){
-        
+        /*On indique qu'on va vouloir créer une dao à partir du formulaire*/
         $result = $annonceForm->prepareDaoFromControls('Projet_ITI~annonce');
         $annonceFactory = $result['dao'];
         $courantAnnonce = $result['daorec'];
@@ -885,7 +989,7 @@ $rep = $this->getResponse('html');
     }
 }
 
-function saveVente(){
+    function saveVente(){
     $rep = $this->getResponse('html');
     $rep->bodyTpl="deposer_annonce";
     /*On reprend le thème CSS de jelix */
@@ -901,16 +1005,14 @@ function saveVente(){
         $user = jAuth::getUserSession();
         $rep->body->assign('WELCOMEUSERCONNECTED', $user->prenom . ' ' . $user->nom);
     
-    //on récupère l'id annonce créée
-        
-        
+        //on récupère l'id annonce créée précédemment
         $annonceForm = jForms::get("Projet_ITI~deposer_annonce");
         $annonceForm ->initFromRequest();
         $result = $annonceForm->prepareDaoFromControls('Projet_ITI~vente');
         $venteFactory = $result['dao'];
         $courantVente= $result['daorec'];
         
-        //on a créer la nouvelle annonce dans annonce
+        //on a créé la nouvelle annonce dans la table vente
         $venteFactory->insert($courantVente);
         
         //on récupère l'id utilisateur créateur de l'annonce
@@ -924,15 +1026,12 @@ function saveVente(){
         //on récupère l'id annonce créée en dernier
         $annonceFactory =  jDao::get("annonce");
         
-// Appel de la méthode XML avec ses arguments et récupération des données
-//$record = $annonceFactory->getFewRecord(1, 1); // me renvoie bien la dernière ligne !!!!
-// Appel de la méthode XML avec ses arguments et récupération des données
+            // Appel de la méthode XML avec ses arguments et récupération des données
         
-$record = $annonceFactory->getFewRecord();;
+            $record = $annonceFactory->getFewRecord();;
 
-//$idAnnonceRecup=  jDbConnection::lastIdInTable('id_annonce',$annonceFactory);
-        
-        // on modifie le record courantVente
+
+        // on modifie le record récupéré 
 $courantVente->id_utilisateur= $idUserQuiDepose;
 $courantVente->id_categorie= $idCategorieRecup;
 $courantVente->id_annonce=$record->id_annonce;
@@ -940,7 +1039,7 @@ $courantVente->id_annonce=$record->id_annonce;
 // on le sauvegarde dans la base
 $venteFactory->update($courantVente);
  
-        return $this->deposer();
+        return $this->accueilCompte();
     
 }
 

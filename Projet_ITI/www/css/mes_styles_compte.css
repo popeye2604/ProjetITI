@@ -1,17 +1,31 @@
-
+body {
+        background-image: url("../images/background111.jpg");
+        background-repeat: repeat;
+        
+        }
 header{        
-        border-width: 3px;
-        border-style: solid;
+        
         text-align: center;
         position: relative;
-        height: 45px;
+        height: 15px;
         width:100%;
+}
+
+
+h1.apptitle {
+    background-image: url("../images/backgroundLien1.jpg");
+    border-width:2px; 
+    border-style: solid;
+    border-color: #002830;
+    color: #002830;
+    position:relative;
+    width:80%;
+    bottom:5%;
 }
 
 #blockOptions{
     
-        border-width: 3px;
-        border-style: solid;
+        
         text-align: center;
         position: relative;
         height: 40px;
@@ -22,73 +36,165 @@ header{
         #ongletMonCompte{    
         border-width: 3px;
         border-style: solid;
+        border-radius: 15px 15px;
         text-align: center;
         position: absolute;
-        left:2%;
+        left:1.5%;
         width:30%;
         height:90%;
+        font-size: 1.4em;
+        background-image: url("../images/backgroundLien1.jpg");
+        -webkit-transition-property: width, height,ease;
+        -webkit-transition-duration: 1s;
+        -moz-transition-property: width, height,ease;
+        -moz-transition-duration: 1s;
+        -o-transition-property: width, height,ease;
+        -o-transition-duration: 1s;
+        
         }
 
-        #lienMonCompte {
-            display:block;
-            width:100%;
-            height:100%;
-        }
+            #lienMonCompte {
+                display:block;
+                width:100%;
+                height:100%;
+                text-decoration: none;
+            }
         
-        #lienDeposerAnnonce {
-            display:block;
-            width:100%;
-            height:100%;
-        }
-        
-        #lienToutesAnnonces{
-            display:block;
-            width:100%;
-            height:100%;}
-        
+
         #ongletDeposerAnnonce{    
         border-width: 3px;
         border-style: solid;
+        border-radius: 15px 15px;
         text-align: center;
         position: absolute;
         left:34.5%;
         width:30%;
         height:90%;
+        font-size: 1.4em;
+        background-image: url("../images/backgroundLien1.jpg");
+        -webkit-transition-property: width, height,ease;
+        -webkit-transition-duration: 1s;
+        -moz-transition-property: width, height,ease;
+        -moz-transition-duration: 1s;
+        -o-transition-property: width, height,ease;
+        -o-transition-duration: 1s;
         }
+        
+            #lienDeposerAnnonce {
+                display:block;
+                width:100%;
+                height:100%;
+                text-decoration: none;
+            }
 
 
-        #ongletAnnonces{    
-        border-width: 3px;
-        border-style: solid;
-        text-align: center;
-        position: absolute;
-        left:67%;
-        width:30%;
-        height:90%;
+            #ongletAnnonces{    
+            border-width: 3px;
+            border-style: solid;
+            border-radius: 15px 15px;
+            text-align: center;
+            position: absolute;
+            left:67%;
+            width:30%;
+            height:90%;
+            font-size: 1.4em;
+            background-image: url("../images/backgroundLien1.jpg");
+            -webkit-transition-property: width, height,ease;
+            -webkit-transition-duration: 1s;
+            -moz-transition-property: width, height,ease;
+            -moz-transition-duration: 1s;
+            -o-transition-property: width, height,ease;
+            -o-transition-duration: 1s;
 }
+            #lienToutesAnnonces{
+                display:block;
+                width:100%;
+                height:100%;
+                text-decoration: none;
+            }
 
+            #lienToutesAnnonces:hover, #lienDeposerAnnonce:hover, #lienMonCompte:hover {
+                background-image: url("../images/backgroundLien2.jpg");
+               border-radius: 15px 15px;
+               
+                
+            }
+        
+            #ongletMonCompte:hover, #ongletAnnonces:hover, #ongletDeposerAnnonce:hover {
+                background-image: url("../images/backgroundLien2.jpg");
+                width:31%;
+                height:90%;
+                border-style: dashed;
+                
+            }
+#blockRecherche{
 
         
-#blockRecherche{
-        border-width: 3px;
-        border-style: solid;
-
         position: relative;
-        height: 100px;
+        height: 90px;
         width:100%;
         top:10px;
         }
-
-        item.titreRechercheCategorie{
-            
-            background-color: cyan;
-
+        
+        
+        #divLogoIntegral{
+        
+        text-align: center;
+        position: absolute;
+        left:5.5%;
+        width:30%;
+        height:90%;
+        font-size: 1.4em;
+       
         }
         
+        #logoIntegral{
+            width:80%;
+            height:100%;
+            position: absolute;
+            left:15%;
+            
+            
+        }
+       
+        
+        
+        #divChoixCat {
+        border-width: 3px;
+        border-style: groove;
+        border-radius: 10px 10px;
+        text-align: center;
+        position: absolute;
+        left:34.5%;
+        top:2%;
+        width:30%;
+        height:90%;
+        text-align: center;
+        vertical-align: central;
+        background-image: url("../images/backgroundLien1.jpg");
+        
+        }
+        
+        #infoHeader {
+        border-width: 3px;
+        border-style: double;
+        text-align: center;
+        position: absolute;
+        left:80%;
+        top:32.5%;
+        width:15%;
+        height:35%;
+        background-image: url("../images/background11.jpg");
+}
+
+        #infoHeader:hover{
+        border-width: 3px;
+        border-style: groove;
+        
+}
 
 #blockPage{  
-        border-width: 3px;
-        border-style: solid;
+        
 
         position: relative;
         width: 100%;
@@ -99,23 +205,62 @@ header{
 
         #navContacts{    
         border-width: 3px;
-        border-style: solid;
+        border-style: groove;
+        border-radius: 30px 30px;
         text-align: center;
         position: absolute;
         height: 80%;
         width:18%;
-        bottom: 10%;
-        left: 1%;}
-
+        bottom: 12%;
+        left: 1%;
+        background-image: url("../images/backgroundLien1.jpg");}
+        
+        #divNav{
+        border-width: 3px;
+        border-style: groove;
+        border-radius: 10px 10px;
+        background-image: url("../images/background11.jpg");
+        text-align: center;
+        position: relative;
+        
+        height: 78%;
+        width:40%;
+        left:30%;
+        }
+        
+        #imgLiens {
+            width:80%;
+            height:18%;
+        }
+        
+            #img1,#img2,#img3{
+                position: relative;
+                width:40%;
+                height:12%;
+                border:0;
+                -webkit-transition-property: width, height,ease;
+                -webkit-transition-duration: 1s;
+                -moz-transition-property: width, height,ease;
+                -moz-transition-duration: 1s;
+                -o-transition-property: width, height,ease;
+                -o-transition-duration: 1s;
+}
+            #img1:hover,#img3:hover,#img2:hover{
+                position: relative;
+                width:50%;
+                height:15%;
+                
+}
 
         #blockPrincipal{    
         border-width: 3px;
         border-style: solid;
-
+        border-radius: 25px 25px;
+        
         position: absolute;
         width: 65%;
         height:80%;
-        left:20%;}
+        left:23%;}
         
                 #content{    
                 border-width: 3px;
@@ -149,15 +294,14 @@ header{
                 bottom: 30%;
         }
 #titreAccueilMonCompte, #titreListeAnnonce, #titreDeposerAnnonce,
-#titreFormModifAnnonce, #titreFormModifUtilisateur, #titreFormModifPassword{
+#titreFormModifAnnonce, #titreFormModifUtilisateur, #titreFormModifPassword, #titreTitreAnnonce{
     
     text-align: center;
     
 }
         
         #navMarge{   
-        border-width: 3px;
-        border-style: solid;
+
         text-align: center;
         position: absolute;
         right: 1%;
