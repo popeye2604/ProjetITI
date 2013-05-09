@@ -31,8 +31,7 @@
     </div>
     
     <div id="blockPage">
-        bloc page
-        
+
         <nav id="navContacts">
             <img id="imgLiens" src="../../../images/liens.png" alt="Photo de liens " />
             
@@ -59,12 +58,12 @@
    
         </nav>
   
-        <div id="blockPrincipal">
+        <div id="blockPrincipalPageAnnonce">
 
             {foreach $AFFICHAGEANNONCE as $COURANTANNONCE}
                 
             <h1 id="titreTitreAnnonce" class="apptitle">{$COURANTANNONCE->titre}</h1>
-            <li>Description: {$COURANTANNONCE->description}</li>
+            <ul><li>Description: {$COURANTANNONCE->description}</li>
             <li>Type d'annonce: {$COURANTANNONCE->type_annonce}</li>
             
             <li>Prix: {foreach $AFFICHAGEPRIXANNONCE as $COURANTPRIXANNONCE}
@@ -72,24 +71,25 @@
             
                                
                       {/foreach}
-            </li>
+            </li></ul>
                 <br><br>
-            <a href="{jurl 'Projet_ITI~modifAnnonce@classic',array('id_annonce'=>$COURANTANNONCE->id_annonce) }">  >> Modifier les informations << </a>
+                <div id="blockLiens">
+                <a id="lienModifInfoAnnonce" href="{jurl 'Projet_ITI~modifAnnonce@classic',array('id_annonce'=>$COURANTANNONCE->id_annonce) }">  >> Modifier les informations << </a>
         <br><br>
-            <a href="{jurl 'Projet_ITI~modifAnnoncePrix@classic',array('id_vente'=>$COURANTPRIXANNONCE->id_vente) }">  >> Modifier le prix << </a>
+            <a id="lienModifInfoAnnoncePrix" href="{jurl 'Projet_ITI~modifAnnoncePrix@classic',array('id_vente'=>$COURANTPRIXANNONCE->id_vente) }">  >> Modifier le prix << </a>
             {/foreach}
                 
                 <br><br>
                 <a class="suppr" id="liensuppr" href="{jurl 'Projet_ITI~deleteAnnonce@classic', array('id_annonce'=>$COURANTANNONCE->id_annonce) }" onclick="return confirmerDeleteAnnonce()">
                       >> Supprimer <<
                        </a>
-
+                </div>        
             
             
         </div>    
         
         <nav id="navMarge">
-        (Marge)
+    
         </nav>
         
     </div>

@@ -19,9 +19,7 @@
     </textarea>
      
     
-    <upload ref="photo">
-     <label>Photo liée à l'annonce</label>   
-</upload>
+    
     
 
 
@@ -72,7 +70,7 @@
   
   <submit ref="valider">
     <label>Veuillez valider</label>
-    <item value="svg">Sauvegarder</item>
+    <item value="svg">Déposer cette annonce</item>
   </submit>
        
 </form>

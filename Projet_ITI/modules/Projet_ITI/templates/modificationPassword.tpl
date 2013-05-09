@@ -35,8 +35,7 @@
     <div class="blockcontent">
     
     <div id="blockPage">
-        bloc page
-        
+
         <nav id="navContacts">
             <img id="imgLiens" src="../../../images/liens.png" alt="Photo de liens " />
             
@@ -64,7 +63,7 @@
         </nav>
         
   <form action="{formurl 'Projet_ITI~saveAnnonce@classic'}" method="POST">
-        <div id="blockPrincipal">   
+        <div id="blockPrincipalModifPassword">   
             <h1 id="titreFormModifPassword" class="apptitle">
                 Modification du mot de passe
             </h1>
@@ -74,7 +73,7 @@
         
         
         <nav id="navMarge">
-        (Marge)
+       
         </nav>
         
     </div>

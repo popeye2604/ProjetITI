@@ -34,8 +34,7 @@
     <div class="blockcontent">
     
     <div id="blockPage">
-        bloc page
-        
+       
         <nav id="navContacts">
             <img id="imgLiens" src="../../../images/liens.png" alt="Photo de liens " />
             
@@ -64,7 +63,7 @@
         
 
       
-        <div id="blockPrincipal">
+        <div id="blockPrincipalDeposer">
             
        <h1 id="titreDeposerAnnonce" class="apptitle">
             Déposer une annonce
@@ -74,7 +73,7 @@
         
         
         <nav id="navMarge">
-        (Marge)
+      
         </nav>
         
     </div>

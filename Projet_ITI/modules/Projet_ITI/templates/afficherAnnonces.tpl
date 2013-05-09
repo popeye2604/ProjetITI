@@ -31,7 +31,6 @@
     </div>
     
     <div id="blockPage">
-        bloc page
         
         <nav id="navContacts">
             <img id="imgLiens" src="../../../images/liens.png" alt="Photo de liens " />
@@ -59,7 +58,7 @@
    
         </nav>
   
-        <div id="content">
+        <div id="blockPrincipalListeDesAnnonces">
             
             <h1 id="titreListeAnnonce" class="apptitle">
             Liste des annonces 
@@ -74,7 +73,7 @@
                     <a href="{jurl 'Projet_ITI~afficherAnnonce2@classic',array('id_annonce'=>$COURANTVENTES->id_annonce)}">
                                {$COURANTVENTES->titreAnnonce} </a><br/>
                     
-                    
+                   
                 <div id="annonceDescPrix">
                     <ul>
                     
@@ -89,6 +88,7 @@
                 </div>        
 
            </div>
+           <br><br>
                              
              
             {/foreach}
@@ -99,7 +99,7 @@
         
         <nav id="navMarge">
             
-        (Marge)
+       
         </nav>
         
     </div>

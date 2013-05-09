@@ -13,7 +13,7 @@
                  
           
          {formfull $CONNEXIONUSERFORM, 'Projet_ITI~connexion@classic'}   
-         <p><img id="imgHEI" src="images/logo.png" alt="Icone HEI" /></p>
+         
         </div>
         
          <div id="formInscription">
@@ -27,16 +27,6 @@
     </div>
     
     <div id="blockBas">
-       <p><a class="img" href="mailto:integrale@hei.fr">
-                <img id="img1" src="images/email.png" alt="Photo de email " />
-        
-                </a>
-            </p>
-   
-            <p><a class="img" href="http://facebook.com/boulkiyheis2012">
-                <img id="img2" src="images/facebook.png" alt="Photo de facebook" />
-                </a>
-            </p>
   
             
          

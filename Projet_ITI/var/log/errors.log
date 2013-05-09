@@ -14698,3 +14698,17 @@ array (   'module' => 'Projet_ITI',   'action' => 'default:rechercherDesAnnonces
 	2	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
 
 
+2013-05-09 14:59:22	127.0.0.1	error	2013-05-09 14:59:22	127.0.0.1	[801]	 unknown tag br  (file C:\Program Files\EasyPHP-12.1\www\Projet_ITI/modules/Projet_ITI/forms/deposer_annonce.form.xml)	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php	69
+	/Projet_ITI/www/index.php/Projet_ITI/default/deposer
+array (   'module' => 'Projet_ITI',   'action' => 'default:deposer', )
+
+	0	jFormsCompiler_jf_1_0->_generatePHPControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 51
+	1	jFormsCompiler_jf_1_0->generatePHPControl()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 39
+	2	jFormsCompiler_jf_1_0->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jFormsCompiler.class.php : 58
+	3	jFormsCompiler->compile()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jIncluder.class.php : 103
+	4	jIncluder::inc()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\forms\jForms.class.php : 56
+	5	jForms::create()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\modules\Projet_ITI\controllers\default.classic.php : 933
+	6	defaultCtrl->deposer()	C:\Program Files\EasyPHP-12.1\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	7	jCoordinator->process()	C:\Program Files\EasyPHP-12.1\www\Projet_ITI\www\index.php : 19
+
+

@@ -31,7 +31,7 @@
     </div>
     
     <div id="blockPage">
-        bloc page
+        
         
         <nav id="navContacts">
             <img id="imgLiens" src="../../../images/liens.png" alt="Photo de liens " />
@@ -64,7 +64,7 @@
             Mon compte
             </h1>
             <div id="infosPersos">
-                <h3>Informations personnelles</h3>
+                <h3 class="titreCompte">Informations personnelles</h3>
             <ul>
                 <li> Nom: {$NOMUSERCONNECTED}
                 </li>
@@ -76,28 +76,28 @@
                 </li>
                                 
                 <li> Adresse: {$ADRESSUSERCONNECTED}
-                </li>
+                </li><br/>
                 <a href="{jurl 'Projet_ITI~modifCompte@classic' }">
-                             >>  Modifier des informations  << </a> 
-            </ul>
+                             >>  Modifier des informations  << </a> <br/>
+            </ul><br/>
                 
             </div>
             
             <div id="infosCompte">
-                <h3>Informations du compte</h3>
+                <h3 class="titreCompte">Informations du compte</h3>
                 <ul>
                 <li> Adresse email: {$EMAILUSERCONNECTED}
                 </li>
                 <br/>
                 <a href="{jurl 'Projet_ITI~modifMdp@classic' }"> >>  Modification du mot de passe  << </a>
-                </ul>
+                </ul><br/>
 
             </div>
                                 
             
             <div id="activiteCompte">
-                <h3>Activité du compte</h3>     
-                Vos annonces:
+                <h3 class="titreCompte">Activité du compte</h3>     
+                <h4 class= "titreCompte">Vos annonces:</h4>
             
         <ul>
 
@@ -121,7 +121,7 @@
         </div>
         
         <nav id="navMarge">
-        (Marge)
+       
         </nav>
         
     </div>

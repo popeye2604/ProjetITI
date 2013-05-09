@@ -30,8 +30,8 @@
         </div>
     </div>
     
-    <div id="blockPage">
-        bloc page
+    <div id="blockPage2">
+    
         
         <nav id="navContacts">
             <img id="imgLiens" src="../../../images/liens.png" alt="Photo de liens " />
@@ -59,7 +59,7 @@
    
         </nav>
   
-        <div id="content">
+        <div id="blockPrincipalListeDesAnnonces">
             <h1 id="titreListeAnnonce" class="apptitle">
             Annonces recherchées
             </h1>
@@ -76,11 +76,8 @@
                     
                 <div id="annonceDescPrix">
                     <ul>
-                    
-                        <li>
-                            
-                                Description: {$COURANTVENTES->descriptionAnnonce}
-                                
+                        <li>                            
+                                Description: {$COURANTVENTES->descriptionAnnonce}                                
                         </li>
                         <li>Prix: {$COURANTVENTES->prix_vente} €
                         </li>
@@ -98,7 +95,7 @@
         
         <nav id="navMarge">
             
-        (Marge)
+   
         </nav>
         
     </div>

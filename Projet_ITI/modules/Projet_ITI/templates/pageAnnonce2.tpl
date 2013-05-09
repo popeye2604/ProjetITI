@@ -31,7 +31,7 @@
     </div>
     
     <div id="blockPage">
-        bloc page
+
         
         <nav id="navContacts">
             <img id="imgLiens" src="../../../images/liens.png" alt="Photo de liens " />
@@ -59,12 +59,12 @@
    
         </nav>
   
-        <div id="blockPrincipal">
+        <div id="blockPrincipalPageAnnonce2">
                         
             {foreach $AFFICHAGEANNONCE as $COURANTANNONCE}
                 
                 <h1 id="titreTitreAnnonce" class="apptitle">{$COURANTANNONCE->titre}</h1> 
-            <li>Description: {$COURANTANNONCE->description}</li>
+            <ul> <li>Description: {$COURANTANNONCE->description}</li>
             <li>Type d'annonce: {$COURANTANNONCE->type_annonce}</li>
             
             <li>Prix: {foreach $AFFICHAGEPRIXANNONCE as $COURANTPRIXANNONCE}
@@ -73,7 +73,7 @@
                                
                       {/foreach}
             </li>
-                
+            </ul>    
             {/foreach}
              
 
@@ -82,7 +82,7 @@
         </div>    
         
         <nav id="navMarge">
-        (Marge)
+   
         </nav>
         
     </div>
