@@ -1,7 +1,7 @@
 <body>
         
     <header id="headerAccueil">
-            <h1 class="apptitle"> Titre 
+            <h1 class="apptitle"> Bienvenue sur le site d'annonces d'HEI
             </h1>
     </header>
         
@@ -13,13 +13,14 @@
                  
           
          {formfull $CONNEXIONUSERFORM, 'Projet_ITI~connexion@classic'}   
-         
+         <div id="logoIntegralHei">
+         </div>
         </div>
         
          <div id="formInscription">
          
            <header>
-               <h1 class="apptitle">Formulaire de connexion</h1></header>
+               <h1 class="apptitle">Nouvel utilisateur</h1></header>
             {formfull $NEWUSERFORM, 'Projet_ITI~saveUser@classic'}
 
                

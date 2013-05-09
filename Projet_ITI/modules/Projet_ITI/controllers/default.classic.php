@@ -19,6 +19,18 @@ class defaultCtrl extends jController {
     'afficherAnnonce'=>array('auth.required'=>true),
     'afficherToutesLesAnnonces'=>array('auth.required'=>true),
     'deposer'=>array('auth.required'=>true),
+    'modifAnnonce'=>array('auth.required'=>true),
+    'saveModifAnnonce'=>array('auth.required'=>true),
+    'modifAnnoncePrix'=>array('auth.required'=>true),
+    'saveModifAnnoncePrix'=>array('auth.required'=>true),
+    'deleteAnnonce'=>array('auth.required'=>true),
+    'rechercherDesAnnonces'=>array('auth.required'=>true),
+    'afficherAnnonce'=>array('auth.required'=>true),
+    'afficherAnnonce2'=>array('auth.required'=>true),      
+    'afficherToutesLesAnnonces'=>array('auth.required'=>true),
+    'afficherAnnonceRecherchees'=>array('auth.required'=>true),
+    'saveAnnonce'=>array('auth.required'=>true),
+    'saveVente'=>array('auth.required'=>true),
 
 );
 
@@ -112,7 +124,7 @@ class defaultCtrl extends jController {
     
     function saveUser(){
         
-$rep = $this->getResponse('html');
+        $rep = $this->getResponse('html');
         $rep->bodyTpl="main";
         
         /*Je créé un formulaire sur la base de ce qu'a renvoyé l'internaute*/
@@ -843,7 +855,7 @@ $rep = $this->getResponse('html');
     
     function afficherAnnonceRecherchees() {
         $rep = $this->getResponse('html'); 
-        $rep->bodyTpl="AfficherAnnonces";
+        $rep->bodyTpl="AfficherAnnoncesRecherchees";
         $user = jAuth::getUserSession();    
         
          /*On reprend le thème CSS de jelix */
@@ -888,7 +900,7 @@ $rep = $this->getResponse('html');
  
         }
         
-        //Je créé une condition pour ne garder que les annonces de l'utilisateur en session
+        //Je créé une condition pour ne garder que les annonces sélectionnée
         $conditions = jDao::createConditions();
         $conditions->startGroup('OR');
         $conditions->addCondition('id_categorie','=',$var1);
@@ -897,9 +909,11 @@ $rep = $this->getResponse('html');
         $conditions->addCondition('id_categorie','=',$var4);
         $conditions->endGroup();
         $listVentes = $venteFactory->findBy($conditions);
+        
+        $nombreAnnonce=$venteFactory->countBy($conditions);
 
         $rep->body->assign('ALLVENTES', $listVentes);
- 
+        $rep->body->assign('NOMBREANNONCES', $nombreAnnonce);
         //bloc de recherches
         //Création du formulaire à partir du .xml
         $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");
@@ -1028,7 +1042,7 @@ $rep = $this->getResponse('html');
         
             // Appel de la méthode XML avec ses arguments et récupération des données
         
-            $record = $annonceFactory->getFewRecord();;
+            $record = $annonceFactory->getFewRecord();
 
 
         // on modifie le record récupéré 
@@ -1045,4 +1059,3 @@ $venteFactory->update($courantVente);
 
 
 }
-

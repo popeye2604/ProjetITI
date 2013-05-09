@@ -387,6 +387,10 @@ h1.apptitle {
                 
             
                 }
+                
+                #nombreAnnonces {
+                    text-align: center;
+                }
                     h3.titreCompte, h4.titreCompte {
                     padding-left: 10px;
                     }

@@ -1,6 +1,19 @@
+body {
+        background-image: url("../images/background111.jpg");
+        background-repeat: repeat;
+        
+        }
+
 h1.apptitle {
+    background-image: url("../images/backgroundLien1.jpg");
+    border-width:2px; 
+    border-style: solid;
+    border-color: #002830;
+    color: #002830;
     text-align: center;
-    width: 90%;
+    position:relative;
+    width:80%;
+    bottom: 10px;
 }
 
 #imgHEI{
@@ -8,30 +21,45 @@ h1.apptitle {
     height:auto;}
 
 div.blockcontent{
-    text-align: center;}
+    text-align: center;
+}
 
 #dejaInscrit{
     border-width: 3px;
-    border-style: solid;
+    border-style: inset;
+    border-radius: 20px 20px;
     text-align: center;
     position: absolute;
+    background-image: url("../images/backgroundLien2.jpg");
     width: 50%;
     height: 70%;
     left: 3%;}
 
 #formInscription{
     border-width: 3px;
-    border-style: solid;
+    border-style: outset;
+    border-radius: 20px 20px;
     text-align: center;
     position: absolute;
+    background-image: url("../images/backgroundLien2.jpg");
     width: 40%;
     height: 70%;
     right: 3%;
     vertical-align: central;}
 
+#logoIntegralHei {
+    position: relative;
+    width: 62%;
+    left:19%;
+    text-align: center;
+    height: 50%;
+   top: 5%;
+    background-position-y: -80px;
+    background-image: url("../images/polo.png");
+}
+
 #blockBas {
-    border-width: 3px;
-    border-style: solid;
+
     text-align: center;
     position: absolute;
     bottom: 30px;

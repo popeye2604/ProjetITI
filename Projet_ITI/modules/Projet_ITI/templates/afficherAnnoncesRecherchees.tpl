@@ -64,6 +64,7 @@
             Annonces recherchées
             </h1>
             
+            <h3 id="nombreAnnonces">Résultats de la recherches: {$NOMBREANNONCES} annonces trouvées.</h3><br><br>
             
             {foreach $ALLVENTES as $COURANTVENTES} 
             
@@ -84,7 +85,7 @@
                     </ul>
                 </div>        
 
-           </div>
+           </div><br><br>
                              
              
             {/foreach}
