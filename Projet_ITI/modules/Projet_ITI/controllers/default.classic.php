@@ -165,11 +165,42 @@ class defaultCtrl extends jController {
             
         }
         
-        return $this->index();    
+        return $this->inscriptionValidee();    
     }
          
 
+    function inscriptionValidee() {
+        jAuth::logout();
+        
+        $rep = $this->getResponse('html');
+        
+        $rep->bodyTpl="mainInscriptionValidee";
+        /*On reprend le thème CSS de jelix */
+        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
+        $rep->addCssLink($chemin. 'jelix.css');
+        
+        /* On ajoute le css */
+        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_accueil.css');
+        
+        /*On ajoute le script */
+        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
+        
+        //Création du formulaire à partir du .xml
+        $inscriptionUserForm = jForms::create("Projet_ITI~inscriptionUser");
+        
+        //$inscriptionForm->initFromDao("Projet_ITI~utilisateur");
+        $rep->body->assign('NEWUSERFORM', $inscriptionUserForm);
+        
+        //Création du formulaire à partir du .xml
+        $connexionUserForm = jForms::create("Projet_ITI~connexionUser");
+        
+        //$inscriptionForm->initFromDao("Projet_ITI~utilisateur");
+        $rep->body->assign('CONNEXIONUSERFORM', $connexionUserForm);
+        
 
+        return $rep;
+        
+    }
 
     function errorNewUser() {
         $rep = $this->getResponse('html');

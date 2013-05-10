@@ -8,9 +8,10 @@
     <div class="blockcontent">
         <div id="dejaInscrit">                    
             <h1 class="apptitle">Déjà inscrit </h1>
-            {$ERRORUSERCONNEXION}
             
 
+                 
+          
          {formfull $CONNEXIONUSERFORM, 'Projet_ITI~connexion@classic'}   
          <div id="logoIntegralHei">
          </div>
@@ -21,7 +22,10 @@
            <header>
                <h1 class="apptitle">Nouvel utilisateur</h1></header>
             {formfull $NEWUSERFORM, 'Projet_ITI~saveUser@classic'}
-
+             <br><br>
+             <h3>
+             Votre inscription est réussie!<br>
+             <<< Vous pouvez vous identifier <<< </h3>
                
         </div> 
     </div>

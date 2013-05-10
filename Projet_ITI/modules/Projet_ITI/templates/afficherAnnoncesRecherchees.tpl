@@ -1,4 +1,3 @@
-
 <body>
     <header >
     </header>
@@ -30,8 +29,7 @@
         </div>
     </div>
     
-    <div id="blockPage2">
-    
+    <div id="blockPage">
         
         <nav id="navContacts">
             <img id="imgLiens" src="../../../images/liens.png" alt="Photo de liens " />
