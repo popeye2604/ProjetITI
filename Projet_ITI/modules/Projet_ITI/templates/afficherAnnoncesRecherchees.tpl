@@ -26,6 +26,7 @@
         </div>
         <div id="infoHeader" >{$WELCOMEUSERCONNECTED}<br>
         <a id ="lienLogout" href="{jurl 'Projet_ITI~index@classic'}" onclick="return confirmerDeconnexion()"> Me déconnecter</a>
+        <a  href="../../../doc/Document Utilisateur.pdf">Aide ?</a>
         </div>
     </div>
     
@@ -62,14 +63,14 @@
             Annonces recherchées
             </h1>
             
-            <h3 id="nombreAnnonces">Résultats de la recherches: {$NOMBREANNONCES} annonces trouvées.</h3><br><br>
+            <h3 id="nombreAnnonces">Résultats de la recherche: {$NOMBREANNONCES} annonces trouvées.</h3><br><br>
             
             {foreach $ALLVENTES as $COURANTVENTES} 
             
                
    
             <div id="blockAllAnnonces">
-                    <a href="{jurl 'Projet_ITI~afficherAnnonceRecherchees@classic',array('id_annonce'=>$COURANTVENTES->id_annonce)}">
+                    <a href="{jurl 'Projet_ITI~afficherAnnonce2@classic',array('id_annonce'=>$COURANTVENTES->id_annonce)}">
                                {$COURANTVENTES->titreAnnonce} </a><br/>
                     
                     

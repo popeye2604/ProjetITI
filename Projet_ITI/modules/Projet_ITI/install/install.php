@@ -1,24 +1,18 @@
 <?php
 /**
-* @package   Projet_ITI
-* @subpackage Projet_ITI
-* @author    your name
-* @copyright 2011 your name
-* @link      http://www.yourwebsite.undefined
-* @license    All rights reserved
+* @package     jelix
+* @subpackage  junittests module
+* @author      Laurent Jouanneau
+* @contributor
+* @copyright   2009 Laurent Jouanneau
+* @link        http://www.jelix.org
+* @licence     GNU Lesser General Public Licence see LICENCE file or http://www.gnu.org/licenses/lgpl.html
 */
 
 
-class Projet_ITIModuleInstaller extends jInstallerModule {
+class junittestsModuleInstaller extends jInstallerModule {
 
     function install() {
-        //if ($this->firstDbExec())
-        //    $this->execSQLScript('sql/install');
 
-        /*if ($this->firstExec('acl2')) {
-            jAcl2DbManager::addSubject('my.subject', 'Projet_ITI~acl.my.subject', 'subject.group.id');
-            jAcl2DbManager::addRight('admins', 'my.subject'); // for admin group
-        }
-        */
     }
 }

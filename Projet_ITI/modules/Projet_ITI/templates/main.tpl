@@ -32,6 +32,9 @@
             
          
     </div>
-    <footer id="footerAccueil">     Site web réalisé par    </footer>
+    <footer id="footerAccueil">   
+        
+        -- L'INTEGRAL HEI --
+    </footer>
 </body>
 

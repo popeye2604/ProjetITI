@@ -2,8 +2,8 @@
 /**
 * @package   Projet_ITI
 * @subpackage Projet_ITI
-* @author    your name
-* @copyright 2011 your name
+* @author    MARTOS Jeremy, SUC Olivier
+* @copyright MARTOS Jeremy, SUC Olivier
 * @link      http://www.yourwebsite.undefined
 * @license    All rights reserved
 */
@@ -202,38 +202,7 @@ class defaultCtrl extends jController {
         
     }
 
-    function errorNewUser() {
-        $rep = $this->getResponse('html');
-        
-        $rep->bodyTpl="erreurNewUser";
-        /*On reprend le thème CSS de jelix */
-        $chemin=jApp::config()->urlengine['jelixWWWPath'] . 'design/';
-        $rep->addCssLink($chemin. 'jelix.css');
-        
-        /* On ajoute le css */
-        $rep->addCSSLink(jApp::config()->urlengine['basePath'].'css/mes_styles_accueil.css');
-        
-        /*On ajoute le script */
-        $rep->addJSLink(jApp::config()->urlengine['basePath'].'js/mes_scripts.js');
-        
-        //Création du formulaire à partir du .xml
-        $inscriptionUserForm = jForms::create("Projet_ITI~inscriptionUser");
-        
-        //$inscriptionForm->initFromDao("Projet_ITI~utilisateur");
-        $rep->body->assign('NEWUSERFORM', $inscriptionUserForm);
-        
-        //Création du formulaire à partir du .xml
-        $connexionUserForm = jForms::create("Projet_ITI~connexionUser");
-        
-        //$inscriptionForm->initFromDao("Projet_ITI~utilisateur");
-        $rep->body->assign('CONNEXIONUSERFORM', $connexionUserForm);
-        
-        $rep->body->assign('ERRORNEWUSER', 'Veuillez remplir tous les champs du formulaire ! ');
-        
-        return $rep;
-}
-    
-    
+
     function accueilCompte(){
         
         $rep = $this->getResponse('html'); 
@@ -945,6 +914,9 @@ class defaultCtrl extends jController {
 
         $rep->body->assign('ALLVENTES', $listVentes);
         $rep->body->assign('NOMBREANNONCES', $nombreAnnonce);
+        
+        
+        
         //bloc de recherches
         //Création du formulaire à partir du .xml
         $rechercheAnnoncesForm = jForms::create("Projet_ITI~rechercherAnnonces");

@@ -223,8 +223,8 @@ h1.apptitle {
         position: relative;
         
         height: 78%;
-        width:40%;
-        left:30%;
+        width:50%;
+        left:25%;
         }
         
         #imgLiens {
@@ -234,7 +234,7 @@ h1.apptitle {
         
             #img1,#img2,#img3{
                 position: relative;
-                width:40%;
+                width:30%;
                 height:12%;
                 border:0;
                 -webkit-transition-property: width, height,ease;
@@ -246,7 +246,7 @@ h1.apptitle {
 }
             #img1:hover,#img3:hover,#img2:hover{
                 position: relative;
-                width:50%;
+                width:45%;
                 height:15%;
                 
 }

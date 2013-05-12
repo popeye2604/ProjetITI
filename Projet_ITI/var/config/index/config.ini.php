@@ -9,5 +9,7 @@ startAction="default:index"
 Projet_ITI.access=2
 
 jauth.access=2
+junittests.access=2
 [coordplugins]
 auth="index/auth.coord.ini.php"
+

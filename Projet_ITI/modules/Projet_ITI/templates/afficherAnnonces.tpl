@@ -27,6 +27,7 @@
         </div>
         <div id="infoHeader" >{$WELCOMEUSERCONNECTED}<br>
         <a id ="lienLogout" href="{jurl 'Projet_ITI~index@classic'}" onclick="return confirmerDeconnexion()"> Me déconnecter</a>
+        <a  href="../../../doc/Document Utilisateur.pdf">Aide ?</a>
         </div>
     </div>
     
